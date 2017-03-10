@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -7,46 +7,8 @@
         <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <title> عيسى أحمد </title>
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-	A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" 	crossorigin="anonymous"></script>
-	<script>
-          function adventure1 (form) {
-              ui = form.response.value;
-              if (ui.toUpperCase() === "YES"){
-                var p1 = "<p id='p1'>You slay the dragon with your handy weapon, and continue along your merry way</p>";
-                $(p1).insertAfter("#init");
-                document.getElementById("adventurenum").removeAttribute("onClick");
-              } else if (ui.toUpperCase() === "NO") {
-                var p1 = "<p id='p1'>Are you feeling lucky?</p>";
-                $(p1).insertAfter("#init");
-                document.getElementById("adventurenum").removeAttribute("onClick");
-                document.getElementById("adventurenum").setAttribute("onClick", "adventure2(this.form)");
-              } else {
-                var p1 = "<p id='p1'>You are an uncooperative knight.</p>";
-                $(p1).insertAfter("#init");
-                document.getElementById("adventurenum").removeAttribute("onClick");
-              };
-          };
-
-          function adventure2 (form) {
-            ui = form.response.value;
-            var randnum = Math.floor((Math.random() * 2) + 1);
-            if (ui.toUpperCase() === "YES") {
-              if (randnum === 1) {
-                var p2 = "<p>You sigh a breathe of relief when you realize it is friendly. You continue on your way</p>";
-                $(p2).insertAfter("#p1");
-                document.getElementById("adventurenum").removeAttribute("onClick");
-              } else {
-                var p2 = "<p>You are unlucky, for the dragon was particularly pekish today. You are now food</p>";
-                $(p2).insertAfter("#p1");
-                document.getElementById("adventurenum").removeAttribute("onClick");
-              };
-            } else {
-              var p2 = "<p>You're unwillingness to gamble has lead you to your demise. Pity</p>";
-              $(p2).insertAfter("#p1");
-              document.getElementById("adventurenum").removeAttribute("onClick");
-            };
-          };
-      </script>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="js-game.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
@@ -72,18 +34,17 @@
           </div>
         </nav>
 
-	<p style="margin-top: 25px;">You are walking along a path when suddenly, a dragon appears! Do you happen to have a weapon on you? (yes or no)</p>
+        <p style="margin-top: 25px;">You are walking along a path when suddenly, a dragon appears! Do you happen to have a weapon on you? (yes or no)</p>
         <p id="init"></p>
 
         <div class="container">
           <form>
-            <input type="text" name="response" >
-            <input type="button" value="Submit" id="adventurenum" class="btn btn-primary" onClick="adventure1(this.form)">
+            <input type="text" name="response">
+            <button type="button" id="adventurenum" class="btn btn-primary" onClick="adventure1(this.form)">Submit</button>
           </form>
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <script src="index.js"></script>
     </body>
 </html>
