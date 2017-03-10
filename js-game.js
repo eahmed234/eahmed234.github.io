@@ -1,4 +1,4 @@
-var randnum = Math.floor((Math.random() * 2) + 1);
+var randnum = Math.floor(Math.random() * 2) + 1;
 
 function endGame(pNum,pAfter) {
   $(pNum).insertAfter(pAfter);
@@ -11,7 +11,7 @@ function contGame(pNum,pAfter,nextAdventure) {
   document.getElementById("adventurenum").setAttribute("onClick", nextAdventure);
 };
 
-var password = "JUSTASMYSDCARDRUNSOUT"
+var password = "The one and only, Christopher Cannoli";
 
 function adventure1 (form) {
     ui = form.response.value;
@@ -19,7 +19,7 @@ function adventure1 (form) {
       var p1 = "<p id='p1'>Is it a gun or a sword?</p>";
       contGame(p1,"#init","adventure3(this.form)");
     } else if (ui.toUpperCase() === "NO") {
-      var p1 = "<p id='p1'>The dragon is approaching fast! (type cont)</p>";
+      var p1 = "<p id='p1'>The dragon is approaching fast! (submit no)</p>";
       contGame(p1,"#init","adventure2(this.form)");
     } else {
       var p1 = "<p>You are an uncooperative person. That is dead.</p>";
@@ -29,12 +29,13 @@ function adventure1 (form) {
 
 function adventure2 (form) {
   ui = form.response.value;
-  if (ui.toUpperCase() === "CONT") {
+  if (ui.toUpperCase() === "NO") {
     if (randnum === 2) {
-      var p2 = "<p>The dragon passes right past you and devours smeone else. You breathe a sigh of relief and continue on your way.</p>";
+      var p2 = "<p>The dragon passes right past you and devours someone else. You breathe a sigh of relief and continue on your way.</p>";
       endGame(p2,"#p1");
     } else {
       var p2 = "<p id='p2'>The dragon halts right in front of you, and asks for a password?! What is the password?</p>";
+      console.log("The password is: " + password);
       contGame(p2,"#p1","adventure4(this.form)");
     };
   } else {
@@ -64,7 +65,7 @@ function adventure3 (form) {
 
 function adventure4 (form) {
   ui = form.response.value;
-  if (ui.toUpperCase() === password) {
+  if (ui === password) {
     if (randnum === 2) {
       var p4 = "<p>The dragon accepts and lets you go on your way.</p>";
       endGame(p4,"#p2");
