@@ -42,6 +42,12 @@
           <div class="container">
             <div id="adventureForm"></div>
             <input type="text" name="response" id="response">
+            <script>
+            $('#response').keypress(function (e) {
+              var code = e.keyCode || e.which;
+              if (code === 13) { $("#adventurenum").click(); };
+            });
+            </script>
             <button type="button" id="adventurenum" class="btn btn-primary" onClick="adventure1(this.form)">Submit</button>
           </div>
         </div>
@@ -54,7 +60,7 @@
             <script>
             $('#rpslsResponse').keypress(function (e) {
               var code = e.keyCode || e.which;
-              if (code === 13) { rpsls1(this.form); };
+              if (code === 13) { $("#rpslsBtn").click(); };
             });
             </script>
             <button type="button" id="rpslsBtn" class="btn btn-primary" onClick="rpsls1(this.form)">Submit</button>

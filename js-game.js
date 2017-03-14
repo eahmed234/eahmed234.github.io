@@ -71,7 +71,7 @@ function adventure4 (form) {
       var p4 = "<p>The dragon accepts and lets you go on your way.</p>";
       endGame(p4,"#p2");
     } else {
-      var p4 = "<p>The dragon was joking with you about the existence of a password to safety. You are now lunch.</p>";
+      var p4 = "<p>The dragon was joking about accepting any password, even though it was correct. You are now lunch.</p>";
       endGame(p4,"#p2");
     };
   } else {
@@ -95,6 +95,11 @@ function adventure5 (form) {
         break;
       } else if (health === 0) {
         var p4end = "<p>You died. The end.</p>";
+        $("#adventureForm").append(p4end);
+        document.getElementById("adventurenum").removeAttribute("onClick");
+        break;
+      } else if (health === 0 && dragHealth === 0) {
+        var p4end = "<p>The dragon died, but unfortunately you do too. Pity.</p>";
         $("#adventureForm").append(p4end);
         document.getElementById("adventurenum").removeAttribute("onClick");
         break;
