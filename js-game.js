@@ -14,7 +14,8 @@ function contGame(pNum,pAfter,nextAdventure) {
 var password = "The one and only, Christopher Cannoli";
 
 function adventure1 (form) {
-    ui = form.response.value;
+    var ui = document.getElementById('response').value;
+    $("#rpslsGame").remove();
     if (ui.toUpperCase() === "YES"){
       var p1 = "<p id='p1'>Is it a gun or a sword?</p>";
       contGame(p1,"#init","adventure3(this.form)");
@@ -28,7 +29,7 @@ function adventure1 (form) {
 };
 
 function adventure2 (form) {
-  ui = form.response.value;
+  var ui = document.getElementById('response').value;
   if (isNaN(ui)) {
     if (randnum === 2) {
       var p2 = "<p>The dragon passes right past you and devours someone else. You breathe a sigh of relief and continue on your way.</p>";
@@ -45,7 +46,7 @@ function adventure2 (form) {
 };
 
 function adventure3 (form) {
-  ui = form.response.value;
+  var ui = document.getElementById('response').value;
   if (ui.toUpperCase() === "SWORD") {
     if (randnum === 2) {
       var p3 = "<p>You slay the dragon with your handy weapon, and continue along your merry way.</p>";
@@ -64,7 +65,7 @@ function adventure3 (form) {
 };
 
 function adventure4 (form) {
-  ui = form.response.value;
+  var ui = document.getElementById('response').value;
   if (ui === password) {
     if (randnum === 2) {
       var p4 = "<p>The dragon accepts and lets you go on your way.</p>";
@@ -80,12 +81,12 @@ function adventure4 (form) {
 };
 
 function adventure5 (form) {
-  ui = form.response.value;
+  var ui = document.getElementById('response').value;
   if (isNaN(ui)){
     var rand = Math.floor(Math.random() * 4) + 1;
     var dragHealth = 5;
     var health = 5;
-    while (health > 0 || dragHealth > 0) {
+    while (dragHealth > 0) {
       if (dragHealth === 0) {
         var p4end = "<p>Congratulations! You slayed the dragon! You go on to live another day</p>";
         $("#adventureForm").append(p4end);
@@ -97,35 +98,35 @@ function adventure5 (form) {
       } else {
         switch (rand) {
           case 1:
-            var dragHealth = dragHealth - 1;
+            dragHealth -= 1;
             var p4 = "<p>You hit the Dragon! The dragon has " + dragHealth + " lives left</p>";
             $("#adventureForm").append(p4)
             var rand = Math.floor(Math.random() * 4) + 1
           case 2:
-            var health = health - 1;
+            health -= 1;
             var p4 = "<p>You missed the Dragon, and he hits you! You have " + health + " lives left</p>";
             $("#adventureForm").append(p4);
             var rand = Math.floor(Math.random() * 4) + 1;
           case 3:
-            var dragHealth = dragHealth - 1;
-            var health = health - 1;
+            dragHealth -= 1;
+            health -= 1;
             var p4 = "<p>You hit the Dragon, but the dragon also gets a swipe at you!! The dragon has " + dragHealth + " lives left, and you have " + health + " lives left!</p>";
             $("#adventureForm").append(p4);
             var rand = Math.floor(Math.random() * 4) + 1;
           case 4:
-            var dragHealth = dragHealth - 1
-            var health = health - 2
+            dragHealth -= 1;
+            health -= 2;
             var p4 = "<p>You hit the dragon, but he does double damage to you! The dragon has " + dragHealth + " lives left, and you have " + health + " lives left!</p>";
             $("#adventureForm").append(p4);
             var rand = Math.floor(Math.random() * 4) + 1;
           default:
-            var p3 = "<p>But y tho?</p>";
+            var p5 = "<p>But y tho?</p>";
             endGame(p5,"#p3");
         }
       }
     }
   } else {
-    var p3 = "<p>But y tho?</p>";
+    var p5 = "<p>But y tho?</p>";
     endGame(p5,"#p3");
   };
 };

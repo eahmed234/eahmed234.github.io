@@ -35,24 +35,30 @@
           </div>
         </nav>
 
-        <h1 class="lead" style="margin-top: 25px;">Dragon Text Adventure</h1>
-        <p style="margin-top: 10px;">You are walking along a path when suddenly, a dragon appears! Do you happen to have a weapon on you? (yes or no)</p>
-        <p id="init"></p>
-        <div class="container">
-          <form>
+        <div id="dragGame">
+          <h1 class="lead" style="margin-top: 25px;">Dragon Text Adventure</h1>
+          <p style="margin-top: 10px;">You are walking along a path when suddenly, a dragon appears! Do you happen to have a weapon on you? (yes or no)</p>
+          <p id="init"></p>
+          <div class="container">
             <div id="adventureForm"></div>
-            <input type="text" name="response">
+            <input type="text" name="response" id="response">
             <button type="button" id="adventurenum" class="btn btn-primary" onClick="adventure1(this.form)">Submit</button>
-          </form>
+          </div>
         </div>
 
-        <h1 class="lead" style="margin-top: 70px;">Rock, Paper, Scissors, Lizard, Spock</h1>
-        <div class="container">
-          <form>
+        <div id="rpslsGame">
+          <h1 class="lead" style="margin-top: 70px;">Rock, Paper, Scissors, Lizard, Spock</h1>
+          <div class="container">
             <div id="rpslsForm"></div>
-            <input type="text" name="rpslsResponse">
+            <input type="text" name="rpslsResponse" id="rpslsResponse">
+            <script>
+            $('#rpslsResponse').keypress(function (e) {
+              var code = e.keyCode || e.which;
+              if (code === 13) { rpsls1(this.form); };
+            });
+            </script>
             <button type="button" id="rpslsBtn" class="btn btn-primary" onClick="rpsls1(this.form)">Submit</button>
-          </form>
+          </div>
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
