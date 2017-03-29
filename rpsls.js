@@ -1,214 +1,155 @@
-function rpsls1 (form) {
-  var ui = document.getElementById('rpslsResponse').value;
-  $("#dragGame").remove();
-  $("#rpslsForm").empty();
-  function rpslsFunction() {
+/*global $*/
+
+var result;
+var comp = 0;
+var human = 0;
+
+function gameLogic() {
+  var ui = $("#rpslsResponse").val();
+  var randNum = Math.floor(Math.random() * 5) + 1;
+
+  function humanWin(against) {
+    human += 1;
     var randNum = Math.floor(Math.random() * 5) + 1;
-    var comp = 0;
-    var human = 0;
-    while (comp !== 3 || human !== 3) {
-      if (human === 3){
-        var p1 = "<p>You win best of 3!</p>"
-        $("#rpslsForm").append(p1);
+    result = "<p>You win against " + against + "! Comp: " + comp + " You: " + human + "</p>";
+  }
+
+  function compWin(against) {
+    comp += 1;
+    var randNum = Math.floor(Math.random() * 5) + 1;
+    result = "<p>Computer wins with " + against + "! Comp: " + comp + " You: " + human + "</p>";
+  }
+
+  function tie() {
+    var randNum = Math.floor(Math.random() * 5) + 1;
+    result = "<p>It's a tie! Comp: " + comp + " You: " + human + "</p>";
+  }
+
+  function invalid() {
+    var randNum = Math.floor(Math.random() * 5) + 1;
+    result = "<p>Invalid input! Comp: " + comp + " You: " + human + "</p>";
+  }
+
+  if (ui.toUpperCase() === "ROCK") {
+    switch (randNum) {
+      case 1:
+        tie();
         break;
-      } else if (comp === 3) {
-        var p1 = "<p>The computer wins best of 3!</p>"
-        $("#rpslsForm").append(p1);
+      case 2:
+        compWin("paper");
         break;
-      } else {
-        if (ui.toUpperCase() === "ROCK") {
-          switch (randNum) {
-            case 1:
-              var p1 = "<p>It's a tie! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 2:
-              comp += 1;
-              var p1 = "<p>Computer wins with paper! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 3:
-              human += 1;
-              var p1 = "<p>You win against scissors! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 4:
-              human += 1;
-              var p1 = "<p>You win against lizard! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 5:
-              comp += 1;
-              var p1 = "<p>Computer wins with Spock! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            default:
-              comp += 1;
-              var p1 = "<p>Invalid input. Computer wins! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-          }
-        } else if (ui.toUpperCase() === "PAPER") {
-          switch (randNum) {
-            case 1:
-              human += 1
-              var p1 = "<p>You win against rock! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 2:
-              var p1 = "<p>It's a tie! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 3:
-              comp += 1;
-              var p1 = "<p>Computer wins with scissors! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 4:
-              comp += 1;
-              var p1 = "<p>Computer wins with lizard! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 5:
-              human += 1;
-              var p1 = "<p>You win against Spock! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            default:
-              comp += 1;
-              var p1 = "<p>Invalid input. Computer wins! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-          }
-        } else if (ui.toUpperCase() === "SCISSORS") {
-          switch (randNum) {
-            case 1:
-              comp += 1;
-              var p1 = "<p>Computer wins with rock! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 2:
-              human += 1;
-              var p1 = "<p>You win against paper! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 3:
-              var p1 = "<p>It's a tie! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 4:
-              human += 1;
-              var p1 = "<p>You win against lizard! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 5:
-              comp += 1;
-              var p1 = "<p>Computer wins with Spock! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            default:
-              comp += 1;
-              var p1 = "<p>Invalid input. Computer wins! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-          }
-        } else if (ui.toUpperCase() === "LIZARD") {
-          switch (randNum) {
-            case 1:
-              comp += 1
-              var p1 = "<p>Computer wins with rock! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 2:
-              human += 1;
-              var p1 = "<p>You win against paper! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 3:
-              comp += 1;
-              var p1 = "<p>Computer wins with scissors! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 4:
-              var p1 = "<p>It's a tie! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 5:
-              human += 1;
-              var p1 = "<p>You win against Spock! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            default:
-              comp += 1;
-              var p1 = "<p>Invalid input. Computer wins! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-          }
-        } else if (ui.toUpperCase() === "SPOCK") {
-          switch (randNum) {
-            case 1:
-              human += 1
-              var p1 = "<p>You win against rock! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 2:
-              comp += 1;
-              var p1 = "<p>Computer wins with paper! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 3:
-              human += 1;
-              var p1 = "<p>You win against scissors! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 4:
-              comp += 1;
-              var p1 = "<p>Computer wins with lizard! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            case 5:
-              var p1 = "<p>It's a tie! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-              break;
-            default:
-              comp += 1;
-              var p1 = "<p>Invalid input. Computer wins! Comp: " + comp + "  You: " + human + "</p>"
-              $("#rpslsForm").append(p1);
-              var randNum = Math.floor(Math.random() * 5) + 1;
-          }
-        } else {
-          computer += 3
-          var p1 = "<p>Invalid input. Computer wins! Comp: " + comp + "  You: " + human + "</p>"
-          $("#rpslsForm").append(p1);
-          console.log("else");
-        }
-      }
+      case 3:
+        humanWin("scissors");
+        break;
+      case 4:
+        humanWin("lizard");
+        break;
+      case 5:
+        compWin("Spock");
+        break;
+      default:
+        invalid();
     }
   }
-  rpslsFunction();
+  else if (ui.toUpperCase() === "PAPER") {
+    switch (randNum) {
+      case 1:
+        humanWin("rock");
+        break;
+      case 2:
+        tie();
+        break;
+      case 3:
+        compWin("scissors");
+        break;
+      case 4:
+        compWin("lizard");
+        break;
+      case 5:
+        humanWin("Spock");
+        break;
+      default:
+        invalid();
+    }
+  }
+  else if (ui.toUpperCase() === "SCISSORS") {
+    switch (randNum) {
+      case 1:
+        compWin("rock");
+        break;
+      case 2:
+        humanWin("paper");
+        break;
+      case 3:
+        tie();
+        break;
+      case 4:
+        humanWin("lizard");
+        break;
+      case 5:
+        compWin("Spock");
+        break;
+      default:
+        invalid();
+    }
+  }
+  else if (ui.toUpperCase() === "LIZARD") {
+    switch (randNum) {
+      case 1:
+        compWin("rock");
+        break;
+      case 2:
+        humanWin("paper");
+        break;
+      case 3:
+        compWin("scissors");
+        break;
+      case 4:
+        tie();
+        break;
+      case 5:
+        humanWin("Spock");
+        break;
+      default:
+        invalid();
+    }
+  }
+  else if (ui.toUpperCase() === "SPOCK") {
+    switch (randNum) {
+      case 1:
+        humanWin("rock");
+        break;
+      case 2:
+        compWin("paper");
+        break;
+      case 3:
+        humanWin("scissors");
+        break;
+      case 4:
+        compWin("lizard");
+        break;
+      case 5:
+        tie();
+        break;
+      default:
+        invalid();
+    }
+  }
+  else {
+    invalid();
+    console.log("else");
+  }
+}
+
+function rpsls1(form) {
+  if (comp === 3){
+    result = "<p>Computer wins best of 3!</p>";
+    document.getElementById("rpslsBtn").removeAttribute("onClick");
+  } else if (human === 3){
+    result = "<p>You win best of 3!</p>";
+    document.getElementById("rpslsBtn").removeAttribute("onClick");
+  } else {
+    gameLogic();
+  }
+  $("#rpslsForm").append(result);
 }

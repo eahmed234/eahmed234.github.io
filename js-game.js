@@ -1,15 +1,17 @@
+/*global $*/
+
 var randnum = Math.floor(Math.random() * 2) + 1;
 
 function endGame(pNum,pAfter) {
   $(pNum).insertAfter(pAfter);
   document.getElementById("adventurenum").removeAttribute("onClick");
-};
+}
 
 function contGame(pNum,pAfter,nextAdventure) {
   $(pNum).insertAfter(pAfter);
   document.getElementById("adventurenum").removeAttribute("onClick");
   document.getElementById("adventurenum").setAttribute("onClick", nextAdventure);
-};
+}
 
 var password = "The one and only, Christopher Cannoli";
 
@@ -25,8 +27,8 @@ function adventure1 (form) {
     } else {
       var p1 = "<p>You are an uncooperative person. That is dead.</p>";
       endGame(p1,"#init");
-    };
-};
+    }
+}
 
 function adventure2 (form) {
   var ui = document.getElementById('response').value;
@@ -38,12 +40,12 @@ function adventure2 (form) {
       var p2 = "<p id='p2'>The dragon halts right in front of you, and asks for a password?! What is the password?</p>";
       console.log("The password is: " + password);
       contGame(p2,"#p1","adventure4(this.form)");
-    };
+    }
   } else {
     var p2 = "<p>You're unwillingness to comply has lead you to your demise. Pity</p>";
     endGame(p2,"#p1");
-  };
-};
+  }
+}
 
 function adventure3 (form) {
   var ui = document.getElementById('response').value;
@@ -54,15 +56,15 @@ function adventure3 (form) {
     } else {
       var p3 = "<p>You are unlucky, for the dragon is unusually stong for you. You are now dead.</p>";
       endGame(p3,"#p1");
-    };
+    }
   } else if (ui.toUpperCase() === "GUN") {
     var p3 = "<p id='p3'>The dragon scoffs at your puny gun and charges at you. You fire off your first shot! (hit submit)</p>";
     contGame(p3,"#p1","adventure5(this.form)");
   } else {
     var p3 = "<p>You're unwillingness to answer has lead you to your demise. Pity.</p>";
     endGame(p3,"#p1");
-  };
-};
+  }
+}
 
 function adventure4 (form) {
   var ui = document.getElementById('response').value;
@@ -73,12 +75,12 @@ function adventure4 (form) {
     } else {
       var p4 = "<p>The dragon was joking about accepting any password, even though it was correct. You are now lunch.</p>";
       endGame(p4,"#p2");
-    };
+    }
   } else {
     var p4 = "<p>The dragon laughs at your feeble attempt to guess the password before chowing down.</p>";
     endGame(p4,"#p2");
-  };
-};
+  }
+}
 
 function adventure5 (form) {
   var ui = document.getElementById('response').value;
@@ -108,8 +110,8 @@ function adventure5 (form) {
           case 1:
             dragHealth -= 1;
             var p4 = "<p>You hit the Dragon! The dragon has " + dragHealth + " lives left</p>";
-            $("#adventureForm").append(p4)
-            var rand = Math.floor(Math.random() * 4) + 1
+            $("#adventureForm").append(p4);
+            var rand = Math.floor(Math.random() * 4) + 1;
             break;
           case 2:
             health -= 1;
@@ -142,5 +144,5 @@ function adventure5 (form) {
     console.log("But y tho?");
     var p5 = "<p>But y tho?</p>";
     endGame(p5,"#p3");
-  };
-};
+  }
+}
