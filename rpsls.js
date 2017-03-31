@@ -3,153 +3,131 @@
 var result;
 var comp = 0;
 var human = 0;
+var randNum;
+var compChoice;
 
-function gameLogic() {
+function randFunction() {
+  randNum = Math.floor(Math.random() * 5) + 1;
+  switch (randNum) {
+    case 1:
+      compChoice = "rock";
+      break;
+    case 2:
+      compChoice = "paper";
+      break;
+    case 3:
+      compChoice = "scissors";
+      break;
+    case 4:
+      compChoice = "lizard";
+      break;
+    case 5:
+      compChoice = "spock";
+      break;
+    default:
+      console.log("Why?!");
+  }
+}
+
+function humanWin(against) {
+  human += 1;
+  randNum = Math.floor(Math.random() * 5) + 1;
+  result = "<p>You win against " + against + "! Comp: " + comp + " You: " + human + "</p>";
+}
+
+function compWin(against) {
+  comp += 1;
+  randNum = Math.floor(Math.random() * 5) + 1;
+  result = "<p>Computer wins with " + against + "! Comp: " + comp + " You: " + human + "</p>";
+}
+
+function tie() {
+  randNum = Math.floor(Math.random() * 5) + 1;
+  result = "<p>It's a tie! Comp: " + comp + " You: " + human + "</p>";
+}
+
+function invalid() {
+  randNum = Math.floor(Math.random() * 5) + 1;
+  result = "<p>Invalid input! Comp: " + comp + " You: " + human + "</p>";
+}
+
+function rpsObjects(rock,paper,scissors,lizard,spock) {
+  this.rock = rock;
+  this.paper = paper;
+  this.scissors = scissors;
+  this.lizard = lizard;
+  this.spock = spock;
+}
+
+var rock = new rpsObjects("tie","lose","win","win","lose");
+var paper = new rpsObjects("win","tie","lose","lose","win");
+var scissors = new rpsObjects("lose","win","tie","win","lose");
+var lizard = new rpsObjects("lose","win","lose","tie","win");
+var spock = new rpsObjects("win","lose","win","lose","tie");
+
+function compareFunction() {
   var ui = $("#rpslsResponse").val();
-  var randNum = Math.floor(Math.random() * 5) + 1;
-
-  function humanWin(against) {
-    human += 1;
-    var randNum = Math.floor(Math.random() * 5) + 1;
-    result = "<p>You win against " + against + "! Comp: " + comp + " You: " + human + "</p>";
-  }
-
-  function compWin(against) {
-    comp += 1;
-    var randNum = Math.floor(Math.random() * 5) + 1;
-    result = "<p>Computer wins with " + against + "! Comp: " + comp + " You: " + human + "</p>";
-  }
-
-  function tie() {
-    var randNum = Math.floor(Math.random() * 5) + 1;
-    result = "<p>It's a tie! Comp: " + comp + " You: " + human + "</p>";
-  }
-
-  function invalid() {
-    var randNum = Math.floor(Math.random() * 5) + 1;
-    result = "<p>Invalid input! Comp: " + comp + " You: " + human + "</p>";
-  }
-
-  if (ui.toUpperCase() === "ROCK") {
-    switch (randNum) {
-      case 1:
-        tie();
-        break;
-      case 2:
-        compWin("paper");
-        break;
-      case 3:
-        humanWin("scissors");
-        break;
-      case 4:
-        humanWin("lizard");
-        break;
-      case 5:
-        compWin("Spock");
-        break;
-      default:
-        invalid();
+  var humanChoice = ui.toLowerCase();
+  randFunction();
+  if (humanChoice === compChoice){
+    tie();
+    console.log("Actual tie");
+  } else if (humanChoice === "rock"){
+    if (rock[compChoice] === "win") {
+      humanWin(compChoice);
+    } else if (rock[compChoice] === "lose"){
+      compWin(compChoice);
+    } else {
+      console.log("hittin rock bottom");
     }
-  }
-  else if (ui.toUpperCase() === "PAPER") {
-    switch (randNum) {
-      case 1:
-        humanWin("rock");
-        break;
-      case 2:
-        tie();
-        break;
-      case 3:
-        compWin("scissors");
-        break;
-      case 4:
-        compWin("lizard");
-        break;
-      case 5:
-        humanWin("Spock");
-        break;
-      default:
-        invalid();
+  } else if (humanChoice === "paper"){
+    if (paper[compChoice] === "win") {
+      humanWin(compChoice);
+    } else if (paper[compChoice] === "lose"){
+      compWin(compChoice);
+    } else {
+      console.log("hittin rock bottom");
     }
-  }
-  else if (ui.toUpperCase() === "SCISSORS") {
-    switch (randNum) {
-      case 1:
-        compWin("rock");
-        break;
-      case 2:
-        humanWin("paper");
-        break;
-      case 3:
-        tie();
-        break;
-      case 4:
-        humanWin("lizard");
-        break;
-      case 5:
-        compWin("Spock");
-        break;
-      default:
-        invalid();
+  } else if (humanChoice === "scissors"){
+    if (scissors[compChoice] === "win") {
+      humanWin(compChoice);
+    } else if (scissors[compChoice] === "lose"){
+      compWin(compChoice);
+    } else {
+      console.log("hittin rock bottom");
     }
-  }
-  else if (ui.toUpperCase() === "LIZARD") {
-    switch (randNum) {
-      case 1:
-        compWin("rock");
-        break;
-      case 2:
-        humanWin("paper");
-        break;
-      case 3:
-        compWin("scissors");
-        break;
-      case 4:
-        tie();
-        break;
-      case 5:
-        humanWin("Spock");
-        break;
-      default:
-        invalid();
+  } else if (humanChoice === "lizard"){
+    if (lizard[compChoice] === "win") {
+      humanWin(compChoice);
+    } else if (lizard[compChoice] === "lose"){
+      compWin(compChoice);
+    } else {
+      console.log("hittin rock bottom");
     }
-  }
-  else if (ui.toUpperCase() === "SPOCK") {
-    switch (randNum) {
-      case 1:
-        humanWin("rock");
-        break;
-      case 2:
-        compWin("paper");
-        break;
-      case 3:
-        humanWin("scissors");
-        break;
-      case 4:
-        compWin("lizard");
-        break;
-      case 5:
-        tie();
-        break;
-      default:
-        invalid();
+  } else if (humanChoice === "spock"){
+    if (spock[compChoice] === "win") {
+      humanWin(compChoice);
+    } else if (spock[compChoice] === "lose"){
+      compWin(compChoice);
+    } else {
+      console.log("hittin rock bottom");
     }
-  }
-  else {
+  } else {
     invalid();
-    console.log("else");
   }
 }
 
 function rpsls1(form) {
-  if (comp === 3){
+  if (comp === 3) {
     result = "<p>Computer wins best of 3!</p>";
     document.getElementById("rpslsBtn").removeAttribute("onClick");
-  } else if (human === 3){
+  }
+  else if (human === 3) {
     result = "<p>You win best of 3!</p>";
     document.getElementById("rpslsBtn").removeAttribute("onClick");
-  } else {
-    gameLogic();
+  }
+  else {
+    compareFunction();
   }
   $("#rpslsForm").append(result);
 }
