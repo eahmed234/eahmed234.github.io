@@ -196,14 +196,34 @@ function compareFunction() {
   }
 }
 
+function resetBtn(){
+  document.getElementById("rpslsBtn").removeAttribute("onClick");
+  document.getElementById("rpslsBtn").setAttribute("onClick","resetFunction()");
+  $("#rpslsBtn").html("Reset?");
+  
+}
+
+function resetFunction(){
+  $("#rpslsForm").empty();
+  comp = 0;
+  humanScore = 0;
+  result = "";
+  document.getElementById("rpslsBtn").removeAttribute("onClick");
+  document.getElementById("rpslsBtn").setAttribute("onClick","rpsls1(this.form)");
+  $("#rpslsBtn").html("Submit");
+}
+
 function rpsls1(form) {
+  $("#rules").fadeOut();
   if (humanScore === 5) {
     result = "<p>You win best of 5!</p>";
-    document.getElementById("rpslsBtn").removeAttribute("onClick");
+    $("#rpslsForm").append(result);
+    resetBtn();
   }
   else if (comp === 5) {
     result = "<p>Computer wins best of 5!</p>";
-    document.getElementById("rpslsBtn").removeAttribute("onClick");
+    $("#rpslsForm").append(result);
+    resetBtn();
   }
   else {
     compareFunction();
