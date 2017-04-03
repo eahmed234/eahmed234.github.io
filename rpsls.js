@@ -217,16 +217,19 @@ function rpsls1(form) {
   $("#rules").fadeOut();
   if (humanScore === 5) {
     result = "<p>You win best of 5!</p>";
-    $("#rpslsForm").append(result);
     resetBtn();
+    $("#rpslsForm").append(result);
+    console.log("human win " + result);
   }
   else if (comp === 5) {
     result = "<p>Computer wins best of 5!</p>";
-    $("#rpslsForm").append(result);
     resetBtn();
+    $("#rpslsForm").append(result);
+    console.log("comp win " + result);
   }
   else {
     compareFunction();
+    $("#rpslsForm").append(result);
+    console.log("bottom " + result);
   }
-  $("#rpslsForm").append(result);
 }
