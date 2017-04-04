@@ -39,13 +39,6 @@
           <div class="container">
             <div id="rpslsForm"></div>
             <input type="text" name="rpslsResponse" id="rpslsResponse">
-            <script>
-            /*global $*/
-            $('#rpslsResponse').keypress(function (e) {
-              var code = e.keyCode || e.which;
-              if (code === 13) { $("#rpslsBtn").click(); };
-            });
-            </script>
             <button type="button" id="rpslsBtn" class="btn btn-primary" onClick="rpsls1(this.form)">Submit</button> 
             <h1 class="lead" style="font-size: 25px;" id="rules">How to play? Easy: <br /><br/>
               ROCK POUNDS OUT FIRE, CRUSHES SCISSORS, HUMAN, WOLF & SPONGE. <br />
