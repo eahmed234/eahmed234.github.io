@@ -1,62 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <title> عيسى أحمد </title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="rpsls.js"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="stylesheet" href="rpsls.css" type="text/css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title> عيسى أحمد </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="rpsls.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">Programming</a>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cubing.html">Cubing</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="programming.html">Programming <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="other.html">Other</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <a class="navbar-brand" href="#">Programming</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cubing.html">Cubing</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="programming.html">Programming <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="other.html">Other</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-        <div id="rpslsGame">
-          <h1 class="lead" style="margin-top: 25px;">Rock, Fire, Scissors, Human, Wolf, Sponge, Paper, Air, Water, Devil, Gun (yes I know I need a mental check)</h1>
-          <div class="container">
-            <div id="rpslsForm"></div>
-            <input type="text" name="rpslsResponse" id="rpslsResponse">
-            <button type="button" id="rpslsBtn" class="btn btn-primary" onClick="rpsls1(this.form)">Submit</button> 
-            <h1 class="lead" style="font-size: 25px;" id="rules">How to play? Easy: <br /><br/>
-              ROCK POUNDS OUT FIRE, CRUSHES SCISSORS, HUMAN, WOLF & SPONGE. <br />
-              FIRE MELTS SCISSORS, BURNS PAPER, HUMAN, WOLF & SPONGE.<br />
-              SCISSORS SWISH THROUGH AIR, CUT PAPER, HUMAN, WOLF & SPONGE.<br />
-              HUMAN TAMES WOLF, CLEANS WITH SPONGE, WRITES PAPER, BREATHES AIR, DRINKS WATER.<br />
-              WOLF CHEWS UP SPONGE, & PAPER, BREATHES AIR, DRINKS WATER, BITES DEVIL's HEINY.<br />
-              SPONGE SOAKS PAPER, USES AIR POCKETS, ABSORBS WATER, CLEANSES DEVIL, CLEANS GUN.<br />
-              PAPER FANS AIR, COVERS ROCK, FLOATS ON WATER, REBUKES DEVIL, OUTLAWS GUN.<br />
-              AIR BLOWS OUT FIRE, ERODES ROCK, EVAPORATES WATER, CHOKES DEVIL, TARNISHES GUN.<br />
-              WATER DROWNS DEVIL, ERODES ROCK, PUTS OUT FIRE, RUSTS SCISSORS & GUN.<br />
-              DEVIL HURLS ROCK, BREATHS FIRE, IMMUNE TO SCISSORS & GUN, POSSESSES HUMAN.<br />
-              GUN TARGETS ROCK, FIRES, OUTCLASSES SCISSORS, SHOOTS HUMAN & WOLF.<br /><br />
-              Have fun.</h1>
-          </div>
-        </div>
+  <div class="container">
+    <div id="rpslsGame">
+      <h1 class="lead" style="margin-top: 25px;"><span id="red">Rock</span>, <span id="orange">Fire</span>, <span id="cyan">Scissors</span>, <span id="pink">Human</span>, <span id="gray">Wolf</span>, <span id="yellow">Sponge</span>, Paper, <span id="blue">Air</span>, <span id="green">Water</span>, <span id="bright-red">Devil</span>, <span id="light-gray">Gun</span></h1>
+      <div id="rpslsForm"></div>
+      <input type="text" name="rpslsResponse" id="rpslsResponse">
+      <button type="button" id="rpslsBtn" class="btn btn-primary" onClick="rpsls1(this.form)">Submit</button>
+    </div>
+    <div id="initScreen">
+      <h1 class="lead" style="font-size: 25px; margin-top: 20px;" id="rules">How to play? Easy: <br /><br/> <span id="red">Rock</span> POUNDS OUT <span id="orange">Fire</span>, CRUSHES <span id="cyan">Scissors</span>, <span id="pink">Human</span>, <span id="gray">Wolf</span> & <span id="yellow">Sponge</span>. <br /> <span id="orange">Fire</span> MELTS <span id="cyan">Scissors</span>, BURNS Paper, <span id="pink">Human</span>, <span id="gray">Wolf</span> & <span id="yellow">Sponge</span>.<br /> <span id="cyan">Scissors</span> SWISH THROUGH <span id="blue">Air</span>, CUT Paper, <span id="pink">Human</span>, <span id="gray">Wolf</span> & <span id="yellow">Sponge</span>.<br /> <span id="pink">Human</span> TAMES <span id="gray">Wolf</span>,
+        CLEANS WITH <span id="yellow">Sponge</span>, WRITES Paper, BREATHES <span id="blue">Air</span>, DRINKS <span id="green">Water</span>.<br /> <span id="gray">Wolf</span> CHEWS UP <span id="yellow">Sponge</span>, & Paper, BREATHES <span id="blue">Air</span>, DRINKS <span id="green">Water</span>, BITES <span id="bright-red">Devil</span>'s HEINY.<br /> <span id="yellow">Sponge</span> SOAKS Paper, USES <span id="blue">Air</span> POCKETS, ABSORBS <span id="green">Water</span>, CLEANSES <span id="bright-red">Devil</span>, CLEANS <span id="light-gray">Gun</span>.<br /> Paper
+        FANS <span id="blue">Air</span>, COVERS <span id="red">Rock</span>, FLOATS ON <span id="green">Water</span>, REBUKES <span id="bright-red">Devil</span>, OUTLAWS <span id="light-gray">Gun</span>.<br /> <span id="blue">Air</span> BLOWS OUT <span id="orange">Fire</span>, ERODES <span id="red">Rock</span>, EVAPORATES <span id="green">Water</span>, CHOKES <span id="bright-red">Devil</span>, TARNISHES <span id="light-gray">Gun</span>.<br /> <span id="green">Water</span> DROWNS <span id="bright-red">Devil</span>, ERODES <span id="red">Rock</span>, PUTS OUT <span id="orange">Fire</span>, RUSTS <span id="cyan">Scissors</span> & <span id="light-gray">Gun</span>.<br /> <span id="bright-red">Devil</span> HURLS
+        <span id="red">Rock</span>, BREATHS <span id="orange">Fire</span>, IMMUNE TO <span id="cyan">Scissors</span> & <span id="light-gray">Gun</span>, POSSESSES <span id="pink">Human</span>.<br /> <span id="light-gray">Gun</span> TARGETS <span id="red">Rock</span>, <span id="orange">Fire</span>, OUTCLASSES <span id="cyan">Scissors</span>, SHOOTS <span id="pink">Human</span> & <span id="gray">Wolf</span>.<br /><br /> Have fun.</h1>
+      <button type="button" id="playBtn" class="btn btn-primary" onClick="initialScreen()">Play</button>
+    </div>
+  </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
 </html>
