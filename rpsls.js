@@ -1,137 +1,106 @@
 /*global $*/
 
-function handleEnter() {
-  $('#rpslsResponse').keypress(function(e) {
-    let code = e.keyCode || e.which;
-    if (code === 13) {
-      $("#rpslsBtn").click();
-    }
-  });
-}
+$(function() { $(".rpslsGame").hide(); });
 
-$(document).ready(function() {
-  $("#rpslsGame").hide();
-  handleEnter();
-});
-
-function initialScreen(){
+function initialScreen() {
   $("#initScreen").fadeOut();
-  $("#rpslsGame").fadeIn();
+  $(".rpslsGame").fadeIn();
   $("#resetBtn").hide();
 }
 
 class rpsObjects {
-  constructor(rock, fire, scissors, human, wolf, sponge, paper, air, water, devil, gun, name) {
+  constructor(rock, scissors, pizzaroll, monk, moose, ogre, apexam, fire, water, mushroom, sword, name, picture) {
     this.rock = rock;
-    this.fire = fire;
     this.scissors = scissors;
-    this.human = human;
-    this.wolf = wolf;
-    this.sponge = sponge;
-    this.paper = paper;
-    this.air = air;
+    this.pizzaroll = pizzaroll;
+    this.monk = monk;
+    this.moose = moose;
+    this.ogre = ogre;
+    this.apexam = apexam;
+    this.fire = fire;
     this.water = water;
-    this.devil = devil;
-    this.gun = gun;
+    this.mushroom = mushroom;
+    this.sword = sword;
     this.name = name;
+    this.picture = picture;
   }
 }
 
-let rock = new rpsObjects("tie", "lose", "lose", "lose", "lose", "lose", "wins", "wins", "wins", "wins", "wins", "rock");
-let fire = new rpsObjects("wins", "tie", "lose", "lose", "lose", "lose", "lose", "wins", "wins", "wins", "wins", "fire");
-let scissors = new rpsObjects("wins", "wins", "tie", "lose", "lose", "lose", "lose", "lose", "wins", "wins", "wins", "scissors");
-let human = new rpsObjects("wins", "wins", "wins", "tie", "lose", "lose", "lose", "lose", "lose", "wins", "wins", "human");
-let wolf = new rpsObjects("wins", "wins", "wins", "wins", "tie", "lose", "lose", "lose", "lose", "lose", "wins", "wolf");
-let sponge = new rpsObjects("wins", "wins", "wins", "wins", "wins", "tie", "lose", "lose", "lose", "lose", "lose", "sponge");
-let paper = new rpsObjects("lose", "wins", "wins", "wins", "wins", "wins", "tie", "lose", "lose", "lose", "lose", "paper");
-let air = new rpsObjects("lose", "lose", "wins", "wins", "wins", "wins", "wins", "tie", "lose", "lose", "lose", "air");
-let water = new rpsObjects("lose", "lose", "lose", "wins", "wins", "wins", "wins", "wins", "tie", "lose", "lose", "water");
-let devil = new rpsObjects("lose", "lose", "lose", "lose", "wins", "wins", "wins", "wins", "wins", "tie", "lose", "devil");
-let gun = new rpsObjects("lose", "lose", "lose", "lose", "lose", "wins", "wins", "wins", "wins", "wins", "tie", "gun");
+let rock = new rpsObjects("tie", "lose", "lose", "lose", "lose", "lose", "wins", "wins", "wins", "wins", "wins", "rock", "rock.jpg");
+let scissors = new rpsObjects("wins", "tie", "lose", "lose", "lose", "lose", "lose", "wins", "wins", "wins", "wins", "scissors", "scissors.jpg");
+let pizzaroll = new rpsObjects("wins", "wins", "tie", "lose", "lose", "lose", "lose", "lose", "wins", "wins", "wins", "pizzaroll", "pizzarolls.jpg");
+let monk = new rpsObjects("wins", "wins", "wins", "tie", "lose", "lose", "lose", "lose", "lose", "wins", "wins", "monk", "smoking-monk.jpg");
+let moose = new rpsObjects("wins", "wins", "wins", "wins", "tie", "lose", "lose", "lose", "lose", "lose", "wins", "moose", "moose.jpg");
+let ogre = new rpsObjects("wins", "wins", "wins", "wins", "wins", "tie", "lose", "lose", "lose", "lose", "lose", "ogre", "shrek.jpg");
+let apexam = new rpsObjects("lose", "wins", "wins", "wins", "wins", "wins", "tie", "lose", "lose", "lose", "lose", "apexam", "test.jpeg");
+let fire = new rpsObjects("lose", "lose", "wins", "wins", "wins", "wins", "wins", "tie", "lose", "lose", "lose", "fire", "fire.jpg");
+let water = new rpsObjects("lose", "lose", "lose", "wins", "wins", "wins", "wins", "wins", "tie", "lose", "lose", "water", "water.jpg");
+let mushroom = new rpsObjects("lose", "lose", "lose", "lose", "wins", "wins", "wins", "wins", "wins", "tie", "lose", "mushroom", "mushroom.jpg");
+let sword = new rpsObjects("lose", "lose", "lose", "lose", "lose", "wins", "wins", "wins", "wins", "wins", "tie", "sword", "sword.png");
 
-let rpsArray = [rock, fire, scissors, human, wolf, sponge, paper, air, water, devil, gun];
+let rpsArray = [rock, scissors, pizzaroll, monk, moose, ogre, apexam, fire, water, mushroom, sword];
 
 let result;
 let comp = 0;
 let humanScore = 0;
 let randNum = Math.floor(Math.random() * 11);
 let compChoice = rpsArray[randNum];
+let compPic = compChoice.picture;
 let humanChoice;
+let humanPic;
 
-function humanWin() {
-  humanScore += 1;
-  result = `<p>You win against ${compChoice.name}! Comp: ${comp} You: ${humanScore}</p>`;
-  randNum = Math.floor(Math.random() * 11);
-  compChoice = rpsArray[randNum];
-}
-
-function compWin() {
-  comp += 1;
-  result = `<p>Computer wins with ${compChoice.name}! Comp: ${comp} You: ${humanScore}</p>`;
-  randNum = Math.floor(Math.random() * 11);
-  compChoice = rpsArray[randNum];
-}
-
-function tie() {
-  randNum = Math.floor(Math.random() * 11);
-  compChoice = rpsArray[randNum];
-  result = `<p>It's a tie! Comp: ${comp} You: ${humanScore}</p>`;
-}
-
-function invalid() {
-  randNum = Math.floor(Math.random() * 11);
-  compChoice = rpsArray[randNum];
-  result = `<p>Invalid input! Comp: ${comp} You: ${humanScore}</p>`;
-}
-
-function resetFunction(){
+function resetFunction() {
+  comp = 0;
+  humanScore = 0;
+  $("#score").html(comp + " - " + humanScore);
+  $('#compImage').html("");
+  $('#humanImage').html("");
   $("#rpslsForm").empty();
   $("#resetBtn").hide();
   $(".rpslsBtn").show();
 }
 
 function compareFunction() {
+  randNum = Math.floor(Math.random() * 11);
+  compChoice = rpsArray[randNum];
+  compPic = compChoice.picture;
+  
   if (humanScore === 5) {
-    comp = 0;
-    humanScore = 0;
     result = "<p>You win best of 5!</p>";
-    $("#rpslsForm").append(result);
     $(".rpslsBtn").hide();
     $("#resetBtn").show();
   }
   else if (comp === 5) {
-    comp = 0;
-    humanScore = 0;
     result = "<p>Computer wins best of 5!</p>";
-    $("#rpslsForm").append(result);
     $(".rpslsBtn").hide();
     $("#resetBtn").show();
   }
   else {
     if (compChoice.name === humanChoice) {
-      tie();
+      result = `<p>It's a tie!</p>`;
     }
     else if (compChoice[humanChoice] === "lose") {
-      compWin();
+      comp += 1;
+      result = `<p>Computer wins with ${compChoice.name}!</p>`;
     }
     else if (compChoice[humanChoice] == "wins") {
-      humanWin();
+      humanScore += 1;
+      result = `<p>You win against ${compChoice.name}!</p>`;
+      
     }
     else {
-      invalid();
+      console.log("how");
     }
-    $("#rpslsForm").append(result);
   }
 }
 
-function rockFunction() {humanChoice = "rock"; compareFunction();}
-function fireFunction() {humanChoice = "fire"; compareFunction();}
-function scissorsFunction() {humanChoice = "scissors"; compareFunction();}
-function humanFunction() {humanChoice = "human"; compareFunction();}
-function wolfFunction() {humanChoice = "wolf"; compareFunction();}
-function spongeFunction() {humanChoice = "sponge"; compareFunction();}
-function paperFunction() {humanChoice = "paper"; compareFunction();}
-function airFunction() {humanChoice = "air"; compareFunction();}
-function waterFunction() {humanChoice = "water"; compareFunction();}
-function devilFunction() {humanChoice = "devil"; compareFunction();}
-function gunFunction() {humanChoice = "gun"; compareFunction();}
+function rpsFunction(object) {
+  humanChoice = object;
+  humanPic = eval(humanChoice).picture;
+  compareFunction();
+  $("#score").html(comp + " - " + humanScore);
+  $("#rpslsForm").empty();
+  $("#rpslsForm").append(result);
+  $('#humanImage').html(`<img src=${humanPic} id="humanImage" />`);
+  $('#compImage').html(`<img src=${compPic} id="compImage" />`);
+}
