@@ -59,14 +59,27 @@ body {
     color: #ffee02;
 }
 
-#humanImage {
-    position: absolute;
-    left: 100px;
+#thumbs {
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
 }
 
-#compImage {
-    position: absolute;
-    right: 100px;
+#thumbs div {
+    vertical-align: top;
+    display: inline-block;
+    zoom: 1;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }
 
 footer {

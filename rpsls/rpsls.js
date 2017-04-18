@@ -1,6 +1,8 @@
 /*global $*/
 
-$(function() { $(".rpslsGame").hide(); });
+$(function() {
+  $(".rpslsGame").hide();
+});
 
 function initialScreen() {
   $("#initScreen").fadeOut();
@@ -52,7 +54,7 @@ let humanPic;
 function resetFunction() {
   comp = 0;
   humanScore = 0;
-  $("#score").html(comp + " - " + humanScore);
+  $("#score").html(`${humanScore} - ${comp}`);
   $('#compImage').html("");
   $('#humanImage').html("");
   $("#rpslsForm").empty();
@@ -64,7 +66,7 @@ function compareFunction() {
   randNum = Math.floor(Math.random() * 11);
   compChoice = rpsArray[randNum];
   compPic = compChoice.picture;
-  
+
   if (humanScore === 5) {
     result = "<p>You win best of 5!</p>";
     $(".rpslsBtn").hide();
@@ -86,7 +88,7 @@ function compareFunction() {
     else if (compChoice[humanChoice] == "wins") {
       humanScore += 1;
       result = `<p>You win against ${compChoice.name}!</p>`;
-      
+
     }
     else {
       console.log("how");
@@ -98,7 +100,7 @@ function rpsFunction(object) {
   humanChoice = object;
   humanPic = eval(humanChoice).picture;
   compareFunction();
-  $("#score").html(comp + " - " + humanScore);
+  $("#score").html(`${humanScore} - ${comp}`);
   $("#rpslsForm").empty();
   $("#rpslsForm").append(result);
   $('#humanImage').html(`<img src=${humanPic} id="humanImage" />`);
