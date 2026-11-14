@@ -63,7 +63,7 @@ In the report of Ibn ʿUmar in al-Bukhārī the prayer named is ʿAṣr; in the 
 
 He notes that the single chain of Ibn ʿUmar's report counts against these.[^s5.19] Ibn al-Tīn's claim that those who prayed did so on their mounts, so as not to slow down, is rejected by Ibn Ḥajar as having no support in any version of the story.[^s5.19][^s5.20]
 
-al-Ṣāliḥī draws from the episode that one who does his utmost to reach a judgement is not blamed for it. One group took the order literally even if the time passed; the other read it as a figure of speech urging them to hurry. In *Zād al-Maʿād*, both groups were rewarded for their intention, but those who prayed in time gained both merits, of hurrying and of guarding the prayer's time.[^s5.20]
+The episode shows that one who does his utmost to reach a judgement is not blamed for it. One group took the order literally even if the time passed; the other read it as a figure of speech urging them to hurry. In *Zād al-Maʿād*, both groups were rewarded for their intention, but those who prayed in time gained both merits, of hurrying and of guarding the prayer's time.[^s5.20]
 
 ## The march
 
@@ -87,7 +87,7 @@ The second was to kill their own women and children and go out against the Musli
 
 ### Those who left before the surrender
 
-Thaʿlabah and Usayd, sons of Saʿyah, and their cousin Asad b. ʿUbayd were a family who were not of Qurayẓah or al-Naḍīr; the book names their tribe as Hudhayl. They told Qurayẓah that they knew he was the Messenger of Allāh, described to them by their own scholars. When their people refused, the three came down that night, the night before the surrender, and became Muslim, and their lives, families and property were secured.[^s5.7]
+Thaʿlabah and Usayd, sons of Saʿyah, and their cousin Asad b. ʿUbayd were a family who were not of Qurayẓah or al-Naḍīr; they were of Hudhayl. They told Qurayẓah that they knew he was the Messenger of Allāh, described to them by their own scholars. When their people refused, the three came down that night, the night before the surrender, and became Muslim, and their lives, families and property were secured.[^s5.7]
 
 ʿAmr b. Suʿdā had refused to take part in breaking the treaty. He now offered his people one last course: if they would not join the Prophet ﷺ, they should keep their religion and pay the *jizyah*. They answered that they would sooner be killed than pay tribute to the Arabs, and he declared himself quit of them. He walked out that night past the Muslim guard. [[Muḥammad b. Maslamah]] ﵁, who commanded it, let him go, praying not to be denied the chance to pardon the slips of noble men. ʿAmr spent the night in the Prophet's mosque and was never seen again, and the Prophet ﷺ said: *"That is a man Allāh saved by his loyalty."*[^s5.7][^s5.8]
 
@@ -100,11 +100,11 @@ As the siege tightened, Qurayẓah asked on the eve of the Sabbath for Abū Lub�
 He stayed tied, in great heat, without food or drink, until he could barely hear. He remembered a dream he had seen during the siege, of being stuck in stinking mud and then washing clean in a running river, which Abū Bakr had interpreted as a trouble that would be lifted.[^s5.8] How long he stayed is reported differently:[^s5.8][^s5.9]
 
 - **Six nights:** Ibn Hishām, adding that his wife untied him at each prayer;
-- **Close to twenty nights:** Ibn ʿUqbah, introduced with "they claim", which *al-Bidāyah* calls the most likely;
+- **Close to twenty nights:** Ibn ʿUqbah, introduced with "they claim", which Ibn Kathīr judges the most likely;
 - **Twenty-five nights:** Ibn Isḥāq;
 - **Ten-odd nights:** Mālik, in a heavy chain, untied by his daughter at prayer times.
 
-His repentance was revealed at dawn while the Prophet ﷺ was in Umm Salamah's house: *"And others have confessed their sins; they mixed a righteous deed with another that was bad. Perhaps Allāh will turn to them"* (al-Tawbah 9:102). Umm Salamah ﵂ heard him laughing, and with his permission called the good news to Abū Lubābah from her door. This was before the verse of the veil.[^s5.9] When people came to untie him, he refused to be released by anyone but the Prophet ﷺ, who untied him on his way out to the dawn prayer. A report that [[Fāṭimah al-Zahrāʾ|Fāṭimah]] ﵂ came to untie him is judged weak by al-Ṣāliḥī, one narrator being weak and the chain incomplete.[^s5.9] Abū Lubābah offered to leave his people's quarter, where he had sinned, and to give away all his wealth; the Prophet ﷺ told him a third would be enough.[^s5.9]
+His repentance was revealed at dawn while the Prophet ﷺ was in Umm Salamah's house: *"And others have confessed their sins; they mixed a righteous deed with another that was bad. Perhaps Allāh will turn to them"* (al-Tawbah 9:102). Umm Salamah ﵂ heard him laughing, and with his permission called the good news to Abū Lubābah from her door. This was before the verse of the veil.[^s5.9] When people came to untie him, he refused to be released by anyone but the Prophet ﷺ, who untied him on his way out to the dawn prayer. A report that [[Fāṭimah al-Zahrāʾ|Fāṭimah]] ﵂ came to untie him is weak, one narrator being weak and the chain incomplete.[^s5.9] Abū Lubābah offered to leave his people's quarter, where he had sinned, and to give away all his wealth; the Prophet ﷺ told him a third would be enough.[^s5.9]
 
 ## The surrender and Saʿd's judgement
 
@@ -123,9 +123,9 @@ In the report of ʿĀʾishah in al-Bukhārī, Saʿd said:
 > «فإني أحكم فيهم: أن تقتل المقاتلة، وأن تسبى النساء والذرية، وأن تقسم أموالهم»
 > *"I judge that their fighting men be killed, their women and children taken captive, and their property divided."*[^bukh4122]
 
-In the report given by al-Ṣāliḥī, he judged that every male old enough to shave should be killed, and added that their houses should go to the Muhājirūn and not the Anṣār. When the Anṣār protested that they had been the Muhājirūn's partners, he said he wanted the Muhājirūn to be independent of them.[^s5.11]
+In another report, he judged that every male old enough to shave should be killed, and added that their houses should go to the Muhājirūn and not the Anṣār. When the Anṣār protested that they had been the Muhājirūn's partners, he said he wanted the Muhājirūn to be independent of them.[^s5.11]
 
-The Prophet ﷺ said: *"You have judged by the judgement of Allāh"* — or, in another wording, *"by the judgement of the King."*[^musl1768][^musl1769] In the report given by al-Ṣāliḥī he said: *"You have judged concerning them by the judgement of Allāh, which He gave from above seven heavens."*[^s5.11] al-Suhaylī explains the phrase as meaning that the judgement came down from above.[^s5.20] Ibn Isḥāq, in a transmission other than al-Bakkāʾī's, adds the Prophet's words: *"With that the angel came to me at dawn."*[^s5.11]
+The Prophet ﷺ said: *"You have judged by the judgement of Allāh"* — or, in another wording, *"by the judgement of the King."*[^musl1768][^musl1769] In another report he said: *"You have judged concerning them by the judgement of Allāh, which He gave from above seven heavens."*[^s5.11] al-Suhaylī explains the phrase as meaning that the judgement came down from above.[^s5.20] Ibn Isḥāq, in a transmission other than al-Bakkāʾī's, adds the Prophet's words: *"With that the angel came to me at dawn."*[^s5.11]
 
 The night before the surrender Saʿd had prayed that if war with Quraysh remained, Allāh should keep him alive for it; that if it was over, his wound should be his martyrdom; and that he should not die until he had seen justice done to Banū Qurayẓah.[^s5.11] In ʿĀʾishah's report the wound later burst open in the tent; the people of a neighbouring tent of Banū Ghifār saw blood flowing towards them, and Saʿd died of it.[^bukh4122]
 
@@ -149,7 +149,7 @@ al-Zubayr b. Bāṭā had spared [[Thābit b. Qays|Thābit b. Qays b. Shammās]]
 
 ## Rayḥānah
 
-Rayḥānah bint Zayd b. ʿAmr b. Khunāfah, a woman of Banū al-Naḍīr married among Qurayẓah, was chosen by the Prophet ﷺ for himself. At first she refused Islam and would keep only Judaism, which grieved him. He sent Ibn Saʿyah to her, who urged her not to follow her people after what Ḥuyayy had brought on them. Later, hearing footsteps, the Prophet ﷺ said: *"Those are the sandals of Ibn Saʿyah, bringing me news that Rayḥānah has become Muslim,"* and so it was.[^s5.15] al-Ṣāliḥī defers her further history to her own biography.[^s5.15]
+Rayḥānah bint Zayd b. ʿAmr b. Khunāfah, a woman of Banū al-Naḍīr married among Qurayẓah, was chosen by the Prophet ﷺ for himself. At first she refused Islam and would keep only Judaism, which grieved him. He sent Ibn Saʿyah to her, who urged her not to follow her people after what Ḥuyayy had brought on them. Later, hearing footsteps, the Prophet ﷺ said: *"Those are the sandals of Ibn Saʿyah, bringing me news that Rayḥānah has become Muslim,"* and so it was.[^s5.15] Her further history is deferred to her own biography.[^s5.15]
 
 ## Spoils and captives
 
@@ -163,7 +163,7 @@ Those killed on the Muslim side were Khallād b. Suwayd and Mundhir b. Muḥamma
 
 ## Poetry
 
-The Prophet ﷺ told [[Ḥassān b. Thābit]] ﵁ on the day of Qurayẓah to satirise them, *"and Jibrīl is with you."*[^s5.16][^s5.17] Ḥassān's poems on the campaign, given by al-Ṣāliḥī, include an elegy for Saʿd b. Muʿādh praising his judgement on Qurayẓah as agreeing with the judgement of Allāh.[^s5.17][^s5.18]
+The Prophet ﷺ told [[Ḥassān b. Thābit]] ﵁ on the day of Qurayẓah to satirise them, *"and Jibrīl is with you."*[^s5.16][^s5.17] Ḥassān's poems on the campaign include an elegy for Saʿd b. Muʿādh praising his judgement on Qurayẓah as agreeing with the judgement of Allāh.[^s5.17][^s5.18]
 
 ## Notes from the *tanbīhāt*
 
