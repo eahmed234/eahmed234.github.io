@@ -45,13 +45,13 @@ He is described as fair-skinned and thin, with a sparse beard on his cheeks, a l
 
 ## Before Islam
 
-Abū Bakr was born two years and six months after the Year of the Elephant.[^i4.145] ʿĀʾishah ﵂ recalled the Prophet ﷺ and her father comparing their births in her presence, and the Prophet ﷺ was the elder.[^i4.145] *Subul al-Hudā* puts his birth "two years and some months" after the Prophet's, and says he was born at [[Minā]].[^s11.251]
+Abū Bakr was born two years and six months after the Year of the Elephant.[^i4.145] ʿĀʾishah ﵂ recalled the Prophet ﷺ and her father comparing their births in her presence, and the Prophet ﷺ was the elder.[^i4.145] Another account puts his birth "two years and some months" after the Prophet's ﷺ, and at [[Minā]].[^s11.251]
 
 He grew up in Makkah and left it only to trade. He was a wealthy merchant, one of the leading men of Quraysh before Islam and among those they consulted, and he was well liked.[^s11.251] Ibn Isḥāq describes him as an easy, friendly man whom his people sought out for his knowledge, his experience and his good company; he knew the genealogies of Quraysh, and the good and bad in their past, better than anyone.[^i4.147][^s2.305] Blood-money cases were entrusted to him: when he took on such a debt and asked Quraysh to help with it, they honoured his pledge, which they would not do for another.[^i4.149] ʿĀʾishah ﵂ said that he never composed poetry, before Islam or after it, and that he and [[ʿUthmān b. ʿAffān|ʿUthmān]] had given up wine even before Islam.[^s11.251]
 
 ## Acceptance of Islam
 
-The sources agree that Abū Bakr was among the very first Muslims and differ over the order. Ibn Isḥāq places him after [[Khadījah bint Khuwaylid|Khadījah]], [[ʿAlī b. Abī Ṭālib|ʿAlī]] and [[Zayd b. Ḥārithah]]. Ibrāhīm al-Nakhaʿī said that Abū Bakr was the first, and Ibn Kathīr calls that the well-known view of the majority of Ahl al-Sunnah. Al-Ṣāliḥī reports a way of reconciling the reports: the first person to accept Islam was Khadījah; the first male was ʿAlī, then a boy who kept his faith hidden; the first adult Arab man to accept Islam and declare it openly was Abū Bakr; and the first freedman was Zayd.[^s2.302][^s2.303]
+The sources agree that Abū Bakr was among the very first Muslims and differ over the order. Ibn Isḥāq places him after [[Khadījah bint Khuwaylid|Khadījah]], [[ʿAlī b. Abī Ṭālib|ʿAlī]] and [[Zayd b. Ḥārithah]]. Ibrāhīm al-Nakhaʿī said that Abū Bakr was the first, and this is held to be the well-known view of the majority of Ahl al-Sunnah. One way of reconciling the reports is that the first person to accept Islam was Khadījah; the first male was ʿAlī, then a boy who kept his faith hidden; the first adult Arab man to accept Islam and declare it openly was Abū Bakr; and the first freedman was Zayd.[^s2.302][^s2.303]
 
 Ibn Isḥāq relates that Abū Bakr met the Prophet ﷺ and asked whether what Quraysh were saying of him was true. The Prophet ﷺ told him that he was the Messenger of Allāh, called him to worship Allāh alone and recited the Qurʾān to him, and Abū Bakr accepted on the spot. It reached Ibn Isḥāq that the Prophet ﷺ later said that everyone he had called to Islam had shown some hesitation except Abū Bakr, who did not hold back or waver.[^s2.302]
 
@@ -76,7 +76,7 @@ Quraysh tracked them to the mountain and stood above the cave. Abū Bakr related
 > «قلت للنبي ﷺ ونحن في الغار: لو أن أحدهم نظر إلى قدمه لأبصرنا تحت قدميه. فقال: ما ظنك باثنين الله ثالثهما»
 > *"I said to the Prophet ﷺ while we were in the cave, 'If one of them looked down at his foot he would see us beneath his feet.' He said, 'What do you think of two whose third is Allāh?'"*[^s3.241][^ghar]
 
-The Qurʾān refers to the moment: "the second of two, when they were in the cave, when he said to his companion: Do not grieve; Allāh is with us" (al-Tawbah 9:40). Ibn Ḥajar counts this verse among the greatest of Abū Bakr's distinctions and says there is no dispute that "his companion" is Abū Bakr.[^i4.148]
+The Qurʾān refers to the moment: "the second of two, when they were in the cave, when he said to his companion: Do not grieve; Allāh is with us" (al-Tawbah 9:40). This verse is counted among the greatest of Abū Bakr's distinctions, and there is no dispute that "his companion" is Abū Bakr.[^i4.148]
 
 ## With the Prophet ﷺ in Medina
 
@@ -117,7 +117,7 @@ He then recited, "Muḥammad is only a messenger; messengers have passed away be
 
 When the Anṣār proposed a leader from each side, ʿUmar reminded them that the Prophet ﷺ had ordered Abū Bakr to lead the people in prayer, and asked which of them would be content to step ahead of him. ʿUmar took his hand and the people gave him their pledge.[^s11.254][^s11.258] Someone once addressed him as "Khalīfat Allāh"; he answered that he was the successor of the Messenger of Allāh ﷺ and was content with that.[^s11.253]
 
-Among his merits as caliph al-Ṣāliḥī counts sending out the [[Sariyyat Usāmah b. Zayd|army of Usāmah]] against the advice of all, because the Prophet ﷺ had ordered it; fighting the [[Ḥurūb al-Riddah|people of the Riddah]] and going out against them in person; and appointing ʿUmar to succeed him.[^s11.262] His caliphate, in Ibn Isḥāq's reckoning, lasted two years, three months and twenty-two days.[^i4.150] It is treated in [[Khilāfat Abī Bakr al-Ṣiddīq]] and [[Saqīfat Banī Sāʿidah]].
+Among his merits as caliph are counted sending out the [[Sariyyat Usāmah b. Zayd|army of Usāmah]] against the advice of all, because the Prophet ﷺ had ordered it; fighting the [[Ḥurūb al-Riddah|people of the Riddah]] and going out against them in person; and appointing ʿUmar to succeed him.[^s11.262] His caliphate, in Ibn Isḥāq's reckoning, lasted two years, three months and twenty-two days.[^i4.150] It is treated in [[Khilāfat Abī Bakr al-Ṣiddīq]] and [[Saqīfat Banī Sāʿidah]].
 
 ## Family
 
@@ -135,7 +135,7 @@ According to ʿĀʾishah ﵂, his illness began when he bathed on a cold day, Mo
 
 As he lay dying he asked ʿĀʾishah ﵂ on what day the Prophet ﷺ had died. She said Monday, and he said that he hoped for the same before night fell. He died on the night of Tuesday and was buried before morning.[^s11.261] ʿUmar prayed over him.[^s11.260]
 
-The best-known and most widely held view is that he was sixty-three when he died, though his age is disputed.[^s11.260] The month is disputed as well. *Al-Iṣābah* dates his death to a Monday in Jumādā al-Ūlā of 13 AH; Ibn Ḥajar then observes that the report of "eight nights remaining of Jumādā al-Ākhirah" is the one that fits the length of his caliphate.[^i4.150]
+The best-known and most widely held view is that he was sixty-three when he died, though his age is disputed.[^s11.260] The month is disputed as well. His death is also dated to a Monday in Jumādā al-Ūlā of 13 AH; of the two, the report of "eight nights remaining of Jumādā al-Ākhirah" is the one that fits the length of his caliphate.[^i4.150]
 
 Before he died he told ʿĀʾishah ﵂ that since taking charge of the Muslims' affairs he had taken none of their gold or silver, and that all he held of their property was a slave, a camel and a piece of cloth, which she was to send to ʿUmar. When they reached him ʿUmar wept and said, "May Allāh have mercy on Abū Bakr. He has worn out those who come after him."[^s11.262]
 
@@ -152,7 +152,7 @@ Before he died he told ʿĀʾishah ﵂ that since taking charge of the Muslims' 
 [^i4.147]: *al-Iṣābah*, no. 4835 (4:147).
 [^i4.148]: *al-Iṣābah*, no. 4835 (4:148).
 [^i4.149]: *al-Iṣābah*, no. 4835 (4:149).
-[^i4.150]: *al-Iṣābah*, no. 4835 (4:150).
+[^i4.150]: *al-Iṣābah*, no. 4835 (4:150); the preference for the "eight nights remaining" report is Ibn Ḥajar's.
 [^atiq]: Abū Yaʿlā from ʿĀʾishah, as cited in *al-Iṣābah*, 4:146; the editors note that al-Dhahabī did not accept al-Ḥākim's grading of it as sound (*al-Iṣābah*, 4:146 n. 2 (taḥqīq)). A report that the Prophet ﷺ said to him "You are Allāh's *ʿatīq* from the Fire" is given from al-Ḥākim and Ibn ʿAsākir in *Subul al-Hudā*, 11:256.
 [^s2.302]: *Subul al-Hudā*, 2:302.
 [^s2.303]: *Subul al-Hudā*, 2:303–304. The reconciliation is al-Muḥibb al-Ṭabarī's, following Ibn al-Ṣalāḥ.
