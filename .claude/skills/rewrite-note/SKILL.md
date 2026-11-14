@@ -36,7 +36,8 @@ ledger leaves unclear — and then correct the ledger first.
 
 - Each sentence states what one or more entries state, at the strength of their kind:
   `qīla` → "it is said / reported"; `khilāf` → both sides; `verdict` → as that person's verdict;
-  `hedge` → the hedge kept; `via` → the footnote carries the attribution unless the reader needs it.
+  `hedge` → the hedge kept; `plain` and `via` → stated as fact, the attribution in the footnote
+  (see **Voice** below).
 - A `- note:` in a ledger is the reader's remark, not the book's. It never becomes a claim: no "this most
   naturally means…", and no section listing what the source does not say. A silence is stated only where a
   reader would expect the fact (the year, a death date), in one clause.
@@ -81,6 +82,38 @@ ledger leaves unclear — and then correct the ledger first.
 
 Write the file once with the Write tool, then correct with targeted edits.
 
+## Voice — state it; let the footnote attribute it
+
+This is an encyclopedia in Wikipedia's manner. **The prose states what happened. The footnote says where it
+is found.** The reader who wants the source follows the number.
+
+- Never make the book or its author the subject of a sentence in the narrative: no "al-Ṣāliḥī says",
+  "Ibn Ḥajar gives", "according to *al-Iṣābah*", "*Subul al-Hudā* relates", "the source / the text / the
+  entry / the chapter / the sources read for this note".
+- A `plain` or `via` entry is written as fact. If the transmitter matters to a scholar (a `via` entry:
+  «قال ابن إسحاق», «أخرج الطبراني»), put it in the **footnote definition**, after the page:
+  `[^i5.435]: *al-Iṣābah*, no. 7409 (5:435), from Mūsā b. ʿUqbah, Ibn Isḥāq and others; also in al-Bukhārī.`
+- Name an authority in the text only where the reader needs it, and then name the authority the book
+  cites, not the book:
+  - a real disagreement — the sides, once: "Ibn Isḥāq places it in Jumādā al-Ākhirah; al-Wāqidī in Shawwāl";
+  - a weak report — "It is said that…", "According to one report…" (no name needed), or, where the entry
+    grades it, "in a report with a weak chain";
+  - a verdict — whose it is: "Ibn Ḥajar considers this a mistake".
+  These belong mostly in the disputes section, where naming is expected.
+- A silence is one plain clause, only where a reader would expect the fact: "The year is not recorded."
+
+| Instead of | Write |
+| --- | --- |
+| Ibn Ḥajar gives his lineage as Kurz b. Jābir b. Ḥisl … | He was Kurz b. Jābir b. Ḥisl … of Quraysh.[^i5.434] |
+| Al-Ṣāliḥī relates that Yasār overtook them and fought them. | Yasār overtook them and fought them.[^s6.115] |
+| According to Ibn Ḥajar, Mūsā b. ʿUqbah, Ibn Isḥāq and others name Kurz among those martyred on the day of the Conquest. | He was martyred on the day of the Conquest, among the horsemen of Khālid b. al-Walīd.[^i5.435] |
+| Ibn Ḥajar adds that the same occurs in al-Bukhārī … | (fold into the sentence above; "also in al-Bukhārī" goes in the footnote) |
+| Al-Ṣāliḥī gives the same account: … | (say it once, with both footnotes) |
+| The sources read for this note do not give the date of his death beyond the day of the Conquest. | (drop it — the day of the Conquest is the date) |
+| In one report … in another report … in Muslim's report … (for details that do not conflict) | one connected account, footnoted to each |
+
+`python3 audit.py --note "<name>"` flags these as `voice`; the count must be 0 outside the disputes section.
+
 ## 3. Self-check
 
 Go through the draft sentence by sentence and point to the entry behind each. Remove or fix any sentence
@@ -94,7 +127,8 @@ with none. Common slips:
 - a flourish: "elite", "fearless", "at full gallop", "catastrophic";
 - a year, kunyah, nasab or place identification supplied from general knowledge;
 - a frontmatter value that merges two descriptions the entries keep apart;
-- a framing sentence with no footnote.
+- a framing sentence with no footnote;
+- narrator voice: the book or its author as the subject of a narrative sentence (see **Voice**).
 
 ## 4. Audit
 

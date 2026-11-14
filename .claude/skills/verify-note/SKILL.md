@@ -55,6 +55,10 @@ Also:
 - **attribution scope** — for each `via` entry, re-read the Arabic: do the authority's words really run to
   the end of the snippet, or does the author's own narrative resume? If it can be read both ways, it goes
   under **For you**;
+- **voice** — `audit.py --note` must show `voice 0`: restate any sentence that narrates its source
+  ("Ibn Ḥajar gives…", "according to *Subul*…", "the source does not say…") as the fact itself, moving a
+  transmitter's name into the footnote definition, per **Voice** in the rewrite-note skill. Keep `qīla`,
+  `khilāf`, `hedge` and `verdict` marked as such;
 - **readability** — glosses standing as one-sentence paragraphs, the same dispute told twice, a footnote
   after every sentence of a paragraph that rests on one page: tidy these (see "Write for a reader" in the
   rewrite-note skill). This changes wording only, never content.

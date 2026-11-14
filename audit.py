@@ -1065,6 +1065,7 @@ class Auditor:
             trailing = plain(line[prev:])
             if len(re.findall(r"[A-Za-z]", trailing)) > 90 and not in_fm:
                 out.append(Finding(bname, i, "uncited", "text after the last citation on this line", trailing))
+        out.extend(voice_findings(bname, note["raw"]))
         return out
 
 
@@ -1073,6 +1074,48 @@ class Auditor:
 # ════════════════════════════════════════════════════════════════════════════
 
 FOOTDEF_RE = re.compile(r"^\[\^([^\]]+)\]:\s?(.*)$")
+
+# Narrator voice: prose that tells the reader which book says a thing ("Ibn Ḥajar gives…", "according to
+# *Subul al-Hudā*…", "the source does not say…") instead of stating it and leaving the attribution to the
+# footnote. Allowed under a heading about disputes or variants, where naming the sides is the point.
+_VOICE_WHO = r"(?:al-Ṣāliḥī|Al-Ṣāliḥī|(?:al-Ḥāfiẓ )?Ibn Ḥajar|Ibn Kathīr|\*?Subul al-Hudā\*?|\*?al-Iṣābah\*?|\*?al-Bidāyah\*?)"
+_VOICE_RES = [
+    re.compile(_VOICE_WHO + r"(?:\s+\w+){0,3}?\s+(?:says?|said|gives?|relates?|reports?|records?|adds?|notes?|"
+               r"mentions?|treats?|quotes?|cites?|calls?|names?|states?|explains?|describes?|lists?|counts?|"
+               r"identifies|places?|likewise|also|then|himself)\b"),
+    re.compile(r"\b(?:[Aa]ccording to|[Ii]n the words of|[Ff]ollowing|as (?:given|reported|related) by)\s+" + _VOICE_WHO),
+    re.compile(r"\b[Tt]he (?:source|sources|text|page|chapter|entry|book)s?\b(?:\s+\w+){0,4}?\s+(?:do(?:es)? not|gives?|says?|"
+               r"names?|dates?|adds?|records?|mentions?|has|have|is silent)\b"),
+]
+_VOICE_OK_HEADING = re.compile(r"disput|variant|differ|khilāf|reference|notes?$|sources?$|bibliograph", re.I)
+
+
+def voice_findings(bname, raw):
+    """Finding('voice') for each body line that narrates its source. Only for notes already in the
+    footnoted form; older notes are rewritten anyway."""
+    if "[^" not in raw:
+        return []
+    out, in_fm, allowed = [], False, False
+    for i, line in enumerate(raw.split("\n"), 1):
+        if i == 1 and line.strip() == "---":
+            in_fm = True
+            continue
+        if in_fm:
+            in_fm = line.strip() != "---"
+            continue
+        m = re.match(r"^#{1,6}\s+(.*)", line)
+        if m:
+            allowed = bool(_VOICE_OK_HEADING.search(m.group(1)))
+            continue
+        if allowed or FOOTDEF_RE.match(line) or line.lstrip().startswith(">") or not line.strip():
+            continue
+        hits = []
+        for rx in _VOICE_RES:
+            hits += [h.group(0) for h in rx.finditer(line)]
+        if hits:
+            out.append(Finding(bname, i, "voice", "narrates the source instead of stating the fact: "
+                               + "; ".join(f"“{h}”" for h in hits[:4]), plain(line)[:220]))
+    return out
 FOOTREF_RE = re.compile(r"\[\^([^\]]+)\](?!:)")
 
 
@@ -1375,6 +1418,11 @@ def run(args):
         return 0
     if args.questions:
         return print_questions(load_notes()[0])
+    if args.voice:
+        for b, n in sorted(load_notes()[0].items()):
+            if voice_findings(b, n["raw"]):
+                print(b)
+        return 0
     if args.ledger:
         n, bad = check_ledgers(make_corpora(load_or_build_indices(force=args.reindex)))
         for line in bad:
@@ -1459,7 +1507,7 @@ def run(args):
     print(f"  Alias collisions       {'PASS' if not alias_bad else f'FAIL ({len(alias_collisions)} unsettled, {len(search_cfg_errors)} errors in site_search.json)'}")
     if findings:
         print("CONTENT TRIAGE  (prompts for a human reader, not verdicts)")
-        for k in ("number", "term", "phrase", "quote", "apparatus", "uncited", "other-work", "scope"):
+        for k in ("number", "term", "phrase", "quote", "apparatus", "uncited", "other-work", "scope", "voice"):
             print(f"  {k:<11} {kinds.get(k, 0)}")
         hinted = sum(1 for fs in findings.values() for f in fs if f.hint.startswith("found at"))
         print(f"  …of which the missing item occurs within {NEAR} pages of the citation: {hinted}")
@@ -1556,6 +1604,7 @@ if __name__ == "__main__":
                     "or K|M ḥadīth numbers (prints the report itself)")
     ap.add_argument("--out", metavar="PATH", help="with --page, write the pages to PATH instead of printing them")
     ap.add_argument("--exists", nargs="+", metavar="NAME", help="say which names (titles or aliases) have a note, for linking")
+    ap.add_argument("--voice", action="store_true", help="list rewritten notes whose prose narrates its sources (for the restyle-note skill)")
     ap.add_argument("--questions", action="store_true", help="list the notes with open questions in ledger/QUESTIONS.md")
     ap.add_argument("--ledger", action="store_true", help="check that every Arabic snippet in ledger/*.md is verbatim on its page")
     ap.add_argument("--tashkil", action="store_true", help="with --page, keep the vocalisation marks (dropped by default)")

@@ -53,7 +53,8 @@ pushes from Obsidian go there without deploying. The user publishes when ready, 
 - Through the device bridge, git cannot delete its own lock files until deletion is permitted. Request
   it once, before the first git command that writes.
 - The procedures are the skills in `.claude/skills/`: `ledger` (read a chapter once into `ledger/`),
-  `rewrite-note` (write a note from ledgers) and `verify-note` (second reader; fixes what it finds).
+  `rewrite-note` (write a note from ledgers), `verify-note` (second reader; fixes what it finds) and
+  `restyle-note` (wording-only pass on a rewritten note).
   `rewrite-queue.sh` runs the last two over a list of notes.
 
 ## Site build and search — see `docs/site.md`
@@ -302,6 +303,8 @@ Wikipedia article; `Abū Dujānah.md` is the model.
   campaigns, Death…), in chronological order.
 - **Paragraphs, not bullet lists.** Tell the story in connected sentences. Lists and tables only for
   material that really is a list — rosters, participants, *asbāb al-nuzūl*.
+- **State it as fact; the footnote attributes it** — Wikipedia's manner. Never "al-Ṣāliḥī says", "Ibn Ḥajar
+  gives", "according to *al-Iṣābah*", "the source does not say" in the narrative.
 - **Name people as participants, not as sources.** "al-Zubayr followed him to see what he would do", not
   "al-Ṣāliḥī reports from Isḥāq b. Rāhawayh and al-Bazzār from al-Zubayr that…". The footnote carries the
   attribution. Name an authority in the text only when the reader needs it: a weak report ("according to
@@ -367,6 +370,7 @@ checked against the Arabic of the pages it cites (citations spanning more than 1
 | `uncited` | a substantive line with no citation to any of the five books |
 | `other-work` | another work cited directly, or listed in References |
 | `scope` | *al-Bidāyah* cited for the period before the Prophet's ﷺ death (before vol. 8, p. 79) |
+| `voice` | (footnoted notes) a narrative sentence names the book or its author as its subject — "Ibn Ḥajar gives…", "the source does not say…" — instead of stating the fact; allowed under a disputes heading |
 
 "found at V:P" means the missing item does appear within three pages of the citation.
 
