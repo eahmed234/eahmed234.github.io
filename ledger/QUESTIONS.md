@@ -108,3 +108,16 @@ that has any.
   now: as printed ("a brick and a half of another"), the gloss not used. →
 - [ ] **S3.337.04–06 — Abū Yaʿlā's chain.** «إلا أن التابعي لم يسمع عن عائشة»: the *tābiʿī* is unnamed.
   now: stated as the page states it. →
+
+## al-Muʾākhāh
+
+- [ ] **S3.368.14–15 — «زاد شعبة بن التوأم: «ولكن تمسكوا بحلف الجاهلية» . انتهى. «وأيما- وفي لفظ: كل- حلف … وما يسرني أن لي حمر النعم وأني نقضت الحلف الذي كان في دار الندوة»».** After «انتهى» a new quotation opens; the speaker of «وما يسرني…» (the Prophet ﷺ, or a transmitter) and whether it belongs to Shuʿbah's wording is not marked. Readings: (a) the Prophet's ﷺ words; (b) a narrator's.
+  now: given as "the passage goes on", speaker unnamed. →
+- [ ] **S3.363.09 — Ibn ʿUmar's report (ʿAlī left weeping).** Printed after the first fraternity's list and before the second, with no mark of which fraternity it belongs to.
+  now: placed under "before the Hijrah" as the page's order has it, with no date stated for it. →
+- [ ] **S3.365.15–16 — «المنذر بن عمر» (with «المعنق ليموت») / «المنذر بن عمرو».** Name printed two ways; «المعنق ليموت» unglossed.
+  now: the pair given only in the disputes section, as ʿAmr; «المعنق ليموت» left out. →
+- [ ] **S3.363 / S3.364.08 — «ضمرة بن سعيد» / «حمزة بن سعيد».** The same authority printed two ways.
+  now: Ḥamzah b. Saʿīd, as 3:364 prints it. →
+- [ ] **S3.369.10 — «وبذلك يجتمع الحديثان…»** is in the editors' square brackets inside the matn.
+  now: not used as a claim. →
