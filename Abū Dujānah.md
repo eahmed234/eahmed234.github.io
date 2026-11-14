@@ -71,7 +71,7 @@ He was among the Anṣār who stood firm at [[Ghazwat Ḥunayn|Ḥunayn]],[^s5.3
 
 ## Death
 
-Abū Dujānah was killed at al-Yamāmah, in the campaign against [[Musaylimah al-Kadhdhāb|Musaylimah]].[^yam] It is said that he was among those who took part in killing Musaylimah himself,[^i7.100] and he is one of the men proposed as the Anṣārī whose sword struck Musaylimah as [[Waḥshī b. Ḥarb|Waḥshī]]'s javelin hit him — though the better-known view is that this was ʿAbdullāh b. Zayd b. ʿĀṣim.[^s4.217] The sources do not record the year of his death, his age, or where he was buried.
+Abū Dujānah was killed at al-Yamāmah, in the campaign against [[Musaylimah al-Kadhdhāb|Musaylimah]].[^yam] It is said that he was among those who took part in killing Musaylimah himself,[^i7.100] and he is one of the men proposed as the Anṣārī whose sword struck Musaylimah as [[Waḥshī b. Ḥarb|Waḥshī]]'s javelin hit him — though the better-known view is that this was ʿAbdullāh b. Zayd b. ʿĀṣim.[^s4.217] The year of his death, his age and his burial place are not recorded.
 
 ## References
 
