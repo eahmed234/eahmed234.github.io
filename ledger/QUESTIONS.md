@@ -97,3 +97,14 @@ that has any.
   now: stated unattributed after Ibn Isḥāq's sentence. →
 - [ ] **S5.195.16 — «يعني خيبر».** Whose gloss: Ibn Hishām's, Abū ʿUbaydah's or al-Ṣāliḥī's?
   now: "glossed there as Khaybar". →
+
+## Bināʾ al-Masjid al-Nabawī
+
+- [ ] **S3.343.02 — «فقال [موسى بن عقبة: هما ابنا رافع بن عمرو بن أبي عمرو]».** Mūsā b. ʿUqbah's name and words stand in square brackets in the printed matn: al-Ṣāliḥī's own text, or an editorial insertion by the muḥaqqiqūn?
+  now: attributed to Mūsā b. ʿUqbah, cited as 3:343 matn. →
+- [ ] **S3.336.14 — «فمر بعثمان فقال: يا بن سمية، ما أعرفني بمن تعرض، ومعه جريدة، فقال: لتكفن أو لأعترضن بها وجهك».** Who passes, who speaks and who holds the palm-rib is not marked (ʿAmmār / ʿUthmān b. Maẓʿūn).
+  now: the words given without naming speakers; only "ʿAmmār … passed ʿUthmān" stated. →
+- [ ] **S3.338.04 — «ثم بالسعيد لبنة ونصف أخرى»** against the gloss at 3:346 «السعد ثلث اللبنة والسعيد ربعها».
+  now: as printed ("a brick and a half of another"), the gloss not used. →
+- [ ] **S3.337.04–06 — Abū Yaʿlā's chain.** «إلا أن التابعي لم يسمع عن عائشة»: the *tābiʿī* is unnamed.
+  now: stated as the page states it. →
