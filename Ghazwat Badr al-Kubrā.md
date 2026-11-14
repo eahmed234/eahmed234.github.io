@@ -43,7 +43,7 @@ primary_source: "*Subul al-Hudā*, 4:18–91 (the chapter on Badr and its *tanb�
 # Ghazwat Badr al-Kubrā (غزوة بدر الكبرى)
 *The Great Battle of Badr — Yawm al-Furqān, the Day of the Criterion*
 
-The **Battle of Badr** was fought at the wells of Badr on 17 Ramaḍān in the second year after the Hijrah, between the Muslims under the Prophet ﷺ and the army of [[Quraysh]].[^s4.79] The Prophet ﷺ had gone out to intercept a rich Meccan caravan returning from Syria under [[Abū Sufyān b. Ḥarb]]; the caravan escaped along the coast, but the army Quraysh had raised to protect it marched on to Badr, and the two sides met without either having planned it.[^s4.18][^s4.28][^s4.31] About three hundred and thirteen Muslims faced an army of nine hundred and fifty or a thousand.[^s4.25][^s4.22] Quraysh were routed, and the dead included [[Abū Jahl (ʿAmr b. Hishām)|Abū Jahl]], [[ʿUtbah b. Rabīʿah|ʿUtbah]] and Shaybah, the sons of Rabīʿah, and [[Umayyah b. Khalaf]].[^s4.57] Al-Ṣāliḥī calls it the most honoured of the Prophet's battles, the great event by which Allāh gave strength to Islam.[^s4.18]
+The **Battle of Badr** was fought at the wells of Badr on 17 Ramaḍān in the second year after the Hijrah, between the Muslims under the Prophet ﷺ and the army of [[Quraysh]].[^s4.79] The Prophet ﷺ had gone out to intercept a rich Meccan caravan returning from Syria under [[Abū Sufyān b. Ḥarb]]; the caravan escaped along the coast, but the army Quraysh had raised to protect it marched on to Badr, and the two sides met without either having planned it.[^s4.18][^s4.28][^s4.31] About three hundred and thirteen Muslims faced an army of nine hundred and fifty or a thousand.[^s4.25][^s4.22] Quraysh were routed, and the dead included [[Abū Jahl (ʿAmr b. Hishām)|Abū Jahl]], [[ʿUtbah b. Rabīʿah|ʿUtbah]] and Shaybah, the sons of Rabīʿah, and [[Umayyah b. Khalaf]].[^s4.57] It is described as the most honoured of the Prophet's battles, the great event by which Allāh gave strength to Islam.[^s4.18]
 
 ## Name
 
@@ -81,7 +81,7 @@ The Prophet ﷺ left Medina in Ramaḍān — on Saturday the 12th, according to
 
 The army had seventy camels, which the men rode in turns, three to a camel.[^s4.24] The Prophet ﷺ shared his with ʿAlī and Abū Lubābah, and when they offered to walk so that he could ride he answered, *"You are no stronger than I am at walking, and I have no less need of the reward than you."* After Abū Lubābah was sent back, his companions were ʿAlī and [[Zayd b. Ḥārithah|Zayd]], or ʿAlī and [[Marthad b. Abī Marthad al-Ghanawī|Marthad b. Abī Marthad]].[^s4.24] There were two horses, those of [[al-Miqdād b. ʿAmr|al-Miqdād]] and [[al-Zubayr b. al-ʿAwwām|al-Zubayr]]; one report adds a third, Marthad's.[^s4.24][^s4.25] Qays b. Abī Ṣaʿṣaʿah, commanding the men on foot at the rear, counted the army at Biʾr Abī ʿInabah and reported three hundred and thirteen. The Prophet ﷺ was pleased and said that this was the number of the companions of Ṭālūt.[^s4.25]
 
-The route ran by al-Rawḥāʾ and the pass of al-Ṣafrāʾ. The Prophet ﷺ sent Basbas b. ʿAmr al-Juhanī and ʿAdī b. Abī al-Zaghbāʾ ahead to Badr for news of Abū Sufyān.[^s4.25] He had fasted for a day or two and then announced that he was breaking his fast, and told the others to do the same.[^s4.25] He disliked the names of the two mountains at [[Wādī al-Ṣafrāʾ|al-Ṣafrāʾ]] and of the clans who lived there, and passed them by on the right, down the valley of Dhafirān.[^s4.25] Al-Ṣāliḥī notes, after al-Khathʿamī, that this was not taking an omen, which the Prophet ﷺ forbade, but a dislike of ugly names.[^s4.79]
+The route ran by al-Rawḥāʾ and the pass of al-Ṣafrāʾ. The Prophet ﷺ sent Basbas b. ʿAmr al-Juhanī and ʿAdī b. Abī al-Zaghbāʾ ahead to Badr for news of Abū Sufyān.[^s4.25] He had fasted for a day or two and then announced that he was breaking his fast, and told the others to do the same.[^s4.25] He disliked the names of the two mountains at [[Wādī al-Ṣafrāʾ|al-Ṣafrāʾ]] and of the clans who lived there, and passed them by on the right, down the valley of Dhafirān.[^s4.25] This was not taking an omen, which the Prophet ﷺ forbade, but a dislike of ugly names, as al-Khathʿamī explains.[^s4.79]
 
 ## The council at Dhafirān
 
@@ -139,7 +139,7 @@ The Prophet ﷺ went back into the shelter with Abū Bakr and pleaded with his L
 
 ʿUmar described how he faced the qiblah with his hands raised and called on his Lord until his cloak slipped from his shoulders; Abū Bakr put it back, held him from behind and said, "Prophet of Allāh, enough of your pleading with your Lord, for He will fulfil what He promised you." Allāh revealed: *"When you were calling on your Lord for help, and He answered you: I will reinforce you with a thousand of the angels, following one another"* (al-Anfāl 8:9).[^s4.37][^s4.38] ʿAlī recalled coming back from the fighting three times to find him prostrate, saying only, *"O Living, O Self-Sustaining."*[^s4.37] Ibn Masʿūd said he had never heard anyone plead more intensely.[^s4.37] Then the Prophet ﷺ dozed for a moment in the shelter and woke saying: *"Rejoice, Abū Bakr: the help of Allāh has come to you. Here is Jibrīl, holding the rein of his horse and leading it, with dust on his front teeth."*[^s4.35][^s4.37] He came out in his coat of mail reciting *"The host will be routed and will turn their backs"* (al-Qamar 54:45).[^s4.38]
 
-Al-Ṣāliḥī quotes al-Khaṭṭābī: no one should imagine that Abū Bakr was more confident in his Lord than the Prophet ﷺ at that moment. The Prophet ﷺ pleaded so intensely out of compassion for his companions, to strengthen their hearts in their first battle, knowing that they knew his prayer would be answered.[^s4.81]
+Al-Khaṭṭābī explains that no one should imagine that Abū Bakr was more confident in his Lord than the Prophet ﷺ at that moment. The Prophet ﷺ pleaded so intensely out of compassion for his companions, to strengthen their hearts in their first battle, knowing that they knew his prayer would be answered.[^s4.81]
 
 ## The angels
 
@@ -169,11 +169,11 @@ That day the Prophet ﷺ told his men that some of Banū Hāshim and others had 
 
 ʿAbd al-Raḥmān b. ʿAwf was standing in the line between two young men of the Anṣār when each of them, unknown to the other, asked him to point out Abū Jahl, who they had heard used to revile the Prophet ﷺ. When he showed them Abū Jahl moving among his men, they ran at him and cut him down, and each claimed to have killed him. The Prophet ﷺ looked at their swords and said, *"Both of you killed him,"* and gave his spoils to [[Muʿādh b. ʿAmr b. al-Jamūḥ]]; the other was [[Muʿawwidh b. ʿAfrāʾ]].[^s4.50] In Muʿādh's own account, he struck off Abū Jahl's foot at mid-shin, and Abū Jahl's son [[ʿIkrimah b. Abī Jahl|ʿIkrimah]] struck Muʿādh on the shoulder so that his arm hung by the skin. He fought on all day dragging it behind him, until it troubled him so much that he stood on it and pulled it off. He lived until the time of ʿUthmān.[^s4.50] Muʿawwidh struck Abū Jahl again, leaving him barely alive, and fought on until he was killed.[^s4.51]
 
-After the battle the Prophet ﷺ looked for Abū Jahl among the dead and, not finding him, said, *"O Allāh, do not let the Pharaoh of this nation escape me."* He told them to look for the scar on his knee from a day when, as boys, he had pushed Abū Jahl over at a feast of ʿAbdullāh b. Judʿān.[^s4.51] Ibn Masʿūd found him at his last breath, masked in iron, unable to move. "To whom did the day go?" Abū Jahl asked. "To Allāh and His Messenger." Ibn Masʿūd cut off his head and brought it to the Prophet ﷺ, who made him swear three times that it was Abū Jahl's, then said three times, *"Praise be to Allāh, who has given might to Islam and its people,"* and fell prostrate.[^s4.51] Ibn ʿUqbah reports that Ibn Masʿūd found no wound on him, but marks on his neck and hands like the traces of whips, and that the Prophet ﷺ said, *"Those are the blows of the angels."*[^s4.51] Reconciling the reports, Ibn Ḥajar says that the young men brought him to the point of death and Ibn Masʿūd finished him.[^s4.87]
+After the battle the Prophet ﷺ looked for Abū Jahl among the dead and, not finding him, said, *"O Allāh, do not let the Pharaoh of this nation escape me."* He told them to look for the scar on his knee from a day when, as boys, he had pushed Abū Jahl over at a feast of ʿAbdullāh b. Judʿān.[^s4.51] Ibn Masʿūd found him at his last breath, masked in iron, unable to move. "To whom did the day go?" Abū Jahl asked. "To Allāh and His Messenger." Ibn Masʿūd cut off his head and brought it to the Prophet ﷺ, who made him swear three times that it was Abū Jahl's, then said three times, *"Praise be to Allāh, who has given might to Islam and its people,"* and fell prostrate.[^s4.51] Ibn ʿUqbah reports that Ibn Masʿūd found no wound on him, but marks on his neck and hands like the traces of whips, and that the Prophet ﷺ said, *"Those are the blows of the angels."*[^s4.51] The reports are reconciled by taking it that the young men brought him to the point of death and Ibn Masʿūd finished him.[^s4.87]
 
 ### Other incidents
 
-When [[ʿUkkāshah b. Miḥṣan]]'s sword broke, the Prophet ﷺ gave him a piece of firewood and told him to fight with it; in his hand it became a long, strong sword with bright steel. He fought with it to the end of the battle, kept it — it was called al-ʿAwn — and carried it in every battle until he was killed in the Riddah.[^s4.52][^s4.53] Al-Zubayr killed ʿUbaydah b. Saʿīd b. al-ʿĀṣ, who was armoured so that only his eyes showed, with a thrust of his short spear through the eye.[^s4.52] When [[Qatādah b. al-Nuʿmān]]'s eye was struck, al-Bayhaqī reports, the Prophet ﷺ pressed it back into place; al-Ṣāliḥī himself holds that this happened at Uḥud.[^s4.53][^s4.18]
+When [[ʿUkkāshah b. Miḥṣan]]'s sword broke, the Prophet ﷺ gave him a piece of firewood and told him to fight with it; in his hand it became a long, strong sword with bright steel. He fought with it to the end of the battle, kept it — it was called al-ʿAwn — and carried it in every battle until he was killed in the Riddah.[^s4.52][^s4.53] Al-Zubayr killed ʿUbaydah b. Saʿīd b. al-ʿĀṣ, who was armoured so that only his eyes showed, with a thrust of his short spear through the eye.[^s4.52] When [[Qatādah b. al-Nuʿmān]]'s eye was struck, al-Bayhaqī reports, the Prophet ﷺ pressed it back into place; but it is held rather that this happened at Uḥud.[^s4.53][^s4.18]
 
 While the Muslims were taking prisoners, the Prophet ﷺ saw displeasure in the face of Saʿd b. Muʿādh, who was guarding the shelter. Saʿd said that this was the first encounter Allāh had given them with the polytheists, and that he would rather have seen them slaughtered than spared.[^s4.53]
 
@@ -181,7 +181,7 @@ While the Muslims were taking prisoners, the Prophet ﷺ saw displeasure in the 
 
 The dead of Quraysh, twenty-odd according to Abū Ṭalḥah, were thrown into one of the wells of Badr.[^s4.54][^s4.55] Umayyah had swollen in his armour, so they covered him with earth and stones where he lay.[^s4.55] As ʿUtbah was dragged to the well, the Prophet ﷺ saw grief in the face of his son Abū Ḥudhayfah. He had not doubted his father's fate, Abū Ḥudhayfah said, but he had known his judgement and forbearance and hoped they would lead him to Islam; the Prophet ﷺ prayed for him.[^s4.56][^s4.57]
 
-On the third day the Prophet ﷺ stood at the edge of the well and called the dead by name: *"Abū Jahl b. Hishām, Umayyah b. Khalaf, ʿUtbah b. Rabīʿah, Shaybah b. Rabīʿah — have you found what your Lord promised you to be true? For I have found what my Lord promised me to be true."* When ʿUmar asked how he could speak to bodies without souls, he answered, *"You do not hear what I say better than they do, but they cannot answer."*[^s4.55] ʿĀʾishah, hearing the report from Ibn ʿUmar, said that the Prophet ﷺ had said only that they now knew that what he had told them was true, citing *"You cannot make the dead hear"* (al-Naml 27:80). Al-Ṣāliḥī notes that the majority accepted Ibn ʿUmar's report, since others who witnessed the event — ʿUmar, Abū Ṭalḥah and Ibn Masʿūd — reported the same, and that a report from ʿĀʾishah herself agrees with them.[^s4.55][^s4.84][^s4.85]
+On the third day the Prophet ﷺ stood at the edge of the well and called the dead by name: *"Abū Jahl b. Hishām, Umayyah b. Khalaf, ʿUtbah b. Rabīʿah, Shaybah b. Rabīʿah — have you found what your Lord promised you to be true? For I have found what my Lord promised me to be true."* When ʿUmar asked how he could speak to bodies without souls, he answered, *"You do not hear what I say better than they do, but they cannot answer."*[^s4.55] ʿĀʾishah, hearing the report from Ibn ʿUmar, said that the Prophet ﷺ had said only that they now knew that what he had told them was true, citing *"You cannot make the dead hear"* (al-Naml 27:80). The majority accepted Ibn ʿUmar's report, since others who witnessed the event — ʿUmar, Abū Ṭalḥah and Ibn Masʿūd — reported the same, and that a report from ʿĀʾishah herself agrees with them.[^s4.55][^s4.84][^s4.85]
 
 ## News reaches Medina
 
@@ -225,7 +225,7 @@ Al-Bukhārī reports from al-Barāʾ that the Companions used to say the people 
 
 Fourteen Muslims are named among the martyrs: ʿUbaydah b. al-Ḥārith; ʿUmayr b. Abī Waqqāṣ, aged sixteen or seventeen; ʿUmayr b. al-Ḥumām; Saʿd b. Khaythamah; Dhū al-Shimālayn b. ʿAbd ʿAmr; Mubashshir b. ʿAbd al-Mundhir; ʿĀqil b. al-Bukayr; Mihjaʿ, the freedman of ʿUmar; Ṣafwān b. Bayḍāʾ; Yazīd b. al-Ḥārith; Rāfiʿ b. al-Muʿallā; Ḥārithah b. Surāqah, a boy who had come out to watch and was killed by an arrow; and ʿAwf and Muʿawwidh, the sons of ʿAfrāʾ. Eight of them were Anṣār, six of al-Khazraj and two of al-Aws.[^s4.75] A report from Ibn Masʿūd speaks of eighteen.[^s4.75]
 
-Of the polytheists, Ibn Isḥāq counted fifty dead; others give seventy killed and seventy captured, which al-Barāʾ reports, and which Ibn Ḥajar calls the truth.[^s4.75][^s4.76] Al-Zuhrī says more than seventy were killed and as many captured, which al-Bayhaqī calls the soundest report. Ibn Ḥajar explains that the lists of names reach only about fifty, but that knowing the names of some of the dead does not mean these were all of them.[^s4.76] Among the young men killed with Quraysh were al-Ḥārith b. Zamʿah, Abū Qays b. al-Fākih, Abū Qays b. al-Walīd, ʿAlī b. Umayyah and al-ʿĀṣ b. Munabbih, who had become Muslims in Makkah but had been held back and tempted by their families; Ibn Isḥāq says the verse *"Those whom the angels take while wronging themselves…"* (al-Nisāʾ 4:97) was revealed about them.[^s4.77] Several of the captives later became Muslims, among them al-ʿAbbās, ʿAqīl b. Abī Ṭālib, Nawfal b. al-Ḥārith, Abū al-ʿĀṣ b. al-Rabīʿ, Abū ʿAzīz and Suhayl b. ʿAmr.[^s4.78]
+Of the polytheists, Ibn Isḥāq counted fifty dead; others give seventy killed and seventy captured, which al-Barāʾ reports, and which is judged the truth.[^s4.75][^s4.76] Al-Zuhrī says more than seventy were killed and as many captured, which al-Bayhaqī calls the soundest report. The lists of names reach only about fifty, but knowing the names of some of the dead does not mean these were all of them.[^s4.76] Among the young men killed with Quraysh were al-Ḥārith b. Zamʿah, Abū Qays b. al-Fākih, Abū Qays b. al-Walīd, ʿAlī b. Umayyah and al-ʿĀṣ b. Munabbih, who had become Muslims in Makkah but had been held back and tempted by their families; Ibn Isḥāq says the verse *"Those whom the angels take while wronging themselves…"* (al-Nisāʾ 4:97) was revealed about them.[^s4.77] Several of the captives later became Muslims, among them al-ʿAbbās, ʿAqīl b. Abī Ṭālib, Nawfal b. al-Ḥārith, Abū al-ʿĀṣ b. al-Rabīʿ, Abū ʿAzīz and Suhayl b. ʿAmr.[^s4.78]
 
 ## The people of Badr
 
@@ -255,14 +255,14 @@ Those who fought at Badr — [[Ahl Badr|the people of Badr]] — held a rank of 
 
 ## Date
 
-Al-Ṣāliḥī dates the battle to 17 Ramaḍān, and reports that the Prophet ﷺ finished with the affairs of Badr and the captives in Shawwāl.[^s4.79] The rout came at midday on a Friday.[^s4.54] According to the *Imtāʿ*, he entered Medina on his return on Wednesday 22 Ramaḍān.[^s4.64]
+The battle was fought on 17 Ramaḍān, and the Prophet ﷺ finished with the affairs of Badr and the captives in Shawwāl.[^s4.79] The rout came at midday on a Friday.[^s4.54] According to the *Imtāʿ*, he entered Medina on his return on Wednesday 22 Ramaḍān.[^s4.64]
 
 ## References
 
 1. al-Ṣāliḥī, Muḥammad b. Yūsuf. *Subul al-Hudā war-Rashād fī Sīrat Khayr al-ʿIbād*. Edited by ʿĀdil Aḥmad ʿAbd al-Mawjūd and ʿAlī Muḥammad Muʿawwaḍ. 12 vols. Beirut: Dār al-Kutub al-ʿIlmiyyah, 1414/1993. Vol. 4, pp. 18–91 (the chapter on Badr and its *tanbīhāt*), with pp. 16 and 337.
 
 [^s4.16]: *Subul al-Hudā*, 4:16, the chapter on Ghazwat Safawān, "which is Badr al-Ūlā".
-[^s4.18]: *Subul al-Hudā*, 4:18.
+[^s4.18]: *Subul al-Hudā*, 4:18. The description, and the view that the Qatādah report belongs to Uḥud, are al-Ṣāliḥī's.
 [^s4.19]: *Subul al-Hudā*, 4:19.
 [^s4.20]: *Subul al-Hudā*, 4:20.
 [^s4.21]: *Subul al-Hudā*, 4:21.
@@ -319,18 +319,18 @@ Al-Ṣāliḥī dates the battle to 17 Ramaḍān, and reports that the Prophet 
 [^s4.72]: *Subul al-Hudā*, 4:72.
 [^s4.73]: *Subul al-Hudā*, 4:73. Muslim's report from ʿUmar gives three hundred and nineteen; al-Bazzār's from Abū Mūsā three hundred and seventeen.
 [^s4.74]: *Subul al-Hudā*, 4:74. Ibn Ḥajar judges the report of eighty-odd Muhājirūn an error.
-[^s4.75]: *Subul al-Hudā*, 4:75. The report of eighteen is al-Ṭabarānī's.
-[^s4.76]: *Subul al-Hudā*, 4:76.
+[^s4.75]: *Subul al-Hudā*, 4:75. The report of eighteen is al-Ṭabarānī's. That seventy killed and seventy captured is the truth is Ibn Ḥajar's verdict.
+[^s4.76]: *Subul al-Hudā*, 4:76. The remark on the lists of names is Ibn Ḥajar's.
 [^s4.77]: *Subul al-Hudā*, 4:77.
 [^s4.78]: *Subul al-Hudā*, 4:78.
 [^s4.79]: *Subul al-Hudā*, 4:79 (*tanbīhāt* 1–3).
 [^s4.80]: *Subul al-Hudā*, 4:80 (*tanbīh* 4).
-[^s4.81]: *Subul al-Hudā*, 4:81 (*tanbīh* 6).
+[^s4.81]: *Subul al-Hudā*, 4:81 (*tanbīh* 6). Al-Ṣāliḥī quotes al-Khaṭṭābī.
 [^s4.82]: *Subul al-Hudā*, 4:82 (*tanbīh* 10).
 [^s4.83]: *Subul al-Hudā*, 4:83. Ibn Ḥajar calls the majority view the one to rely on.
 [^s4.84]: *Subul al-Hudā*, 4:84 (*tanbīh* 14).
 [^s4.85]: *Subul al-Hudā*, 4:85 (*tanbīhāt* 14–15).
-[^s4.87]: *Subul al-Hudā*, 4:87 (*tanbīh* 19).
+[^s4.87]: *Subul al-Hudā*, 4:87 (*tanbīh* 19). The reconciliation is Ibn Ḥajar's.
 [^s4.88]: *Subul al-Hudā*, 4:88, from Aḥmad.
 [^s4.89]: *Subul al-Hudā*, 4:89. The first report is from Abū Dāwūd; Ḥārithah's from al-Bukhārī.
 [^s4.90]: *Subul al-Hudā*, 4:90.
