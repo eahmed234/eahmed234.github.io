@@ -47,7 +47,7 @@ At the end of that night Abū Sufyān returned to his companions and sent men of
 
 ## The pursuit
 
-The people learned of the raiders, and on Sunday the fifth of Dhū al-Ḥijjah, "at the head of twenty-two months" (the source names no year), the Messenger of Allāh ﷺ went out in pursuit with two hundred of the Muhājirūn and Anṣār.[^s4.174] He left Bashīr b. ʿAbd al-Mundhir in charge of Madinah.[^s4.174] He went as far as Qarqarat al-Kudr. Abū Sufyān and his companions were lightening their loads to flee, throwing down sacks of *sawīq*, which made up most of their provisions, and the Muslims picked them up. For this the expedition was named Ghazwat al-Suwayq. The Muslims did not catch up with the Quraysh.[^s4.174]
+The people learned of the raiders, and on Sunday the fifth of Dhū al-Ḥijjah, "at the head of twenty-two months",[^s4.174b] the Messenger of Allāh ﷺ went out in pursuit with two hundred of the Muhājirūn and Anṣār.[^s4.174] He left Bashīr b. ʿAbd al-Mundhir in charge of Madinah.[^s4.174] He went as far as Qarqarat al-Kudr. Abū Sufyān and his companions were lightening their loads to flee, throwing down sacks of *sawīq*, which made up most of their provisions, and the Muslims picked them up. For this the expedition was named Ghazwat al-Suwayq. The Muslims did not catch up with the Quraysh.[^s4.174]
 
 *Sawīq* is wheat or barley that is roasted and then ground; it is carried as provisions and eaten dry at times, or with something to moisten it, or with ghee, or with honey and ghee.[^s4.174]
 
@@ -65,4 +65,5 @@ The Messenger of Allāh ﷺ returned to Madinah, having been away five days.[^s4
 1. *Subul al-Hudā war-Rashād fī Sīrat Khayr al-ʿIbād*, al-Ṣāliḥī al-Shāmī. Dār al-Kutub al-ʿIlmiyyah, Beirut, 1414/1993. Vol. 4, pp. 174–175.
 
 [^s4.174]: *Subul al-Hudā*, 4:174.
+[^s4.174b]: *Subul al-Hudā*, 4:174. The text gives the date as "at the head of twenty-two months" and names no year.
 [^s4.175]: *Subul al-Hudā*, 4:175.
