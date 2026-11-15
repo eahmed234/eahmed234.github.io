@@ -33,12 +33,9 @@ Sidrah took the bowl back to Ḍubāʿah, and the guests ate from it for as long
 Abū Maʿbad told them that the Messenger of Allāh ﷺ had eaten of it and sent it back, and that this was the blessing (*barakah*) of his fingers ﷺ. The men began to say: «نشهد أنه رسول الله» ("We bear witness that he is the Messenger of Allāh"), and their certainty grew — "and that was what he ﷺ had intended".[^s6.284]
 
 ## Islam and departure
-They came to him and became Muslims, learned the obligations (*al-farāʾiḍ*) and stayed some days. Then they came to take leave of the Messenger of Allāh ﷺ; he ordered gifts (*jawāʾiz*) for them, and they went back to their families.[^s6.284] The page gives no date for the delegation.
-
-## Chain of the report
-The report is given by Muḥammad b. ʿUmar from Karīmah bint al-Miqdād, who heard it from her mother Ḍubāʿah bint al-Zubayr b. ʿAbd al-Muṭṭalib; the part about the bowl in the Prophet's ﷺ house is told by Sidrah.[^s6.284]
+They came to him and became Muslims, learned the obligations (*al-farāʾiḍ*) and stayed some days. Then they came to take leave of the Messenger of Allāh ﷺ; he ordered gifts (*jawāʾiz*) for them, and they went back to their families.[^s6.284] The delegation is undated.
 
 ## References
 1. *Subul al-Hudā wa-l-Rashād fī Sīrat Khayr al-ʿIbād*, al-Ṣāliḥī al-Shāmī, Dār al-Kutub al-ʿIlmiyyah, Beirut, 1414/1993, vol. 6, p. 284.
 
-[^s6.284]: *Subul al-Hudā*, 6:284.
+[^s6.284]: *Subul al-Hudā*, 6:284. The report is from Muḥammad b. ʿUmar, from Karīmah bint al-Miqdād, who heard it from her mother Ḍubāʿah bint al-Zubayr b. ʿAbd al-Muṭṭalib; the part about the bowl in the Prophet's ﷺ house is told by Sidrah.
