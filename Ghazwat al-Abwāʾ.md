@@ -33,7 +33,7 @@ Ghazwat al-Abwāʾ, also called Ghazwat Waddān, was the first campaign the Mess
 
 ## The departure
 
-Abū ʿAmr says that the Prophet ﷺ stayed in Madīnah for the rest of Rabīʿ al-Awwal, the month in which he arrived, and for the rest of the year until Ṣafar of the second year. He then went out on a campaign in Ṣafar. [[Ḥamzah b. ʿAbd al-Muṭṭalib]] ﵁ carried his banner, which was white. According to what Abū Saʿd and Abū ʿUmar said, he appointed [[Saʿd b. ʿUbādah]] ﵁ over Madīnah. He went out with the Muhājirūn, none of them an Anṣārī, to intercept a caravan of Quraysh, and met no fighting.[^s4.14]
+The Prophet ﷺ stayed in Madīnah for the rest of Rabīʿ al-Awwal, the month in which he arrived, and for the rest of the year until Ṣafar of the second year. He then went out on a campaign in Ṣafar. [[Ḥamzah b. ʿAbd al-Muṭṭalib]] ﵁ carried his banner, which was white. According to what Abū Saʿd and Abū ʿUmar said, he appointed [[Saʿd b. ʿUbādah]] ﵁ over Madīnah. He went out with the Muhājirūn, none of them an Anṣārī, to intercept a caravan of Quraysh, and met no fighting.[^s4.14]
 
 ## The truce with Banū Ḍamrah
 
@@ -49,12 +49,12 @@ Then the Messenger of Allāh ﷺ returned to Madīnah; his absence had been fift
 
 ## The places and the names
 
-Al-Abwāʾ is a village between Makkah and Madīnah. It is said that it was so named because of the pestilence (*wabāʾ*) in it, but al-Ṣāliḥī objects that, were that so, the word would be *al-Awbāʾ* or a transposition of it; the correct view, he says, is that it was named because the floods settle (*tabawwaʾ*) in it, as Thābit b. Qāsim said. Waddān is a large village of the district of al-Farʿ.[^s4.14]
+Al-Abwāʾ is a village between Makkah and Madīnah. It is said that it was so named because of the pestilence (*wabāʾ*) in it, but were that so, the word would be *al-Awbāʾ* or a transposition of it; the correct view is that it was named because the floods settle (*tabawwaʾ*) in it, as Thābit b. Qāsim said. Waddān is a large village of the district of al-Farʿ.[^s4.14]
 
-Of Makhshī, al-Ṣāliḥī says he has not seen anyone who mentions an acceptance of Islam by him.[^s4.14]
+No report of an acceptance of Islam by Makhshī has been seen.[^s4.14]
 
 ## References
 
 1. *Subul al-Hudā war-Rashād fī Sīrat Khayr al-ʿIbād*, Imām al-Ṣāliḥī. Dār al-Kutub al-ʿIlmiyyah, Beirut, 1414/1993, vol. 4, p. 14.
 
-[^s4.14]: *Subul al-Hudā*, 4:14.
+[^s4.14]: *Subul al-Hudā*, 4:14. The account of the stay in Madīnah is given on the authority of Abū ʿAmr.
