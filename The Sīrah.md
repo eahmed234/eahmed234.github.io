@@ -54,7 +54,7 @@ All entries follow strict academic **IJMES transliteration** (e.g., *ʾalā kull
 - [[Ghazwat Safawān]] (Rabīʿ 2 AH) — *Badr al-Ūlā & Pursuit of Kurz b. Jābir al-Fihrī*
 - [[Ghazwat al-ʿUshayrah]] (sixteen months from the hijrah) — *The expedition to intercept the Syria-bound caravan of Quraysh*
 - [[Sariyyat ʿAbdillāh b. Jaḥsh ilā Baṭn Nakhlah]] (Rajab 2 AH) — *The Sealed Letter, Capture of the Caravan, and Revelation of 2:217*
-- [[Taḥwīl al-Qiblah]] (Shaʿbān 2 AH) — *The Shifting of the Prayer Direction to the Kaʿbah*
+- [[Taḥwīl al-Qiblah]] (Rajab 2 AH, disputed) — *The Shifting of the Prayer Direction to the Kaʿbah*
 
 ### 3. The Epoch of Major Ghazawāt (2–9 AH)
 - **[[Ghazwat Badr al-Kubrā]]** (17 Ramaḍān 2 AH) — *Yawm al-Furqān (Featured Master Entry)*

@@ -174,3 +174,16 @@ that has any.
   now: left untranslated: "a people of ʿUmmār". →
 - [ ] **I2.95.03 — «وقال: أنا الذي أسرت الحكم … ببئر معونة»** (*al-Iṣābah* 2:95). Where do Miqdād's words end and the author's narrative resume?
   now: only the martyrdom at Biʾr Maʿūnah is used, and it rests also on *Subul* 6:19. →
+
+## Taḥwīl al-Qiblah
+
+- [ ] **S3.373.03 — «لفق من شهر القدوم وشهر التحويل وشهرا»** (al-Ḥāfiẓ). "…and a month" — a single month, or a misprint meaning the months between?
+  now: "the month of arrival, the month of the turning and a month", as printed. →
+- [ ] **S3.373.09 — «ولا يستقيم أن يكون ذلك في شعبان إلا بإلغاء شهري القدوم والتحويل».** Speaker not named: al-Ṣāliḥī, or al-Ḥāfiẓ continuing?
+  now: stated unattributed, footnoted to 3:373. →
+- [ ] **S3.373.01 — opens mid-sentence** («وقال ابن عباس» ends 3:372). Is "Ibn Jarīr" in the list a source for sixteen months, or a bare name?
+  now: "Ibn ʿAbbās also, with al-Zuhrī, Saʿīd b. al-Musayyab, Qatādah and others, gave sixteen". →
+- [ ] **S3.371.20 — «ستة أو سبعة عشر شهرا»** printed "six or seventeen" for «ستة عشر».
+  now: not used; the note cites K 399 and K 4486 for "sixteen or seventeen". →
+- [ ] **S3.373.18 — «والأول أصح … وقد صححه الحاكم».** Which view is "the first", and what does «صححه» refer to (the first view, or the ḥadīth)?
+  now: "the first of the two views … al-Ḥākim and others have declared it sound". →
