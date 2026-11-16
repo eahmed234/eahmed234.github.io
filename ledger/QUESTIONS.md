@@ -148,3 +148,14 @@ that has any.
   now: the ten miles from al-Juḥfah is stated with a footnote saying it is the editors' insertion; the Qudayd road is left out. →
 - [ ] **S6.13.06 — «قال محمد بن عمر: … وهو الثبت عندنا»** Where Muḥammad b. ʿUmar's words end is not marked.
   now: only "the sound view with him" is attributed to him. →
+
+## Sariyyat Saʿd b. Abī Waqqāṣ ilā al-Kharrār
+
+- [ ] **Title.** The page prints «الخزاز» (vowelled «الخزّاز», glossed «بفتح الخاء المعجمة وتشديد الزاي الأولى»), i.e. al-Khazzār; the note's file name and title say al-Kharrār.
+  now: the body writes al-Khazzār as printed; the title is left. →
+- [ ] **S6.15.08 — «حتى صبحوا صبح خمس الخزاز من الجحفة»** Is «صبح خمس» "the morning of the fifth (night/day)" or "five (nights)' morning"? The unit is not stated.
+  now: "at the morning of five", no unit. →
+- [ ] **S6.15.06 — «يعترض عيرا لقريش تمر بهم»** Who is the subject of «يعترض»: Saʿd, or the party?
+  now: "intercepting a caravan of Quraysh passing them", no subject. →
+- [ ] **S6.15.11 — «هذه السرايا جميعها»** The sarāyā are not listed on this page; is this one among them?
+  now: stated as "these sarāyā", without saying this sarīyah is one. →

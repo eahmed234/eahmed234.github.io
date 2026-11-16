@@ -31,13 +31,13 @@ The sarīyah of [[Saʿd b. Abī Waqqāṣ]] ﵁ was a detachment of twenty men o
 
 ## The expedition
 
-A white banner was tied for Saʿd, and [[al-Miqdād b. ʿAmr]] ﵁ al-Bahrānī carried it. The Messenger of Allāh ﷺ charged Saʿd not to pass al-Khazzār; he was intercepting a caravan of Quraysh that was passing them. They went out on foot, hiding by day and travelling by night, until they arrived at dawn of the fifth at al-Khazzār, near Khumm. They found that the caravan had passed the day before, and they returned to Madinah.[^s6.15]
+A white banner was tied for Saʿd, and [[al-Miqdād b. ʿAmr]] ﵁ al-Bahrānī carried it. The Messenger of Allāh ﷺ charged Saʿd not to pass al-Khazzār, intercepting a caravan of Quraysh passing them. They went out on foot, hiding by day and travelling by night, until, at the morning of five, they reached al-Khazzār, near Khumm. They found that the caravan had passed the day before, and they returned to Madinah.[^s6.15]
 
 Al-Khazzār is a valley that drains into [[al-Juḥfah]], a large village five stages (*marāḥil*) from Makkah and about two thirds of a stage from Madinah. Khumm is the name of a *ghadīr* or a valley near al-Juḥfah.[^s6.15]
 
 ## Date
 
-Muḥammad b. ʿUmar and Ibn Saʿd place this sarīyah, with the others mentioned with it, in the first year of the hijrah; Ibn Isḥāq places them in the second year.[^s6.15]
+Muḥammad b. ʿUmar and Ibn Saʿd mention all these sarāyā in the first year of the hijrah, and Ibn Isḥāq puts them in the second year.[^s6.15]
 
 ## References
 
