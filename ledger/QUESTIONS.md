@@ -18,6 +18,17 @@ that has any.
 - [ ] **Hijrī-year tags.** When a page gives only "N months from his hijrah" and no year, may a note carry a year tag (`2-ah`) as arithmetic, like the Gregorian exemption?
   now: existing tags kept, none added. →
 
+## Dustūr al-Madīnah
+
+- [ ] **S3.384.07 — «فهؤلاء لم يثبت أحد منهم»** (Ibn Ḥajar, on the leaders listed). "Not one of them held firm" — in belief, or in what? Not spelled out.
+  now: the clause is omitted; the note gives only «فيحتمل أن يكونوا المراد». →
+- [ ] **S3.384.01 — «المعنى: …»** opens 3:384 without saying whose gloss it is (al-Ṣāliḥī's or Ibn Ḥajar's).
+  now: not used in the note. →
+- [ ] **S3.383.07 — the ḥadīth of the ten, «والشيخان».** al-Ṣāliḥī gives it to Aḥmad and the two Shaykhs; the editors' takhrīj (3:383 n. 1) names only Aḥmad and Ibn ʿAdī; not looked for in K/M.
+  now: no collector is named in the text. →
+- [ ] **S3.384.09 — who calls al-Suhaylī's statement «أغرب».** Ibn Ḥajar's word or al-Ṣāliḥī's (Ibn Ḥajar's «قال الحافظ: كذا قال» follows).
+  now: "this is described as a strange statement", unattributed. →
+
 ## Ghazwat Safawān
 
 - [ ] **S4.16.02 — where Ibn Ḥazm's words end.** «وقال ابن حزم: بعدها بعشرة أيام خرج رسول الله ﷺ في ربيع الأول على رأس ثلاثة عشر شهرا … من مهاجره». Either all of it is Ibn Ḥazm's, or his words end at «بعشرة أيام» and the date is al-Ṣāliḥī's own narrative (Rabīʿ al-Awwal at thirteen months cannot follow al-ʿUshayrah, which 4:17 puts in Jumādā at sixteen months).

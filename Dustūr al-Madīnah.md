@@ -54,7 +54,7 @@ except whoever does wrong and sins, who ruins only himself and his household. Th
 
 ## The Jewish leaders
 
-The Prophet ﷺ was visited by Abū Yāsir b. Akhṭab, brother of Ḥuyayy b. Akhṭab, the first of the Jews to come to him. He listened to him and, returning, told his people to obey him, for this was the Prophet they had been awaiting. His brother disobeyed him, and the Devil gained mastery over them, so that they obeyed the brother.[^s3.383]
+The Prophet ﷺ was visited by Abū Yāsir b. Akhṭab, brother of Ḥuyayy b. Akhṭab, the first of the Jews to come to him. He listened to him and, returning, told his people: «أطيعوني فإن هذا هو النبي الذي كنا ننتظره» — "Obey me, for this is the Prophet whom we were awaiting." His brother disobeyed him, and the Devil gained mastery over them, so that they obeyed the brother.[^s3.383]
 
 Maymūn b. Yāmīn, the head of the Jews, came to the Prophet ﷺ and asked to be made an arbiter among them, since they deferred to him. The Prophet ﷺ had him go inside and sent for them; when they came he asked them to choose a man as arbiter between himself and them. They said they were content with Maymūn b. Yāmīn, but when he came out and bore witness that the Prophet ﷺ was the Messenger of Allah, they refused to believe him.[^s3.383]
 
@@ -74,7 +74,7 @@ The Jews were three tribes: Qaynuqāʿ, Qurayẓah and al-Naḍīr. All three fo
 
 **How many believers were needed.** The report that ten rabbis would have sufficed is given in another transmission with the addition "Kaʿb said: twelve", which is confirmed by the twelve chiefs of [[Sūrat al-Māʾidah]] (5:12). On this, Ibn Ḥajar says, ten particular persons are meant, since otherwise more than ten had believed in him.[^s3.383] On who they were, he says it appears they were the chiefs of the Jews at that time, with the rest following them, so that few became Muslim, such as ʿAbdullāh b. Salām; each of the leaders listed above was a chief whose conversion a group would have followed, so it is possible that they are the ones meant.[^s3.384] In another report from Abū Hurayrah the words are that if al-Zubayr b. Bāṭā and those of his rank among the chiefs believed in him, they would all become Muslim.[^s3.384]
 
-**Al-Suhaylī's count.** al-Suhaylī held, against this, that of the rabbis of the Jews only two became Muslim, ʿAbdullāh b. Salām and ʿAbdullāh b. Ṣūrī; Ibn Ḥajar calls this a strange statement and says he has seen no sound route for ʿAbdullāh b. Ṣūrī's Islam, which al-Suhaylī elsewhere takes from al-Naqqāsh's *tafsīr*.[^s3.384]
+**Al-Suhaylī's count.** al-Suhaylī held, against this, that of the rabbis of the Jews only two became Muslim, ʿAbdullāh b. Salām and ʿAbdullāh b. Ṣūrī; this is described as a strange statement, and Ibn Ḥajar says he has seen no sound route for ʿAbdullāh b. Ṣūrī's Islam, which al-Suhaylī elsewhere takes from al-Naqqāsh's *tafsīr*.[^s3.384]
 
 ## References
 
