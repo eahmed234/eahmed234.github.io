@@ -18,11 +18,6 @@ that has any.
 - [ ] **Hijrī-year tags.** When a page gives only "N months from his hijrah" and no year, may a note carry a year tag (`2-ah`) as arithmetic, like the Gregorian exemption?
   now: existing tags kept, none added. →
 
-## Ghazwat Banī Sulaym
-
-- [ ] **S4.172.02 — «قال ابن إسحاق، وأبو عمر، وابن حزم، وغيرهم: بلغه …»** opens the narrative with no marked end to the attribution; the author's own narrative may resume anywhere before the Tanbīhāt.
-  now: the whole narrative footnoted to 4:172 with the report attributed to Ibn Isḥāq, Abū ʿUmar, Ibn Ḥazm and others, as printed. →
-
 ## Dustūr al-Madīnah
 
 - [ ] **S3.384.07 — «فهؤلاء لم يثبت أحد منهم»** (Ibn Ḥajar, on the leaders listed). "Not one of them held firm" — in belief, or in what? Not spelled out.
@@ -180,6 +175,19 @@ that has any.
 - [ ] **I2.95.03 — «وقال: أنا الذي أسرت الحكم … ببئر معونة»** (*al-Iṣābah* 2:95). Where do Miqdād's words end and the author's narrative resume?
   now: only the martyrdom at Biʾr Maʿūnah is used, and it rests also on *Subul* 6:19. →
 
+## Ghazwat Banī Qaynuqāʿ
+
+- [ ] **S4.179.10 — «[قريظة والنضير وبني قينقاع]»** (*Subul* 4:179). On the page the three names stand in square brackets inside the opening passage (the ledger snippet omits the brackets). Whose insertion is it: al-Ṣāliḥī's, the editors', or the quoted source's?
+  now: the three names are stated as the three Jewish groups, as printed in the matn. →
+- [ ] **S4.181.12 — «أعرب الحاكم»** (perhaps «أغرب»). Printed «أعرب».
+  now: "Al-Ḥākim stated", as printed. →
+- [ ] **S4.181.13 — «ولم يوافق على ذلك»** (after al-Ḥākim's statement that the two expulsions were at one time). Subject not named: the Ṣāliḥī or the authority he quotes.
+  now: "this was not agreed to", no subject named. →
+- [ ] **S4.180.41 — «فخرجوا بعد ثلاث».** No noun: days or nights not stated.
+  now: "after three", as printed. →
+- [ ] **S4.180.50 — «وأخرى فضة».** Does «فضة» name the second coat of mail or describe it?
+  now: "another of *fiḍḍah*", untranslated. →
+
 ## Taḥwīl al-Qiblah
 
 - [ ] **S3.373.03 — «لفق من شهر القدوم وشهر التحويل وشهرا»** (al-Ḥāfiẓ). "…and a month" — a single month, or a misprint meaning the months between?
@@ -193,9 +201,18 @@ that has any.
 - [ ] **S3.373.18 — «والأول أصح … وقد صححه الحاكم».** Which view is "the first", and what does «صححه» refer to (the first view, or the ḥadīth)?
   now: "the first of the two views … al-Ḥākim and others have declared it sound". →
 
-## Ghazwat Banī Qaynuqāʿ
+## Ghazwat Banī Sulaym
 
-- [ ] **S4.179.06 — «[قريظة والنضير وبني قينقاع]»** (*Subul* 4:179). The three names stand in square brackets inside the opening passage. Whose insertion is it: al-Ṣāliḥī's, the editors', or the quoted source's?
-  now: the three names are stated in the note as the three Jewish groups, as printed in the matn. →
-- [ ] **S4.181.04 — «أعرب الحاكم»** (perhaps «أغرب»). Printed «أعرب».
-  now: the note says "Al-Ḥākim stated", as printed. →
+- [ ] **S4.172.02 — «قال ابن إسحاق، وأبو عمر، وابن حزم، وغيرهم: بلغه …»** opens the narrative with no marked end to the attribution; the author's own narrative may resume anywhere before the *tanbīhāt*.
+  now: the narrative is stated as fact and footnoted to 4:172, as printed. →
+- [ ] **S4.172.09 — «واستقبلهم رسول الله … في بطن الوادي».** Who are «هم»: the party sent along the upper valley, or the people of Sulaym?
+  now: "met them", as printed. →
+- [ ] **S4.172.38 / S4.172.42 — Ibn Isḥāq «في شوال سنة اثنتين» and «في شهر المحرم سنة ثلاث».** The page does not name the expedition for either date.
+  now: given as Ibn Isḥāq's dates, expedition not named. →
+- [ ] **S4.172.43 — Ibn Saʿd's Banī Sulaym at twenty-seven months** (6 Jumādā al-Ūlā) beside Qarqarat al-Kudr at twenty-three months (S4.172.37). Same expedition or two?
+  now: both reported, no identification. →
+- [ ] **S4.172.30 — «فرق في العيون بين هذه الغزوة وغزوة قرقرة الكدر».** The lead treats Banī Sulaym at al-Kudr and Qarqarat al-Kudr as one (S4.172.01); ʿUyūn separates them.
+  now: both stated as printed. →
+- [ ] **S4.172.39 / S4.172.41 — Ibn Saʿd's Ghaṭafān expedition on the 12th and (apparently) the 18th of Rabīʿ al-Awwal.**
+  now: not used in the note. →
+- See General (month-counts and the `2-ah` tag).
