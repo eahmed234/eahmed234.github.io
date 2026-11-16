@@ -18,6 +18,11 @@ that has any.
 - [ ] **Hijrī-year tags.** When a page gives only "N months from his hijrah" and no year, may a note carry a year tag (`2-ah`) as arithmetic, like the Gregorian exemption?
   now: existing tags kept, none added. →
 
+## Ghazwat Banī Sulaym
+
+- [ ] **S4.172.02 — «قال ابن إسحاق، وأبو عمر، وابن حزم، وغيرهم: بلغه …»** opens the narrative with no marked end to the attribution; the author's own narrative may resume anywhere before the Tanbīhāt.
+  now: the whole narrative footnoted to 4:172 with the report attributed to Ibn Isḥāq, Abū ʿUmar, Ibn Ḥazm and others, as printed. →
+
 ## Dustūr al-Madīnah
 
 - [ ] **S3.384.07 — «فهؤلاء لم يثبت أحد منهم»** (Ibn Ḥajar, on the leaders listed). "Not one of them held firm" — in belief, or in what? Not spelled out.

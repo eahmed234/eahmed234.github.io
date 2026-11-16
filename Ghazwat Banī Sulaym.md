@@ -13,7 +13,7 @@ tags:
   - ghatafan
   - 2-ah
   - unverified
-date_hijri: "Shawwāl 2 AH (Ibn Isḥāq); mid-Muḥarram, at the head of 23 months from the hijrah (Ibn Saʿd)"
+date_hijri: "Shawwāl 2 AH (Ibn Isḥāq); mid-Muḥarram, at the head of 23 months (Ibn Saʿd)"
 location: "al-Kudr (Qarqarat al-Kudr)"
 commanders_muslim:
   - "[[Muḥammad b. ʻAbdullah|Muḥammad]] ﷺ"
@@ -48,11 +48,11 @@ The Prophet ﷺ had been away fifteen nights. He then stayed in Madīnah through
 
 ## The name and the place
 
-The place is also called *Qarārat al-Kudr*. *Qarqarah* is smooth ground; *al-kudr* are birds with a dusky colour (*kudrah*), and the place is known by them.[^s4.173]
+The place is also said to be called *Qarārat al-Kudr*. *Qarqarah* is smooth ground; *al-kudr* are birds with a dusky colour (*kudrah*), and the place is known by them.[^s4.173]
 
 ## Disputed points
 
-**Deputy in Madīnah.** Sibāʿ b. ʿUrfuṭah al-Ghifārī or Ibn Umm Maktūm; the report gives both.[^s4.172]
+**Deputy in Madīnah.** Sibāʿ b. ʿUrfuṭah al-Ghifārī or Ibn Umm Maktūm.[^s4.172]
 
 **Date.** Ibn Isḥāq places it in Shawwāl of the year two. Ibn Saʿd places it in Muḥarram, in the middle of the month, at the head of twenty-three months.[^s4.172]
 
