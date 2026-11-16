@@ -26,6 +26,9 @@ ONLY="${ONLY:-}"                       # run just this skill per note, with its 
 DONE=review/done.txt; [ -z "$ONLY" ] || DONE="review/done.$ONLY.txt"
 STATE=review/in-progress.txt           # "<step> TAB <HEAD when the step began> TAB <note>" while a step runs
 mkdir -p "$LOGS"; touch "$DONE" review/rewritten.txt
+# One run at a time: two runs on the same queue rewrite the same note at once and commit each other's work.
+exec 9> review/.queue.lock
+flock -n 9 || { echo "Another rewrite-queue.sh run is active — stopping."; exit 1; }
 
 [ "$(git branch --show-current)" = "drafts" ] || { echo "Not on the drafts branch — stopping."; exit 1; }
 [ -f "$QUEUE" ] || { echo "No queue file at $QUEUE"; exit 1; }
