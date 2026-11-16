@@ -23,7 +23,7 @@ adversaries:
   - "[[Banū Qaynuqāʿ]]"
 duration: fifteen nights
 outcome: Banū Qaynuqāʿ surrendered to the judgment of the Messenger ﷺ and were expelled from Madinah; they joined Adhriʿāt
-spoils: "three bows, two coats of mail, three spears and three swords taken by the Prophet ﷺ; the fifth, and four-fifths distributed among his Companions"
+spoils: "three bows, two coats of mail, three spears and three swords taken by the Prophet ﷺ; he took his *ṣafī* and the fifth, and distributed four-fifths of it among his Companions"
 quranic_references:
   - "[[Sūrat Āl ʿImrān]] (3:12–13)"
   - "[[Sūrat al-Anfāl]] (8:58)"

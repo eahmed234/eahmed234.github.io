@@ -187,3 +187,10 @@ that has any.
   now: not used; the note cites K 399 and K 4486 for "sixteen or seventeen". →
 - [ ] **S3.373.18 — «والأول أصح … وقد صححه الحاكم».** Which view is "the first", and what does «صححه» refer to (the first view, or the ḥadīth)?
   now: "the first of the two views … al-Ḥākim and others have declared it sound". →
+
+## Ghazwat Banī Qaynuqāʿ
+
+- [ ] **S4.179.06 — «[قريظة والنضير وبني قينقاع]»** (*Subul* 4:179). The three names stand in square brackets inside the opening passage. Whose insertion is it: al-Ṣāliḥī's, the editors', or the quoted source's?
+  now: the three names are stated in the note as the three Jewish groups, as printed in the matn. →
+- [ ] **S4.181.04 — «أعرب الحاكم»** (perhaps «أغرب»). Printed «أعرب».
+  now: the note says "Al-Ḥākim stated", as printed. →
