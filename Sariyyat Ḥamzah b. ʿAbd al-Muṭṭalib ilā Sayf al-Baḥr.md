@@ -13,99 +13,48 @@ tags:
   - hamzah-b-abd-al-muttalib
   - 1-ah
   - unverified
-date_hijri: Month of Ramaḍān at the head of seven months from the Hijrah in the year one AH
-location: "al-ʿĪṣ on the Red Sea coast (territory of Juhaynah)"
+date_hijri: Ramaḍān, at the head of seven months from the Hijrah (al-Madāʾinī: Rabīʿ al-Awwal of year two; Abū ʿAmr: after Rabīʿ al-Ākhir)
+location: "Sayf al-Baḥr, on the side of al-ʿĪṣ, in the land of Juhaynah"
 commanders_muslim:
-  - "[[Ḥamzah b. ʿAbd al-Muṭṭalib]] ﵁ (Supreme Commander)"
-  - "[[Abū Marthad al-Ghanawī]] ﵁ (Standard-Bearer)"
-commanders_enemy:
-  - "Abū Jahl (ʿAmr b. Hishām) ☠ (Commander of the Quraysh Caravan Guard)"
-forces_muslim: 30 Muhājirūn warriors (*Subul al-Hudā*, 6:11)
-forces_enemy: 300 mounted polytheists of Quraysh (*Subul al-Hudā*, 6:11)
-casualties_muslim: None
-casualties_enemy: None
-outcome: Successful deterrence of Quraysh caravan; no military engagement took place due to diplomatic mediation by Majdī b. ʿAmr al-Juhanī; the formal establishment of the first military banner in Islamic history
-primary_source: "*Subul al-Hudā*, 6:11–12; *al-Iṣābah*, 7:305 (no. 10522); *al-Iṣābah*, 5:467"
+  - "[[Ḥamzah b. ʿAbd al-Muṭṭalib]] ﵁"
+  - "[[Abū Marthad al-Ghanawī]] ﵁ (standard-bearer)"
+forces_muslim: thirty men, all Muhājirūn according to Ibn Saʿd
+forces_enemy: a caravan of Quraysh with Abū Jahl and three hundred men (it is said, a hundred and thirty)
+outcome: No fighting; Majdī b. ʿAmr al-Juhanī came between the two parties and they parted
+primary_source: "*Subul al-Hudā*, 6:11–12"
 ---
 
 # Sariyyat Ḥamzah b. ʿAbd al-Muṭṭalib ilā Sayf al-Baḥr (سرية حمزة بن عبد المطلب إلى سيف البحر)
-*The Expedition of Ḥamzah b. ʿAbd al-Muṭṭalib to the Seashore — The First Military Banner in Islam and the Interception at al-ʿĪṣ*
+*The expedition of Ḥamzah to the seashore, in which the first banner tied in Islam was carried*
 
-> [!NOTE] Scholarly Provenance & Primary Source
-> This master entry is derived strictly from *Subul al-Hudā*, Volume 6, *al-Bāb al-Rābiʿ fī Sariyyat Ḥamzah b. ʿAbd al-Muṭṭalib rḍy Allāh taʿālā ʿanhu ilā Sayf al-Baḥr min Nāḥiyat al-ʿĪṣ...* (pp. 11–12), cross-referenced with *al-Iṣābah fī Tamyīz al-Ṣaḥābah* by al-Ḥāfiẓ Ibn Ḥajar al-ʿAsqalānī (Volume 7, p. 305, no. 10522; Vol. 5, p. 467, no. 7477). Al-Ṣāliḥī synthesizes the transmissions of ʿUrwah b. al-Zubayr, Mūsā b. ʿUqbah, [[al-Wāqidī]], [[Ibn Saʿd]], and al-Bayhaqī.
+In Ramaḍān, at the head of seven months from the Hijrah, [[Ḥamzah b. ʿAbd al-Muṭṭalib]] ﵁ went out with thirty men to Sayf al-Baḥr, on the side of al-ʿĪṣ, to intercept a caravan of [[Quraysh]] returning from Syria. The two parties drew up in ranks, but Majdī b. ʿAmr al-Juhanī came between them and they parted without fighting.[^s6.11] Its banner is generally held to be the first tied in Islam.[^s6.11]
 
----
+## The force and the banner
 
-## 1. Strategic Context & Mandate
+The thirty men were, by Ibn Saʿd's account, all of the [[al-Muhājirūn]]: the Messenger of Allah ﷺ sent none of the [[al-Anṣār]] on any mission until he fought at Badr with them, because they had stipulated that they would protect him in their own homes. Ibn Saʿd calls this the sound view, and *al-Mawārid* held it sound. The chapter's own heading, by contrast, speaks of thirty men "of the Muhājirūn and the Anṣār".[^s6.11]
 
-Following the establishment of the Islamic state in Medina (**[[al-Hijrah ilā al-Madīnah]]**), the Prophet ﷺ sought to demonstrate strategic deterrence against **[[Quraysh]]**, whose active hostility, confiscation of Muslim property in Makkah, and continued threats endangered the young community (*Subul al-Hudā*, 6:11). 
+A white banner was tied for Ḥamzah, and [[Abū Marthad al-Ghanawī]] ﵁ — Kannāz b. al-Ḥuṣayn, an ally (*ḥalīf*) of Ḥamzah — carried it.[^s6.11][^s6.12] It was the first banner tied in Islam, as ʿUrwah, Ibn ʿUqbah, Muḥammad b. ʿUmar, Ibn Saʿd, Ibn ʿĀʾidh, al-Bayhaqī, Ibn al-Athīr and others said; Abū ʿUmar held this to be sound.[^s6.11]
 
-In the blessed month of Ramaḍān, at the head of seven months following the Hijrah in the year one AH, the Messenger of Allāh ﷺ commissioned his paternal uncle and brother through fosterage, **[[Ḥamzah b. ʿAbd al-Muṭṭalib]]** ﵁, to lead an expeditionary detachment to the coastal trade route along the Red Sea (*Sayf al-Baḥr*) (*Subul al-Hudā*, 6:11).
+## Al-ʿĪṣ
 
-### Composition of the Force
-The expedition comprised thirty men, all drawn exclusively from **[[al-Muhājirūn]]** (*Subul al-Hudā*, 6:11). As Ibn Saʿd and al-Ṣāliḥī confirm:
+Ḥamzah went out with his men to intercept a caravan of Quraysh that had come from Syria making for Makkah. Abū Jahl was with it, with three hundred men; it is also said, with a hundred and thirty. Ḥamzah reached Sayf al-Baḥr, on the side of al-ʿĪṣ, in the land of [[Juhaynah]] — *sayf al-baḥr* meaning the sea's shore.[^s6.11][^s6.12]
 
-> «وَالْمُجْمَعُ عَلَيْهِ أَنَّهُمْ كَانُوا جَمِيعًا مِنَ الْمُهَاجِرِينَ، وَلَمْ يَبْعَثْ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ أَحَدًا مِنَ الْأَنْصَارِ مَبْعَثًا حَتَّى غَزَا بِهِمْ بَدْرًا، وَذَٰلِكَ أَنَّهُمْ كَانُوا شَرَطُوا لَهُ أَنْ يَمْنَعُوهُ فِي دَارِهِمْ»
-> *"The consensus of the scholars is that they were all from the Muhājirūn; the Messenger of Allāh ﷺ did not dispatch a single man from the Anṣār on an expedition until he marched with them at Badr, because their pledge at al-ʿAqabah stipulated that they would defend him within their own territory in Medina!"* (*Subul al-Hudā*, 6:11).
+When the two parties had drawn up in ranks, Majdī b. ʿAmr al-Juhanī, who was an ally of both, came between them. They obeyed him, went away, and did not fight. Abū Jahl turned toward Makkah with his companions and the caravan, and Ḥamzah and his companions returned to Madinah.[^s6.11]
 
----
+## Majdī b. ʿAmr
 
-## 2. The First White Banner in Islam (*Awwal Liwāʾ*)
+Back with the Messenger of Allah ﷺ, Ḥamzah told him how Majdī had come between them, and that they had found fairness in him. A group of Majdī's people came to the Messenger of Allah ﷺ, and he clothed them.[^s6.11] In what Muḥammad b. ʿUmar mentions from Majdī, the Prophet ﷺ said of him: "as far as I know, he is *maymūn al-naqībah* (successful in his deeds), of blessed affair" — or, in another wording, "of rightly guided affair".[^s6.11][^s6.12] It is not known that Majdī became a Muslim.[^s6.12]
 
-The Messenger of Allāh ﷺ tied a white military banner (*liwāʾ abyaḍ*) with his own blessed hands and entrusted it to **[[Abū Marthad al-Ghanawī]]** (Kannāz b. al-Ḥuṣayn) ﵁, the confederate (*ḥalīf*) of Ḥamzah b. ʿAbd al-Muṭṭalib (*Subul al-Hudā*, 6:11; *al-Iṣābah*, 7:305).
+## Disputes
 
-As recorded by ʿUrwah b. al-Zubayr, Mūsā b. ʿUqbah, Ibn Saʿd, al-Bayhaqī, and verified by Ibn ʿAbd al-Barr, this was:
-> «أَوَّلُ لِوَاءٍ عُقِدَ فِي الْإِسْلَامِ»
-> *"The very first banner ever tied in Islam!"* (*Subul al-Hudā*, 6:11).
+**The first banner.** Ibn Isḥāq mentions that the first banner the Messenger of Allah ﷺ tied was that of [[ʿUbaydah b. al-Ḥārith]]. He adds that people differed over the two banners: some said Ḥamzah's came before ʿUbaydah's, others the reverse, because the Messenger of Allah ﷺ saw both men off together and this confused some people.[^s6.11]
+**The date.** The month is disputed: al-Madāʾinī says Rabīʿ al-Awwal of year two, and Abū ʿAmr says after Rabīʿ al-Ākhir, against the Ramaḍān at seven months from the Hijrah given above.[^s6.11]
 
-Though Ibn Isḥāq transmitted an alternate opinion that the banner of **[[ʿUbaydah b. al-Ḥārith]]** ﵁ to Rābigh was tied first, the majority of historians reconciled the accounts by noting that the Prophet ﷺ saw off both commanders at the same time, though Ḥamzah marched out first (*Subul al-Hudā*, 6:11).
-
----
-
-## 3. The Encounter at al-ʿĪṣ
-
-Ḥamzah ﵁ and his thirty horsemen marched to the seashore in the vicinity of **al-ʿĪṣ** (*al-ʿĪṣ*), deep within the maritime territory of the tribe of **[[Juhaynah]]** (*Subul al-Hudā*, 6:11).
-
-There they intercepted the caravan of Quraysh returning from Syria to Makkah, laden with trade goods, escorted by **Abū Jahl (ʿAmr b. Hishām)** ☠ at the head of three hundred polytheist warriors (*Subul al-Hudā*, 6:11). 
-
-Despite being outnumbered ten to one, Ḥamzah and the thirty Muhājirūn drew up their ranks in battle formation, resolved to fight in defense of the faith (*Subul al-Hudā*, 6:11).
-
----
-
-## 4. The Diplomatic Mediation of Majdī b. ʿAmr al-Juhanī
-
-As the two forces stood facing each other with drawn weapons, **Majdī b. ʿAmr al-Juhanī**—a chieftain of Juhaynah who was a mutual non-aggression confederate (*ḥalīf*) to both Quraysh and the Muslims—stepped between the battle lines (*Subul al-Hudā*, 6:11).
-
-Majdī rode between the two hosts, urging restraint, pointing out that blood had not yet been shed and that war would bring ruin upon trade (*Subul al-Hudā*, 6:11). 
-
-Both commanders heeded his counsel:
-- Abū Jahl withdrew with his three hundred guards and escorted the caravan southward to Makkah.
-- Ḥamzah b. ʿAbd al-Muṭṭalib ﵁ returned safely with all thirty companions to Medina (*Subul al-Hudā*, 6:11).
-
----
-
-## 5. Prophetic Praise for Majdī b. ʿAmr
-
-When Ḥamzah returned to Medina and recounted the events to the Messenger of Allāh ﷺ, he commended the fairness and neutrality displayed by Majdī b. ʿAmr (*Subul al-Hudā*, 6:11).
-
-Shortly thereafter, a delegation from the clan of Majdī arrived in Medina. The Prophet ﷺ received them with generosity, bestowed fine garments upon them, and praised Majdī's diplomatic wisdom, saying:
-
-> «إِنَّهُ—مَا عَلِمْتُ—مَيْمُونُ النَّقِيبَةِ، مُبَارَكُ الْأَمْرِ!»
-> *"Verily, he is—as far as I have known—of fortunate disposition and blessed in his affair!"* (*Subul al-Hudā*, 6:11).
-
----
-
-## 6. Historical & Strategic Impact
-
-1. **Assertion of Sovereignty**: The expedition proved to Quraysh that Medina was capable of projecting military force directly onto the coastal trade corridor that was the economic lifeline of Makkah (*Subul al-Hudā*, 6:11).
-2. **Neutralization of Local Alliances**: It demonstrated the success of the Prophet's diplomatic agreements with neutral coastal tribes like Juhaynah, isolating Quraysh politically (*Subul al-Hudā*, 6:11).
-3. **Precursor to the Patrols of 1–2 AH**: It laid the foundation for the subsequent reconnaissance patrols of **[[Sariyyat ʿUbaydah b. al-Ḥārith]]**, **[[Sariyyat Saʿd b. Abī Waqqāṣ]]**, and the expeditions of **[[Ghazwat al-Abwāʾ]]** and **[[Ghazwat Buwāṭ]]**, culminating in the historic encounter at **[[Ghazwat Badr al-Kubrā]]** (*Subul al-Hudā*, 6:11).
-
----
+**The order.** Ibn Saʿd mentions this expedition and the one after it before the expedition of [[Ghazwat al-Abwāʾ]]; Ibn Isḥāq mentions them before the expedition of Buwāṭ.[^s6.11]
 
 ## References
 
 1. al-Ṣāliḥī, *Subul al-Hudā war-Rashād*, 6:11–12.
-2. Ibn Ḥajar al-ʿAsqalānī, *al-Iṣābah fī Tamyīz al-Ṣaḥābah*, 7:305 (no. 10522, Abū Marthad al-Ghanawī); 5:467 (no. 7477).
-3. Ibn Saʿd, *al-Ṭabaqāt al-Kubrā*, 2:6.
-4. Ibn Hishām, *al-Sīrah al-Nabawiyyah*, 1:595.
+
+[^s6.11]: *Subul al-Hudā*, 6:11. The wording of the Prophet's ﷺ remark about Majdī is from Muḥammad b. ʿUmar, as cited there.
+[^s6.12]: *Subul al-Hudā*, 6:12 (glosses).
