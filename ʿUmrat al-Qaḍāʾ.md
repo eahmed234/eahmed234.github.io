@@ -32,17 +32,17 @@ primary_source: "*Subul al-Hudā*, 5:189–199; *Ṣaḥīḥ al-Bukhārī*, nos
 
 The Messenger of Allah ﷺ ordered his Companions to make ready for the ʿumrah, and that none who had been present at al-Ḥudaybiyah stay behind. None who had been present did so, except men who had been martyred at Khaybar and men who had died.[^s5.189] Some of the Arabs living near Madinah said they had no provisions and no one to feed them. He ordered the Muslims to spend in the way of Allah, to give charity and not to hold back their hands lest they perish, and when they asked with what they were to give charity when one of them found nothing, he answered: «With whatever there is, even half a date.»[^s5.189]
 
-The sources differ on who was left in charge of Madinah. Muḥammad b. ʿUmar and Ibn Saʿd say he appointed Abū Ruhm al-Ghifārī; Ibn Hishām says ʿUwayf b. al-Aḍbaṭ; al-Balādhurī says Abū Dharr. The page then has: "and it is said ʿUwayf b. al-Aḍbaṭ — and Allah knows best."[^s5.189]
+The sources differ on who was left in charge of Madinah: Abū Ruhm al-Ghifārī according to Muḥammad b. ʿUmar and Ibn Saʿd, ʿUwayf b. al-Aḍbaṭ according to Ibn Hishām, Abū Dharr according to al-Balādhurī. It is also said to have been ʿUwayf b. al-Aḍbaṭ — and Allah knows best.[^s5.189]
 
 ## The hady, the horses and the weapons
 
 Nājiyah b. Jundub al-Aslamī was put over the sacrificial animals (*hady*), which he drove ahead of the Prophet ﷺ, seeking pasture among the trees, with four youths of Aslam; another report adds Abū Hurayrah.[^s5.190] Sixty *badanah* were driven in the *qaḍiyyah*, and the Prophet ﷺ garlanded his *hady* with his own hand.[^s5.190]
 
-According to a report from Qatādah, the Prophet ﷺ also took weapons, helmets, coats of mail and spears, and led a hundred horses under [[Muḥammad b. Maslamah]]. At Dhū al-Ḥulayfah he sent the horses ahead of him and put [[Bashīr b. Saʿd]] over the weapons.[^s5.190] It was said to him that he had brought weapons although the Quraysh had stipulated that they enter only with the traveller's weapons, swords in their scabbards. He answered that they would not bring them into the Ḥaram upon the people, but that the weapons would be near, so that if any of the people stirred them to war they would be at hand.[^s5.190]
+The Prophet ﷺ also took weapons, helmets, coats of mail and spears, and led a hundred horses under [[Muḥammad b. Maslamah]].[^s5.190c] At Dhū al-Ḥulayfah he sent the horses ahead of him and put [[Bashīr b. Saʿd]] over the weapons.[^s5.190] It was said to him that he had brought weapons although the Quraysh had stipulated that they enter only with the traveller's weapons, swords in their scabbards. He answered that they would not bring them into the Ḥaram upon the people, but that the weapons would be near, so that if any of the people stirred them to war they would be at hand.[^s5.190]
 
 Muḥammad b. Maslamah went ahead with the horses to Marr al-Ẓahrān, where he met some men of Quraysh and told them that the Messenger of Allah ﷺ would be at that stopping place tomorrow morning, if Allah willed. They saw the many weapons with Bashīr b. Saʿd and hurried to Quraysh to tell them of the horses and weapons. Quraysh were alarmed and said: "By Allah, we have introduced nothing new; we hold to our document and our term — why then does Muḥammad raid us with his Companions?"[^s5.190]
 
-Ibn ʿUqbah reports that the Prophet ﷺ sent [[Jaʿfar b. Abī Ṭālib]] ahead of him to Maymūnah bint al-Ḥārith to ask for her hand on his behalf; al-Ṣāliḥī refers the account to her biography.[^s5.190]
+The Prophet ﷺ sent [[Jaʿfar b. Abī Ṭālib]] ahead of him to Maymūnah bint al-Ḥārith to ask for her hand on his behalf; the account is given in her biography.[^s5.190b]
 
 ## Iḥrām and Yaʾjaj
 
@@ -58,7 +58,7 @@ Ibn ʿAbbās says the Prophet ﷺ came to Makkah on the morning of the fourth of
 
 He ordered the *hady* ahead of him until it was halted at Dhū Ṭuwā, and entered on his mount al-Qaṣwāʾ, his Companions around him with swords slung on their shoulders, making the *talbiyah*. At Dhū Ṭuwā he halted on his mount, with the Muslims around him, and then entered by the pass that brings one out over al-Ḥajūn.[^s5.191][^s5.199]
 
-It is reported from Anas and others that he entered Makkah in the year of the *qaḍiyyah* on his she-camel, with [[ʿAbdullāh b. Rawāḥah]] ﵁ holding her rein and saying:[^s5.191]
+He entered Makkah in the year of the *qaḍiyyah* on his she-camel, with [[ʿAbdullāh b. Rawāḥah]] ﵁ holding her rein and saying:[^s5.191b]
 
 > «خلوا بني الكفار عن سبيله ... نحن ضربناكم على تأويله»
 
@@ -68,11 +68,11 @@ It is reported from Anas and others that he entered Makkah in the year of the *q
 
 The idolaters had said that a people whom the fever of Yathrib had weakened would come the next day, and sat on Quʿayqiʿān.[^bukh4256][^musl1266][^s5.192] Allah informed His Prophet ﷺ of what they said. On entering the mosque he did *iḍṭibāʿ* with his cloak, baring his right upper arm, and said: «May Allah have mercy on a man who shows them strength from himself»; in another report, «Show them what they dislike.»[^s5.192] He ordered his Companions to do *raml* for the three circuits and to walk between the two corners, so that the idolaters should see their hardiness. Ibn ʿAbbās says the only thing that kept him from ordering *raml* in all the circuits was leniency towards them.[^bukh4256][^musl1266] The idolaters said: "These are the ones you claimed the fever had weakened? These are hardier than so-and-so" — and, in the same report, that they leapt like gazelles; "and the Messenger of Allah ﷺ vexed them as much as he could."[^s5.192] In another report from Ibn ʿAbbās, he ran and did *raml* around the House only to show the idolaters his strength.[^musl1266]
 
-He did not cease making the *talbiyah* until he touched the corner with his staff (*miḥjan*).[^s5.192] ʿAbdullāh b. Abī Awfā reports that the Companions screened him from the idolaters' boys — in one report, from the fools and the boys — for fear they would harm him.[^bukh4255][^s5.192] Some reports have him circle riding his she-camel and touch the corner with his staff; Hishām and Ibn Saʿd add that this was without any ailment, while the Muslims ran around him and Ibn Rawāḥah recited the rajaz.[^s5.192][^s5.193]
+He did not cease making the *talbiyah* until he touched the corner with his staff (*miḥjan*).[^s5.192] ʿAbdullāh b. Abī Awfā reports that the Companions screened him from the idolaters' boys — in one report, from the fools and the boys — for fear they would harm him.[^bukh4255][^s5.192] Some reports have him circle riding his she-camel and touch the corner with his staff; This was without any ailment, while the Muslims ran around him and Ibn Rawāḥah recited the rajaz.[^s5.192][^s5.193b]
 
 ## The House and the saʿy
 
-According to a report from Saʿīd b. al-Musayyab, when he finished his ṭawāf he entered the House and stayed in it until [[Bilāl b. Rabāḥ]] ﵁, whom he had ordered to do so, gave the dawn call to prayer from the roof of the Kaʿbah. ʿIkrimah b. Abī Jahl said that Allah had honoured Abū al-Ḥakam in that he did not hear "this slave" say what he said; [[Ṣafwān b. Umayyah]] thanked Allah for taking his father before he saw it; Khālid b. Asīd said the same of his own father, "when Bilāl, son of Umm Bilāl, stands braying above the Kaʿbah"; and [[Suhayl b. ʿAmr]] and the men with him covered their faces. The page notes of ʿIkrimah, Ṣafwān, Khālid and Suhayl alike that each became a Muslim afterwards.[^s5.193]
+When he finished his ṭawāf he entered the House and stayed in it until [[Bilāl b. Rabāḥ]] ﵁, whom he had ordered to do so, gave the dawn call to prayer from the roof of the Kaʿbah.[^s5.193c] ʿIkrimah b. Abī Jahl said that Allah had honoured Abū al-Ḥakam in that he did not hear "this slave" say what he said; [[Ṣafwān b. Umayyah]] thanked Allah for taking his father before he saw it; Khālid b. Asīd said the same of his own father, "when Bilāl, son of Umm Bilāl, stands braying above the Kaʿbah"; and [[Suhayl b. ʿAmr]] and the men with him covered their faces. ʿIkrimah, Ṣafwān, Khālid and Suhayl each became a Muslim afterwards.[^s5.193]
 
 This is disputed. Ibn Abī Awfā, asked whether the Messenger of Allah ﷺ entered the Kaʿbah in the *qaḍiyyah*, said: "No." And a report of Muḥammad b. ʿUmar from Dāwūd b. al-Ḥuṣayn says that he did not enter it: he sent to them and they refused, saying it was not in his stipulation.[^s5.193]
 
@@ -80,11 +80,11 @@ He did the *saʿy* between al-Ṣafā and al-Marwah on his mount. At the seventh
 
 ## Leaving Makkah
 
-At noon on the fourth day, [[Suhayl b. ʿAmr]] and Ḥuwayṭib b. ʿAbd al-ʿUzzā, both of whom became Muslim afterwards, came to him — Ibn Isḥāq says that Quraysh had charged Ḥuwayṭib with his expulsion — while he was in a gathering of the Anṣār talking with [[Saʿd b. ʿUbādah]]. They said: "Your term has ended, so leave us." He said: «What would it matter to you if you let me alone, so that I consummated my marriage among you and made food?» They said: "We have no need of your food; leave us. We adjure you by Allah, Muḥammad, and by the covenant between us and you, to leave our land — these three have passed."[^s5.194]
+At noon on the fourth day, [[Suhayl b. ʿAmr]] and Ḥuwayṭib b. ʿAbd al-ʿUzzā, both of whom became Muslim afterwards, came to him — Quraysh had charged Ḥuwayṭib with his expulsion[^s5.194b] — while he was in a gathering of the Anṣār talking with [[Saʿd b. ʿUbādah]]. They said: "Your term has ended, so leave us." He said: «What would it matter to you if you let me alone, so that I consummated my marriage among you and made food?» They said: "We have no need of your food; leave us. We adjure you by Allah, Muḥammad, and by the covenant between us and you, to leave our land — these three have passed."[^s5.194]
 
 He had not lodged in a house: a leather tent was pitched for him at al-Abṭaḥ, and he was there until he left, never entering under the roof of any of its houses.[^s5.194][^s5.198] Saʿd ﵁ grew angry at the harshness of their speech and told Suhayl: "You lie, may you have no mother! It is not your land nor your father's land. By Allah, he will not leave it except willingly and content." The Messenger of Allah ﷺ smiled and said: «Saʿd, do not hurt a people who have visited us in our camp», and the two men fell silent towards Saʿd.[^s5.194]
 
-In the Ṣaḥīḥ, from al-Barāʾ b. ʿĀzib: when the term had passed, they came to ʿAlī ﵁ and said, "Tell your companion to leave us, for the term has passed."[^bukh4251][^s5.194] ʿAlī told him, and the Prophet ﷺ ordered Abū Rāfiʿ ﵁ to set out, saying: «Let none of the Muslims spend the evening in it.» He rode until he alighted at Sarif, and left Abū Rāfiʿ behind to bring his wife [[Maymūnah bint al-Ḥārith]] ﵂ when evening came; Abū Rāfiʿ stayed until evening and then went out with her and those with her, and she met hardship from the fools of Makkah. Al-Ṣāliḥī refers the account of his marriage to her to her biography.[^s5.194][^s5.199] In Muslim's version, on the third day they said to ʿAlī: "This is the last day of your companion's term; tell him to leave" — and he said «Yes» and left; the commentary printed with it notes that this exchange belongs to the year after the treaty, that of this ʿumrah.[^musl1783]
+When the term had passed, they came to ʿAlī ﵁ and said, "Tell your companion to leave us, for the term has passed."[^bukh4251][^s5.194] ʿAlī told him, and the Prophet ﷺ ordered Abū Rāfiʿ ﵁ to set out, saying: «Let none of the Muslims spend the evening in it.» He rode until he alighted at Sarif, and left Abū Rāfiʿ behind to bring his wife [[Maymūnah bint al-Ḥārith]] ﵂ when evening came; Abū Rāfiʿ stayed until evening and then went out with her and those with her, and she met hardship from the fools of Makkah. The account of his marriage to her is given in her biography.[^s5.194][^s5.199] In Muslim's version, on the third day they said to ʿAlī: "This is the last day of your companion's term; tell him to leave" — and he said «Yes» and left; the commentary printed with it notes that this exchange belongs to the year after the treaty, that of this ʿumrah.[^musl1783]
 
 ## The daughter of Ḥamzah
 
@@ -94,7 +94,7 @@ As the Prophet ﷺ left, the daughter of [[Ḥamzah b. ʿAbd al-Muṭṭalib]] f
 
 ## The return
 
-Ibn Isḥāq says that the Prophet ﷺ then went back in Dhū al-Ḥijjah.[^s5.195] The number of the Muslims, apart from women and boys, was two thousand.[^s5.195] Ibn Hishām says that Allah revealed, as Abū ʿUbaydah related to him, the verse that Allah has indeed fulfilled for His Messenger the vision in truth (al-Fatḥ 27), and the verse continues with a "near conquest", glossed there as Khaybar.[^s5.195]
+The Prophet ﷺ went back in Dhū al-Ḥijjah.[^s5.195b] The number of the Muslims, apart from women and boys, was two thousand.[^s5.195] Allah revealed the verse that He has indeed fulfilled for His Messenger the vision in truth (al-Fatḥ 27), and the verse continues with a "near conquest", glossed there as Khaybar.[^s5.195c]
 
 ## Names and disputes
 
@@ -118,11 +118,19 @@ Ibn Isḥāq says that the Prophet ﷺ then went back in Dhū al-Ḥijjah.[^s5.1
 
 [^s5.189]: *Subul al-Hudā*, 5:189.
 [^s5.190]: *Subul al-Hudā*, 5:190.
+[^s5.190b]: *Subul al-Hudā*, 5:190, from Ibn ʿUqbah.
+[^s5.190c]: *Subul al-Hudā*, 5:190, from Qatādah.
 [^s5.191]: *Subul al-Hudā*, 5:191.
+[^s5.191b]: *Subul al-Hudā*, 5:191, from Anas and others.
 [^s5.192]: *Subul al-Hudā*, 5:192.
 [^s5.193]: *Subul al-Hudā*, 5:193.
+[^s5.193b]: *Subul al-Hudā*, 5:193, from Hishām and Ibn Saʿd.
+[^s5.193c]: *Subul al-Hudā*, 5:193, from Saʿīd b. al-Musayyab.
 [^s5.194]: *Subul al-Hudā*, 5:194.
+[^s5.194b]: *Subul al-Hudā*, 5:194, from Ibn Isḥāq.
 [^s5.195]: *Subul al-Hudā*, 5:195.
+[^s5.195b]: *Subul al-Hudā*, 5:195, from Ibn Isḥāq.
+[^s5.195c]: *Subul al-Hudā*, 5:195, as cited from Ibn Hishām, who had it from Abū ʿUbaydah.
 [^s5.196]: *Subul al-Hudā*, 5:196.
 [^s5.197]: *Subul al-Hudā*, 5:197.
 [^s5.198]: *Subul al-Hudā*, 5:198.
