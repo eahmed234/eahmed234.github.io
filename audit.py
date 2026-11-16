@@ -1784,7 +1784,11 @@ def run(args):
     total_links, unresolved, multiline = 0, defaultdict(list), []
     cite_total = Counter()
     out_of_bounds = []
-    missing_fm, missing_fields, missing_ps = [], [], []
+    missing_fm, missing_fields, missing_ps, bad_yaml = [], [], [], []
+    try:
+        import yaml   # Quartz parses frontmatter as strict YAML; parse_frontmatter above is lenient
+    except ImportError:
+        yaml = None
     for b, n in notes.items():
         raw = n["raw"]
         for bad in re.findall(r"\[\[[^\]]*\n[^\]]*\]\]", raw):
@@ -1807,6 +1811,14 @@ def run(args):
         fm = n["fm"]
         if not fm:
             missing_fm.append(b); continue
+        if yaml:
+            fm_text = re.match(r"^---\n(.*?)\n---", raw, re.DOTALL).group(1)
+            try:
+                yaml.safe_load(fm_text)
+            except yaml.YAMLError as e:
+                mark = getattr(e, "problem_mark", None)
+                where = f"line {mark.line + 2}" if mark else "?"
+                bad_yaml.append((b, where, getattr(e, "problem", None) or str(e).splitlines()[0]))
         for req in ("title", "arabic", "type", "tags"):
             if req not in fm:
                 missing_fields.append((b, req))
@@ -1841,6 +1853,8 @@ def run(args):
     print(f"  Wikilinks              {total_links} total, {len(unresolved)} unresolved targets (by design)")
     print(f"  Frontmatter            missing FM {len(missing_fm)}, missing fields {len(missing_fields)}, "
           f"missing primary_source {len(missing_ps)}")
+    print(f"  Frontmatter YAML       " + ("not checked (PyYAML missing)" if yaml is None else
+                                         "PASS" if not bad_yaml else f"FAIL ({len(bad_yaml)})"))
     alias_bad = len(alias_collisions) + len(search_cfg_errors)
     print(f"  Alias collisions       {'PASS' if not alias_bad else f'FAIL ({len(alias_collisions)} unsettled, {len(search_cfg_errors)} errors in site_search.json)'}")
     if findings:
@@ -1851,6 +1865,12 @@ def run(args):
         print(f"  …of which the missing item occurs within {NEAR} pages of the citation: {hinted}")
     print("-" * 64 + "\n")
 
+    if bad_yaml:
+        print(f"Invalid frontmatter YAML — Quartz will refuse to build ({len(bad_yaml)}). "
+              "Quote a value that contains ': ' or starts with a special character:")
+        for b, where, prob in bad_yaml:
+            print(f"  - {b} ({where}): {prob}")
+        print()
     if hub_orphans:
         print(f"Orphaned notes not linked from The Sīrah.md ({len(hub_orphans)}):")
         for o in sorted(hub_orphans):
@@ -1925,7 +1945,7 @@ def run(args):
         path = write_sheet(auditor, only, findings.get(only, []))
         print(f"Wrote source sheet → {os.path.relpath(path, VAULT_DIR)}")
 
-    return 1 if (hub_orphans or multiline or out_of_bounds or alias_collisions or search_cfg_errors) else 0
+    return 1 if (bad_yaml or hub_orphans or multiline or out_of_bounds or alias_collisions or search_cfg_errors) else 0
 
 
 if __name__ == "__main__":

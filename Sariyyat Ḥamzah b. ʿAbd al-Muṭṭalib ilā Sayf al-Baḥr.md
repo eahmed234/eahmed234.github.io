@@ -13,7 +13,7 @@ tags:
   - hamzah-b-abd-al-muttalib
   - 1-ah
   - unverified
-date_hijri: Ramaḍān, at the head of seven months from the Hijrah (al-Madāʾinī: Rabīʿ al-Awwal of year two; Abū ʿAmr: after Rabīʿ al-Ākhir)
+date_hijri: "Ramaḍān, at the head of seven months from the Hijrah (al-Madāʾinī: Rabīʿ al-Awwal of year two; Abū ʿAmr: after Rabīʿ al-Ākhir)"
 location: "Sayf al-Baḥr, on the side of al-ʿĪṣ, in the land of Juhaynah"
 commanders_muslim:
   - "[[Ḥamzah b. ʿAbd al-Muṭṭalib]] ﵁"
