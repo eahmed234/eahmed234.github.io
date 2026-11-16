@@ -139,3 +139,12 @@ that has any.
   now: attributed to Muḥammad b. ʿUmar as cited; the 6:12 gloss is not attached to the printed word; the editors' bracketed words are left out of the quotation. →
 - [ ] **S6.11.01 vs S6.11.02** — the heading says thirty men "of the Muhājirūn and the Anṣār"; Ibn Saʿd says all Muhājirūn.
   now: both given. →
+
+## Sariyyat ʿUbaydah b. al-Ḥārith ilā Baṭn Rābigh
+
+- [ ] **S6.13.03 — «فخرج فلقي أبا سفيان بن حرب، في أناس من أصحابه على ماء…»** Do «أناس من أصحابه» accompany ʿUbaydah (subject of «فخرج») or Abū Sufyān?
+  now: the companions are left out of the note. →
+- [ ] **S6.13.03 — «[على عشرة أميال من الجحفة وأنت تريد قديدا على يسار الطريق، وإنما]»** is in the editors' square brackets inside the matn.
+  now: the ten miles from al-Juḥfah is stated with a footnote saying it is the editors' insertion; the Qudayd road is left out. →
+- [ ] **S6.13.06 — «قال محمد بن عمر: … وهو الثبت عندنا»** Where Muḥammad b. ʿUmar's words end is not marked.
+  now: only "the sound view with him" is attributed to him. →

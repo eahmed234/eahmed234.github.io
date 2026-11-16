@@ -47,7 +47,7 @@ All entries follow strict academic **IJMES transliteration** (e.g., *ʾalā kull
 - [[al-Muʾākhāh]] (1 AH) — *The Institutional Fraternization between Muhājirūn and Anṣār*
 - [[Dustūr al-Madīnah]] (1 AH) — *The Covenant with the Jews of Madīnah*
 - [[Sariyyat Ḥamzah b. ʿAbd al-Muṭṭalib ilā Sayf al-Baḥr]] (Ramaḍān 1 AH) — *The First Military Standard Entrusted in Islam*
-- [[Sariyyat ʿUbaydah b. al-Ḥārith ilā Baṭn Rābigh]] (Shawwāl 1 AH) — *The Second White Standard & First Arrow Shot by Saʿd*
+- [[Sariyyat ʿUbaydah b. al-Ḥārith ilā Baṭn Rābigh]] (Shawwāl 1 AH) — *The first arrow shot in Islam, by Saʿd*
 - [[Sariyyat Saʿd b. Abī Waqqāṣ ilā al-Kharrār]] (Dhū al-Qaʿdah 1 AH) — *Reconnaissance on Foot to the Hijazi Red Sea Marches*
 - [[Ghazwat al-Abwāʾ]] (Ṣafar 2 AH) — *The First Ghazwah in Islam & The Treaty of Waddān*
 - [[Ghazwat Buwāṭ]] (Rabīʿ al-Awwal 2 AH) — *Interception at Mount Buwāṭ of Umayyah's 2,500 Camels*
