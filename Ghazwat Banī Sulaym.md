@@ -13,64 +13,54 @@ tags:
   - ghatafan
   - 2-ah
   - unverified
-date_hijri: Shawwāl 2 AH (approx. April 624 CE)
-location: "Qarqarat al-Kudr (the waters of Banū Sulaym in Najd)"
+date_hijri: "Shawwāl 2 AH (Ibn Isḥāq); mid-Muḥarram, at the head of 23 months from the hijrah (Ibn Saʿd)"
+location: "al-Kudr (Qarqarat al-Kudr)"
 commanders_muslim:
   - "[[Muḥammad b. ʻAbdullah|Muḥammad]] ﷺ"
-commanders_enemy: "Chieftains of Banū Sulaym and [[Ghaṭafān]] (fled into the wilderness)"
-standard_bearer: "[[ʿAlī b. Abī Ṭālib]] ﵁ (White standard)"
-deputy_in_medina: "Sibāʿ b. ʿUrfuṭah al-Ghifārī ﵁ (or [[Abdullāh b. Umm Maktūm|ʿAbdullāh b. Umm Maktūm]] ﵁)"
-strength_muslim: "200 Muslim warriors (*Subul al-Hudā*, 4:172)"
-strength_enemy: "Predatory tribal assembly of Banū Sulaym and Ghaṭafān"
-casualties_muslim: 0
-casualties_enemy: "0 (dispersed without combat; 500 camels captured)"
-spoils: "500 camels (apportioned at Ṣirār, 2 camels per warrior)"
-duration: "Encamped 3 nights at al-Kudr; total absence from Medina was 15 nights (*Subul al-Hudā*, 4:172)"
-primary_source: "[[Subul al-Hudā war-Rashād]] (vol. 4, pp. 172–173)"
+standard_bearer: "[[ʿAlī b. Abī Ṭālib]] ﵁ (white banner)"
+deputy_in_medina: "Sibāʿ b. ʿUrfuṭah al-Ghifārī ﵁, or [[ʿAbdullāh b. Umm Maktūm|Ibn Umm Maktūm]] ﵁"
+adversaries: "A gathering of [[Banū Sulaym|Sulaym]] and [[Ghaṭafān]]"
+duration: "Fifteen nights away from Madīnah"
+spoils: "500 camels; two young camels (*bakrān*) to each of 200 men"
+primary_source: "[[Subul al-Hudā war-Rashād]] (4:172–173)"
 ---
 
 # Ghazwat Banī Sulaym (غزوة بني سليم بالكدر)
-*The Expedition of Qarqarat al-Kudr — The Dispersal of Sulaym and Ghaṭafān, The Spoils of Ṣirār, and the Emancipation of the Praying Youth Yasār*
+*The expedition to al-Kudr, also called Qarqarat al-Kudr*
 
-## 1. Strategic Context & Provocation
-Following the decisive victory at **[[Ghazwat Badr al-Kubrā]]** in Ramaḍān 2 AH, the Messenger of Allāh ﷺ returned to Medina (*Subul al-Hudā*, 4:172). However, seven nights had barely elapsed before urgent intelligence reached the city that the predatory Bedouin tribes of the central plateau were mobilizing against the new Islamic capital.
+The **Ghazwat Banī Sulaym** at al-Kudr, also called **Qarqarat al-Kudr**, was an expedition of the Prophet ﷺ against a gathering of Sulaym and Ghaṭafān. He found no one in their encampments, took their camels, and was away from Madīnah fifteen nights.[^s4.172]
 
-A formidable host composed of **Banū Sulaym** (Banū Sulaym b. Manṣūr) and their powerful confederates of **[[Ghaṭafān]]** had mustered at **Qarqarat al-Kudr**—a wide, flat depression (*qaraqarah*) containing natural water cisterns frequented by flocks of dusky, dun-colored sandgrouse birds (*al-kudr*) (*Subul al-Hudā*, 4:172–173). Their intention was to launch a sudden punitive raid against Medina, seeking to avenge Quraysh or exploit any perceived post-battle exhaustion among the Muslims (*Subul al-Hudā*, 4:172).
+## The march to al-Kudr
 
-Refusing to allow the hostile coalition to consolidate near the borders of the oasis, the Prophet ﷺ seized the offensive initiative, ordering an immediate pre-emptive expedition (*Subul al-Hudā*, 4:172).
+Word reached the Prophet ﷺ that a gathering of [[Banū Sulaym|Sulaym]] and [[Ghaṭafān]] was at al-Kudr. He left Sibāʿ b. ʿUrfuṭah al-Ghifārī ﵁ — or, in another report, [[ʿAbdullāh b. Umm Maktūm|Ibn Umm Maktūm]] ﵁ — over Madīnah, and [[ʿAlī b. Abī Ṭālib]] ﵁ carried his white banner.[^s4.172] He marched to them and reached the place of safety of their waters, called al-Kudr, but found no one in the encampments.[^s4.172]
 
-## 2. Mobilization & The Pincer Advance to al-Kudr
-The Prophet ﷺ appointed **Sibāʿ b. ʿUrfuṭah al-Ghifārī** ﵁ (or **[[Abdullāh b. Umm Maktūm|ʿAbdullāh b. Umm Maktūm]]** ﵁) as deputy governor over Medina during his absence (*Subul al-Hudā*, 4:172). 
+## The herdsmen and the camels
 
-An army of **two hundred warriors** mobilized, and the Prophet ﷺ committed the supreme white battle standard into the hands of **[[ʿAlī b. Abī Ṭālib]]** ﵁ (*Subul al-Hudā*, 4:172).
+He sent a party of his Companions to the upper part of the valley, and met them head-on himself in the bed of the valley. There he found herdsmen, among them a youth called Yasār, and asked him about the people. Yasār answered that he had no knowledge of them: he watered his camels on the fifth day, it was a *rubʿ* day, the people had gone up to the waters, and the herdsmen were away with the camels.[^s4.172][^s4.173] The Prophet ﷺ stayed three nights, having taken the camels.[^s4.172]
 
-The Muslim force marched rapidly across the desert into the territory of Sulaym until reaching their primary watering places at al-Kudr (*Subul al-Hudā*, 4:172). Finding the tribal encampments abruptly evacuated, the Prophet ﷺ executed a tactical sweep:
-- He dispatched a scouting detachment along the crest of the wadi (*aʿlā al-wādī*).
-- The Prophet ﷺ personally led the main body through the floor of the valley (*baṭn al-wādī*) (*Subul al-Hudā*, 4:172).
+## Return and division of the spoils
 
-In the valley, they encountered herdsmen grazing a vast herd of camels. Among them was a slave youth named **Yasār**. The Prophet ﷺ questioned him regarding the whereabouts of the Sulaym host. Yasār replied that he possessed no knowledge of their military movements: he was merely a pastoral bondsman pasturing the herd according to the desert watering rotation, and the tribesmen had scattered into the high mountains upon detecting the Muslim advance (*Subul al-Hudā*, 4:172).
+He went down to Madīnah, and the spoils were divided at Ṣirār, three miles from Madīnah.[^s4.172] (Ṣirār is an old well; it is said to be a place three miles from Madīnah on the road of Iraq.)[^s4.173] The camels numbered five hundred. He set aside the fifth and divided the four fifths among the Muslims, each man receiving two young camels (*bakrān*); they were two hundred men.[^s4.172]
 
-The Muslims secured the entire herd of **five hundred camels** without resistance (*Subul al-Hudā*, 4:172). The Prophet ﷺ encamped at the waters of al-Kudr for **three nights**, confirming the complete pacification of the area and asserting Islamic dominance over the region (*Subul al-Hudā*, 4:172).
+Yasār fell to the Prophet's ﷺ share, and he freed him because he saw him praying.[^s4.172]
 
-## 3. The Division of Spoils at Ṣirār & The Emancipation of Yasār
-Having secured the herd, the Prophet ﷺ marched the army back toward Medina. Upon reaching **Ṣirār**—an ancient well waystation located three miles outside Medina along the Iraqi road—the spoils were officially inventoried and apportioned (*Subul al-Hudā*, 4:172–173):
-- The Prophet ﷺ set aside the legal fifth (**al-khums**, 100 camels) for the public treasury.
-- The remaining four-fifths (400 camels) were divided equally among the **two hundred warriors**, each fighter receiving **two young camels** (*bakrān*) (*Subul al-Hudā*, 4:172).
+The Prophet ﷺ had been away fifteen nights. He then stayed in Madīnah through Shawwāl and Dhū al-Qaʿdah, and during that stay most of the prisoners of Quraysh were ransomed.[^s4.172]
 
-### The Emancipation of the Praying Youth
-The youth Yasār fell into the Prophet's personal share of the fifth (*al-khums*). While in camp, the Prophet ﷺ observed Yasār standing in worship, performing the ritual prayer with heartfelt humility and devotion (*Subul al-Hudā*, 4:172).
+## The name and the place
 
-Moved by his faith, the Messenger of Allāh ﷺ immediately declared his full emancipation, stating:
-> «إِنِّي نُهِيتُ عَنْ قَتْلِ الْمُصَلِّينَ»
-> *"Indeed, I have been forbidden from harming those who pray!"*
-The Prophet ﷺ emancipated him on the spot solely in honor of his prayer (*Subul al-Hudā*, 4:172).
+The place is also called *Qarārat al-Kudr*. *Qarqarah* is smooth ground; *al-kudr* are birds with a dusky colour (*kudrah*), and the place is known by them.[^s4.173]
 
-## 4. Strategic Impact & Historical Timetable
-- **Deterrence of the Najdi Bedouins**: The preemptive strike at Qarqarat al-Kudr proved to the nomadic confederations of Sulaym and Ghaṭafān that the nascent Madinan state was capable of projecting military force deep into the central highlands within days of a major battle.
-- **Duration**: The Prophet ﷺ was absent from Medina for **fifteen nights** (*khamsata ʿashara laylah*) (*Subul al-Hudā*, 4:172).
-- **Subsequent Events in Medina**: Upon his return, the Prophet ﷺ remained in Medina throughout the remainder of Shawwāl and Dhū al-Qaʿdah 2 AH, during which the ransoming and redemption of the majority of the Qurashī prisoners captured at Badr was conducted (*Subul al-Hudā*, 4:172).
+## Disputed points
 
-## 5. References
-1. *[[Subul al-Hudā war-Rashād]]*, vol. 4, pp. 172–173 (The Eighth Chapter: Ghazwat Banī Sulaym at al-Kudr, or Qarqarat al-Kudr, the Details of Spoils at Ṣirār, and Linguistic Notes).
-2. *Sīrat Ibn Isḥāq* / *Sīrat Ibn Hishām*, vol. 1, pp. 642–643.
-3. *al-Ṭabaqāt al-Kubrā* by Ibn Saʿd, vol. 2, pp. 30–31.
+**Deputy in Madīnah.** Sibāʿ b. ʿUrfuṭah al-Ghifārī or Ibn Umm Maktūm; the report gives both.[^s4.172]
+
+**Date.** Ibn Isḥāq places it in Shawwāl of the year two. Ibn Saʿd places it in Muḥarram, in the middle of the month, at the head of twenty-three months.[^s4.172]
+
+**Number and order.** *al-ʿUyūn*, followed by *al-Mawrid*, distinguishes this expedition from a separate expedition of Qarqarat al-Kudr and so counts six expeditions before Uḥud. Ibn Isḥāq counts five, followed by Abū ʿUmar, al-Bayhaqī, Ibn Kathīr, Ibn al-Qayyim and others, and Ibn Saʿd counts five as well, but orders them differently. With Ibn Isḥāq the order is: Banū Sulaym at al-Kudr, then [[Ghazwat al-Suwayq|al-Suwayq]], then Dhū Amarr (the expedition of Ghaṭafān), then al-Furuʿ of Buḥrān, then [[Ghazwat Banī Qaynuqāʿ|Banū Qaynuqāʿ]].[^s4.172]
+
+## References
+
+- *Subul al-Hudā war-Rashād*, al-Ṣāliḥī (Beirut 1414/1993).
+
+[^s4.172]: *Subul al-Hudā*, 4:172; the report is from Ibn Isḥāq, Abū ʿUmar, Ibn Ḥazm and others.
+[^s4.173]: *Subul al-Hudā*, 4:173.
