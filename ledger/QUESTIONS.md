@@ -132,3 +132,10 @@ that has any.
   now: Ḥamzah b. Saʿīd, as 3:364 prints it. →
 - [ ] **S3.369.10 — «وبذلك يجتمع الحديثان…»** is in the editors' square brackets inside the matn.
   now: not used as a claim. →
+
+## Sariyyat Ḥamzah b. ʿAbd al-Muṭṭalib ilā Sayf al-Baḥr
+
+- [ ] **S6.11.15 — «فيما ذكره محمد بن عمر عن مجدي أيضا: «[إنه- ما] علمت- ميمون النقيبة مبارك الأمر» أو قال: «رشيد الأمر»».** Does the saying come from Muḥammad b. ʿUmar, or only the report about Majdī? Is «عن مجدي» "from" or "about" Majdī? Is «ميمون» a misprint for «مأمون» (the form glossed at 6:12)?
+  now: attributed to Muḥammad b. ʿUmar as cited; the 6:12 gloss is not attached to the printed word; the editors' bracketed words are left out of the quotation. →
+- [ ] **S6.11.01 vs S6.11.02** — the heading says thirty men "of the Muhājirūn and the Anṣār"; Ibn Saʿd says all Muhājirūn.
+  now: both given. →

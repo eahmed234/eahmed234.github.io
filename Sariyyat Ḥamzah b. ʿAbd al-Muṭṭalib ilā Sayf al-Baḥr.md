@@ -43,11 +43,12 @@ When the two parties had drawn up in ranks, Majdī b. ʿAmr al-Juhanī, who was 
 
 ## Majdī b. ʿAmr
 
-Back with the Messenger of Allah ﷺ, Ḥamzah told him how Majdī had come between them, and that they had found fairness in him. A group of Majdī's people came to the Messenger of Allah ﷺ, and he clothed them.[^s6.11] In what Muḥammad b. ʿUmar mentions from Majdī, the Prophet ﷺ said of him: "as far as I know, he is *maymūn al-naqībah* (successful in his deeds), of blessed affair" — or, in another wording, "of rightly guided affair".[^s6.11][^s6.12] It is not known that Majdī became a Muslim.[^s6.12]
+Back with the Messenger of Allah ﷺ, Ḥamzah told him how Majdī had come between them, and that they had found fairness in him. A group of Majdī's people came to the Messenger of Allah ﷺ, and he clothed them.[^s6.11] In what Muḥammad b. ʿUmar mentions from Majdī, the Prophet ﷺ said of him: "as far as I know … *maymūn al-naqībah*, of blessed affair" — or, in another wording, "of rightly guided affair".[^s6.11][^s6.12] It is not known that Majdī became a Muslim.[^s6.12]
 
 ## Disputes
 
 **The first banner.** Ibn Isḥāq mentions that the first banner the Messenger of Allah ﷺ tied was that of [[ʿUbaydah b. al-Ḥārith]]. He adds that people differed over the two banners: some said Ḥamzah's came before ʿUbaydah's, others the reverse, because the Messenger of Allah ﷺ saw both men off together and this confused some people.[^s6.11]
+
 **The date.** The month is disputed: al-Madāʾinī says Rabīʿ al-Awwal of year two, and Abū ʿAmr says after Rabīʿ al-Ākhir, against the Ramaḍān at seven months from the Hijrah given above.[^s6.11]
 
 **The order.** Ibn Saʿd mentions this expedition and the one after it before the expedition of [[Ghazwat al-Abwāʾ]]; Ibn Isḥāq mentions them before the expedition of Buwāṭ.[^s6.11]
@@ -57,4 +58,4 @@ Back with the Messenger of Allah ﷺ, Ḥamzah told him how Majdī had come betw
 1. al-Ṣāliḥī, *Subul al-Hudā war-Rashād*, 6:11–12.
 
 [^s6.11]: *Subul al-Hudā*, 6:11. The wording of the Prophet's ﷺ remark about Majdī is from Muḥammad b. ʿUmar, as cited there.
-[^s6.12]: *Subul al-Hudā*, 6:12 (glosses).
+[^s6.12]: *Subul al-Hudā*, 6:12 (glosses). The page glosses the form *maʾmūn al-naqībah* as one whose deeds succeed and whose aims are attained; the Prophet's ﷺ words are printed *maymūn al-naqībah*, with the opening words bracketed as the editors' insertion.
