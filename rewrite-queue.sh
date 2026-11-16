@@ -21,6 +21,7 @@ QUEUE="${1:-review/queue.txt}"
 MODEL="${MODEL:-sonnet}"
 REWRITE_MODEL="${REWRITE_MODEL:-$MODEL}"   # per-step models, e.g. REWRITE_MODEL=haiku VERIFY_MODEL=sonnet
 VERIFY_MODEL="${VERIFY_MODEL:-$MODEL}"
+LEDGER_MODEL="${LEDGER_MODEL:-$REWRITE_MODEL}"  # the note's own ledger, built first in a session of its own if missing
 EFFORT="${EFFORT:-}"                   # EFFORT=medium ./rewrite-queue.sh — passed to claude --effort if set
 QUIET="${QUIET:-}"
 LOGS=review/logs
@@ -87,7 +88,7 @@ CLAUDE_FLAGS=(--permission-mode acceptEdits --strict-mcp-config
 
 step() {   # step <skill> <note>
   local log="$LOGS/$2.$1.log" prompt="Follow .claude/skills/$1/SKILL.md for the note: $2" model="$MODEL"
-  case "$1" in rewrite-note) model="$REWRITE_MODEL" ;; verify-note) model="$VERIFY_MODEL" ;; esac
+  case "$1" in ledger) model="$LEDGER_MODEL" ;; rewrite-note) model="$REWRITE_MODEL" ;; verify-note) model="$VERIFY_MODEL" ;; esac
   # Build the packet now, so the session starts by reading one file instead of searching for things.
   if python3 audit.py --packet "$2" > /dev/null 2>&1; then
     prompt="$prompt — its packet is already at review/$2.packet.md (read it; no need to regenerate it first)."
@@ -153,9 +154,9 @@ while IFS= read -r line || [ -n "$line" ]; do
   n="$(trim "$line")"; case "$n" in ""|\#*) continue ;; esac
   total=$((total + 1)); grep -qxF -- "$n" "$DONE" || todo=$((todo + 1))
 done < "$QUEUE"
-echo "Queue: $QUEUE — $total notes, $((total - todo)) already done, $todo to do. Models: rewrite $REWRITE_MODEL, verify $VERIFY_MODEL."
+echo "Queue: $QUEUE — $total notes, $((total - todo)) already done, $todo to do. Models: ledger $LEDGER_MODEL, rewrite $REWRITE_MODEL, verify $VERIFY_MODEL."
 if [ -n "$ONLY" ]; then echo "Each note: $ONLY only, then audit. (Done-list: $DONE)"
-else echo "Each note: rewrite (builds the ledger if missing) → verify (fresh session) → audit."; fi
+else echo "Each note: ledger (only if its own is missing) → rewrite → verify (fresh session each) → audit."; fi
 [ -n "$QUIET" ] || echo "Lines below are the session's actions as they happen; full reports go to $LOGS/."
 
 i=0; started=$(date +%s)
@@ -179,6 +180,14 @@ while IFS= read -r line || [ -n "$line" ]; do
     if grep -qxF -- "$note" review/rewritten.txt; then
       echo "  ── 1/3 rewrite — already committed in an earlier run; resuming at verify"
     else
+      # The note's own ledger, if it has none, in a session of its own (it may run on a cheaper model).
+      if python3 audit.py --packet "$note" > /dev/null 2>&1 && grep -q '\*\*Own ledgers:\*\* none' "review/$note.packet.md"; then
+        echo "  ── 0/3 ledger"
+        begin ledger "$note"
+        step ledger "$note" || { echo "  ✗ ledger failed — see $LOGS/$note.ledger.log"; exit 1; }
+        python3 audit.py --ledger > /dev/null || { echo "  ✗ ledger snippets are not verbatim on their pages — stopping. Run: python3 audit.py --ledger"; exit 1; }
+        commit_step "$note" ledger || { echo "  ✗ commit failed after the ledger"; exit 1; }
+      fi
       echo "  ── 1/3 rewrite"
       begin rewrite-note "$note"
       step rewrite-note "$note" || { echo "  ✗ rewrite failed — see $LOGS/$note.rewrite-note.log"; exit 1; }

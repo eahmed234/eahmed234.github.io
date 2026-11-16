@@ -39,6 +39,9 @@ may be in it that the page does not say.
   (taḥqīq)`.
 - The packet prints chapters up to 25 pages. For a longer one, or without a packet, print with `--out` and
   read the file with the Read tool. Never print the same pages twice.
+- **QUEUE MODE** (the prompt says so): the queue script commits for you — run no git command at all. The
+  ledger is the only thing to produce: do not touch the note. Completeness matters more than speed: every
+  sentence of the chapter or entry gets an entry, because the note may later say only what is here.
 - **Write the ledger in one Write**, or one Write per part of a long chapter. Number the entries as you
   go; if ids come out wrong, fix them all with `python3 audit.py --renumber "<ledger file>"`, never with
   single edits.
@@ -93,8 +96,9 @@ Re-read each entry: snippet, then rendering. The rendering says what the snippet
 python3 audit.py --ledger        # every snippet verbatim on its page — must pass
 ```
 
-Fill in the header (`pages read`, `taḥqīq`, `feeds`, `skipped`, `unsettled`). Commit the ledger file only,
-following **Git** in `CLAUDE.md` (branch `drafts`, never push).
+Fill in the header (`pages read`, `taḥqīq`, `feeds`, `skipped`, `unsettled`). In QUEUE MODE skip the
+commit — the script commits. Otherwise commit the ledger file only, following **Git** in `CLAUDE.md`
+(branch `drafts`, never push).
 
 ## 5. Report
 
