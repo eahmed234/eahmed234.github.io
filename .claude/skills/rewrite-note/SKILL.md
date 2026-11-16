@@ -21,6 +21,12 @@ Every turn re-sends the whole session, so turns late in a session cost the most.
   glossary, its ledgers or the source pages, and the entries of other ledgers that mention it. Do not
   `ls`, `grep`, `cat` or `find` for any of these. If the packet is long, Read the sections you need with
   `offset`/`limit` (its first lines give each section's line number).
+- **Write the note once, then fix it with at most one more Write.** Every Edit is a turn that re-sends
+  the whole session, and the late turns are the largest. Collect every correction from the self-check and
+  the audit, then rewrite the file once (or apply them all in one short Python script). Never a chain of
+  single Edits.
+- **QUEUE MODE** (the prompt says so): the queue script is on `drafts` and commits for you — run no git
+  command at all. Run the audit once, as one command (section 4), and once more after your fixes.
 - **One command for many changes.** Several replacements in a file → one Write of the whole file or one
   short Python script, never a chain of single Edits. Wrong ledger ids → `python3 audit.py --renumber
   "<ledger>"`. Names to check → one `--exists` call with all of them.
@@ -98,7 +104,8 @@ ledger leaves unclear — and then correct the ledger first.
 - No analysis, "significance" or "lessons" unless an entry gives them as the author's own.
 - Honorific ligatures agree in gender and number (﵁ ﵂ ﵃ ﵄ ﵅ ﵊).
 
-Write the file once with the Write tool, then correct with targeted edits.
+Write the file once with the Write tool. Corrections from the self-check and the audit go into one
+further Write (or one script), not a series of Edits.
 
 ## Voice — state it; let the footnote attribute it
 
@@ -151,10 +158,11 @@ with none. Common slips:
 ## 4. Audit
 
 ```bash
-python3 audit.py --note "<name>"     # resolve every flag
-python3 audit.py --ledger
-python3 audit.py --no-content        # structural checks must pass
+python3 audit.py --note "<name>"; python3 audit.py --ledger | tail -15; python3 audit.py --no-content | tail -25
 ```
+
+One command, as above: `--note` (resolve every flag), `--ledger` (snippets verbatim) and `--no-content`
+(structural checks must pass).
 
 For each flag, fix the claim, fix the citation, or state why it is a false positive (known ones:
 al-Wāqidī printed as "Muḥammad b. ʿUmar"; English exonyms; small numbers written as words; Qurʾān verse
@@ -172,6 +180,6 @@ Fix another note only if the ledger settles it and the edit is one line; otherwi
 
 ## 6. Commit and report
 
-Commit the note and any ledger you wrote or changed, following **Git** in `CLAUDE.md` (branch
-`drafts`, never push). Then report briefly: what the old note had wrong; what is kept as a dispute;
+In QUEUE MODE skip the commit — the script commits. Otherwise commit the note and any ledger you wrote
+or changed, following **Git** in `CLAUDE.md` (branch `drafts`, never push). Then report briefly: what the old note had wrong; what is kept as a dispute;
 chapters "not yet ledgered"; problems seen in other notes; and that the note is ready for verify-note.

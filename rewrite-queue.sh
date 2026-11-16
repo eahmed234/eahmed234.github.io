@@ -19,6 +19,7 @@ set -u -o pipefail
 cd "$(dirname "$0")"
 QUEUE="${1:-review/queue.txt}"
 MODEL="${MODEL:-sonnet}"
+EFFORT="${EFFORT:-}"                   # EFFORT=medium ./rewrite-queue.sh — passed to claude --effort if set
 QUIET="${QUIET:-}"
 LOGS=review/logs
 ONLY="${ONLY:-}"                       # run just this skill per note, with its own done-list
@@ -72,16 +73,30 @@ print("\n" + final + "\n")
 ' 
 }
 
+# Every turn re-sends the whole session, so the fixed part matters: with only these four tools and no
+# skills listing or MCP servers, a session starts at ~9k tokens instead of ~35k (measured Nov 2026).
+# The skills still apply — the prompt names the SKILL.md file and the session reads it.
+CLAUDE_FLAGS=(--model "$MODEL" --permission-mode acceptEdits --strict-mcp-config
+              --tools "Bash,Read,Write,Edit" --disable-slash-commands)
+[ -z "$EFFORT" ] || CLAUDE_FLAGS+=(--effort "$EFFORT")
+
 step() {   # step <skill> <note>
   local log="$LOGS/$2.$1.log" prompt="Follow .claude/skills/$1/SKILL.md for the note: $2"
   # Build the packet now, so the session starts by reading one file instead of searching for things.
   if python3 audit.py --packet "$2" > /dev/null 2>&1; then
     prompt="$prompt — its packet is already at review/$2.packet.md (read it; no need to regenerate it first)."
   fi
+  # The verifier gets the audit's findings ready-made, so it need not run the audit before starting.
+  if [ "$1" = verify-note ]; then
+    { echo "# audit.py --note"; python3 audit.py --note "$2" 2>&1
+      echo; echo "# audit.py --ledger"; python3 audit.py --ledger 2>&1 | tail -15; } > "review/$2.audit.txt"
+    prompt="$prompt The audit's current findings are in review/$2.audit.txt (read it instead of running the audit first)."
+  fi
+  prompt="$prompt QUEUE MODE: this script is on the drafts branch and commits your files after you finish — do not run git at all (no status, diff, log, add or commit)."
   if [ -n "$QUIET" ]; then
-    claude -p "$prompt" --model "$MODEL" --permission-mode acceptEdits < /dev/null > "$log" 2>&1
+    claude -p "$prompt" "${CLAUDE_FLAGS[@]}" < /dev/null > "$log" 2>&1
   else
-    claude -p "$prompt" --model "$MODEL" --permission-mode acceptEdits \
+    claude -p "$prompt" "${CLAUDE_FLAGS[@]}" \
         --output-format stream-json --verbose < /dev/null 2> "$log.err" \
       | tee "$log.jsonl" | progress | tee "$log" | grep -E '^      ' 
     return "${PIPESTATUS[0]}"
@@ -90,10 +105,12 @@ step() {   # step <skill> <note>
 
 LIMIT="${LIMIT:-0}"     # LIMIT=10 ./rewrite-queue.sh list.txt  → stop after ten notes
 
-left_uncommitted() {   # warn if a step finished without committing its work
-  local dirty; dirty=$(git status --porcelain -- "$1.md" ledger | grep -v '^??.*\.sheet\.md' || true)
-  [ -z "$dirty" ] || echo "    note: $2 left uncommitted changes (the next step or you will need to commit them):" && \
-    [ -z "$dirty" ] || echo "$dirty" | sed 's/^/      /'
+commit_step() {   # commit_step <note> <what> — commit what the session changed: notes in the root, ledgers
+  git add -A -- ledger && git add -u -- ':(glob)*.md' || return 1
+  if git diff --cached --quiet; then echo "    ($2 changed nothing)"; return 0; fi
+  echo "    changed: $(git diff --cached --name-only | sed 's/\.md$//' | paste -sd ',' | sed 's/,/, /g')"
+  git -c user.name="$(git log -1 --format=%an)" -c user.email="$(git log -1 --format=%ae)" \
+    commit -q -m "vault backup: $2 $1" || return 1
 }
 
 recover() {   # tidy up after a run that was interrupted or failed mid-step
@@ -151,7 +168,7 @@ while IFS= read -r line || [ -n "$line" ]; do
     echo "  ── $ONLY"
     begin "$ONLY" "$note"
     step "$ONLY" "$note" || { echo "  ✗ $ONLY failed — see $LOGS/$note.$ONLY.log"; exit 1; }
-    left_uncommitted "$note" "$ONLY"
+    commit_step "$note" "${ONLY%-note}" || { echo "  ✗ commit failed after $ONLY"; exit 1; }
   else
     if grep -qxF -- "$note" review/rewritten.txt; then
       echo "  ── 1/3 rewrite — already committed in an earlier run; resuming at verify"
@@ -159,13 +176,13 @@ while IFS= read -r line || [ -n "$line" ]; do
       echo "  ── 1/3 rewrite"
       begin rewrite-note "$note"
       step rewrite-note "$note" || { echo "  ✗ rewrite failed — see $LOGS/$note.rewrite-note.log"; exit 1; }
-      left_uncommitted "$note" "the rewrite"
+      commit_step "$note" rewrite || { echo "  ✗ commit failed after the rewrite"; exit 1; }
       echo "$note" >> review/rewritten.txt
     fi
     echo "  ── 2/3 verify"
     begin verify-note "$note"
     step verify-note  "$note" || { echo "  ✗ verify failed — see $LOGS/$note.verify-note.log"; exit 1; }
-    left_uncommitted "$note" "the verify"
+    commit_step "$note" verify || { echo "  ✗ commit failed after the verify"; exit 1; }
   fi
   echo "  ── 3/3 audit"
   python3 audit.py --no-content > /dev/null && python3 audit.py --ledger > /dev/null \

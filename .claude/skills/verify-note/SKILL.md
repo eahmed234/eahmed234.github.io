@@ -20,8 +20,12 @@ python3 audit.py --ledger
 python3 audit.py --note "<name>"
 ```
 
-The packet's "old note" section is the note as it now stands. Make many fixes in one Write of the file
-or one short script, not as a chain of single Edits.
+In QUEUE MODE the prompt says the packet and the audit's output (`review/<name>.audit.txt`) are already
+written: read those two files and run none of the three commands above; run no git command at all.
+
+The packet's "old note" section is the note as it now stands. **Collect every fix first, then apply them
+all at once** — one Write of the whole note (or one short script), and one per ledger — not a chain of
+single Edits: every Edit is a turn that re-sends the whole session.
 
 ## 2. Check the ledger entries the note uses
 
@@ -76,7 +80,8 @@ Apply the fixes yourself; do not wait to be asked.
 1. Correct the **ledger** first (rendering, kind, missing entry).
 2. Then the **note**, with targeted edits. Missing disputes are sourced content: add them, footnoted.
 3. Then any other note on that ledger's `feeds:` line that repeats the same error.
-4. Re-run `--ledger`, `--note` and `--no-content`.
+4. Re-run the audit once, as one command:
+   `python3 audit.py --note "<name>"; python3 audit.py --ledger | tail -15; python3 audit.py --no-content | tail -25`
 
 Leave unfixed, and list under **For you**, only what needs the user's judgement: a likely misprint, an
 Arabic sentence that can be read two ways, a conflict between two of the five books.
@@ -106,5 +111,6 @@ List every non-supported item with the Arabic that shows it. Supported claims ar
 If a finding is a kind of error the rewrite-note or ledger self-check lists do not name, say so on a last
 line, so the lists can be extended.
 
-Commit the note, ledgers and `ledger/QUESTIONS.md` following **Git** in `CLAUDE.md` (branch `drafts`, never push). End
+In QUEUE MODE skip the commit — the script commits. Otherwise commit the note, ledgers and
+`ledger/QUESTIONS.md` following **Git** in `CLAUDE.md` (branch `drafts`, never push). End
 with the summary line and the **For you** items. A clean result is a valid result: say so plainly.
