@@ -159,3 +159,18 @@ that has any.
   now: "intercepting a caravan of Quraysh passing them", no subject. →
 - [ ] **S6.15.11 — «هذه السرايا جميعها»** The sarāyā are not listed on this page; is this one among them?
   now: stated as "these sarāyā", without saying this sarīyah is one. →
+
+## Sariyyat ʿAbdillāh b. Jaḥsh ilā Baṭn Nakhlah
+
+- [ ] **S6.16.05 — «فوافيت الصبح وعلي قوسي وسيفي»** (6:16). The narrator of the first-person account is not named on the page; the chapter's subject is ʿAbdullāh b. Jaḥsh, to whom the letter is given.
+  now: the note says "ʿAbdullāh", as the chapter's subject. →
+- [ ] **S6.16.10 / S6.17.22 — «واقد بن عبد الله الليثي»** (6:16) against «واقد بن عبد الله [التميمي]» (6:17; al-Tamīmī also at *al-Iṣābah* 6:465). Misprint, or two descriptions?
+  now: the roster gives the name without a nisbah; the shooter is "al-Tamīmī" (6:17 and *al-Iṣābah*). →
+- [ ] **S6.18.06 — «زر [بن جيش]»** (6:18) against «زر [بن حبيش]» (6:17). Misprint for Ḥubaysh?
+  now: the note writes Zirr b. Ḥubaysh. →
+- [ ] **S6.18.12 — «فقال: «من يرد عليهم من المسلمين ممن كان بمكة، إنما أصابوا ما أصابوا في شعبان»؟»** The speaker is not named, and the clause gives the date as Shaʿbān.
+  now: the sentence is not used in the note. →
+- [ ] **S6.17.17 — «قوم عمار»** (6:17; vowelled «عمار» at 6:20, unglossed). What does the word mean?
+  now: left untranslated: "a people of ʿUmmār". →
+- [ ] **I2.95.03 — «وقال: أنا الذي أسرت الحكم … ببئر معونة»** (*al-Iṣābah* 2:95). Where do Miqdād's words end and the author's narrative resume?
+  now: only the martyrdom at Biʾr Maʿūnah is used, and it rests also on *Subul* 6:19. →
