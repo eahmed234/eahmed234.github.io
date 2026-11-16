@@ -13,17 +13,27 @@ notes for the finished style: `Ghazwat al-Khandaq.md`, `Ghazwat Uḥud.md` (even
 Rules that override everything here: **every sentence must rest on a ledger entry**; never touch the
 `unverified`/`verified` tags; prophetic era first — do not expand post-prophetic notes unless the user asked.
 
+## Working cheaply
+
+Every turn re-sends the whole session, so turns late in a session cost the most. Therefore:
+- **Start from the packet** (`python3 audit.py --packet "<name>"`, then Read `review/<name>.packet.md`).
+  It already holds the note, its hub line, its link targets, the infobox keys, the open questions, the
+  glossary, its ledgers or the source pages, and the entries of other ledgers that mention it. Do not
+  `ls`, `grep`, `cat` or `find` for any of these. If the packet is long, Read the sections you need with
+  `offset`/`limit` (its first lines give each section's line number).
+- **One command for many changes.** Several replacements in a file → one Write of the whole file or one
+  short Python script, never a chain of single Edits. Wrong ledger ids → `python3 audit.py --renumber
+  "<ledger>"`. Names to check → one `--exists` call with all of them.
+- Do not open a ledger in full when the packet shows its entries; do not reprint pages already printed.
+
 ## 1. Gather the ledgers
 
-- Read the old note. Treat all of it as unverified leads.
-- Find what is already read:
-  ```bash
-  grep -l "<name>" ledger/*.md                 # ledgers that feed or mention it
-  grep -l "<Arabic name, unvocalised>" ledger/*.md
-  ```
+- `python3 audit.py --packet "<name>"` and Read the packet. The note in it is the old one: treat all of
+  it as unverified leads.
 - **The note's own source must have a ledger.** For an event, its *Subul al-Hudā* chapter; for a Companion,
-  their *al-Iṣābah* entry. If it has none, build it now by following `.claude/skills/ledger/SKILL.md`, then
-  come back here.
+  their *al-Iṣābah* entry. If the packet shows none, build it now by following
+  `.claude/skills/ledger/SKILL.md` — the pages, the ledger format and an example are already in the packet —
+  then run `python3 audit.py --packet "<name>"` again and continue from the new packet.
 - **Do not read other chapters for a person's note.** A Companion's Badr or Uḥud section is written from
   entries in ledgers that already exist. If the chapter has no ledger yet, the note says only what the
   *al-Iṣābah* entry says of it, and you list that chapter in your report as "not yet ledgered".
@@ -61,8 +71,16 @@ ledger leaves unclear — and then correct the ledger first.
   ```
   Leave names without a note as plain text. Do not link a person the ledger does not identify
   (a bare "Bashīr b. ʿAbd al-Mundhir" is not thereby "Abū Lubābah").
+- Frontmatter details: a value containing a wikilink is quoted (`location: "[[Badr]]"`); multi-valued keys
+  are YAML lists; tags are `type` first, then era (`makkan_era`), Hijrī year (`2-ah`), role (`sahabi`,
+  `badri`, `ansari`, `muhajir`…), topic, and `unverified` — reuse tags already in the vault.
+- A Companion's note records what the *al-Iṣābah* ledger gives of: lineage, maternal lineage, tribe and
+  clan, *ḥilf* and *walāʾ*, marriages, *riḍāʿah*, children, order of conversion, trials in Makkah, the
+  hijrahs, campaigns, death date, age, place and burial. Silent where the entry is silent.
+- An authority with no entry in the books (Mūsā b. ʿUqbah, Ibn Kathīr…) gets only what is attested: that
+  the books cite him, which works, which verdicts; and one clause saying no biography is given.
 - Frontmatter: keep the old keys that the entries support, with values corrected from the entries; drop
-  values no entry supports. Infobox keys are those in `FIELDS` in `site_nav.py`. Keep the tags, `unverified`
+  values no entry supports. Infobox keys are listed in the packet. Keep the tags, `unverified`
   included.
 - Body: `# Title (Arabic)`, an italic epithet line, a sourced lead paragraph, plain `##` sections in
   chronological order, prose paragraphs (lists only for real lists), a disputes section,
@@ -154,6 +172,6 @@ Fix another note only if the ledger settles it and the edit is one line; otherwi
 
 ## 6. Commit and report
 
-Commit the note and any ledger you wrote or changed, following **Git workflow** in `CLAUDE.md` (branch
+Commit the note and any ledger you wrote or changed, following **Git** in `CLAUDE.md` (branch
 `drafts`, never push). Then report briefly: what the old note had wrong; what is kept as a dispute;
 chapters "not yet ledgered"; problems seen in other notes; and that the note is ready for verify-note.

@@ -27,6 +27,6 @@ the page it cites; frontmatter, links, tags and Arabic quotations are untouched.
      cites ("Ibn Isḥāq", "al-Wāqidī") over the book ("al-Ṣāliḥī says").
 5. `python3 audit.py --note "<name>"` again: `voice 0`, and no new flag of any other kind. Then
    `python3 audit.py --no-content`.
-6. Commit the note following **Git workflow** in `CLAUDE.md` (branch `drafts`, never push). Report in two
+6. Commit the note following **Git** in `CLAUDE.md` (branch `drafts`, never push). Report in two
    lines: how many sentences changed, and any sentence you left because restating it would have changed
    its strength.

@@ -58,7 +58,7 @@ CACHE_FILE = os.path.join(SOURCES_DIR, ".index_cache.json")
 NON_NOTES = {"GEMINI.md", "CLAUDE.md", "README.md", "AGENTS.md"}
 SEARCH_CFG = os.path.join(VAULT_DIR, "site_search.json")   # search names and alias rulings (see site_search.py)
 
-# The canonical sources (see CLAUDE.md, "Sourcing rules"). kind "page" is cited vol:page;
+# The canonical sources (see CLAUDE.md, "Sources", and docs/handbook.md, "Sourcing rules"). kind "page" is cited vol:page;
 # kind "hadith" is cited by ḥadīth number.
 SOURCES = {
     "S": {"label": "Subul al-Hudā", "file": "1693.epub", "kind": "page", "key": "subul"},
@@ -1356,6 +1356,338 @@ def check_ledgers(corpora):
     return n, bad
 
 
+# ════════════════════════════════════════════════════════════════════════════
+#  Packet (everything a rewrite starts by looking for, in one file) and ledger renumbering
+# ════════════════════════════════════════════════════════════════════════════
+
+LEDGER_DIR = os.path.join(VAULT_DIR, "ledger")
+_LEDGER_HEAD = re.compile(r"^### ([SIBKM])(\d+)(?:\.(\d+))?\.(\S+)( · .*)$")
+_WIKILINK = re.compile(r"\[\[([^\]\|#\n]+)(?:#[^\]\|\n]*)?(?:\|[^\]\n]*)?\]\]")
+_SPAN = re.compile(r"\b([SIBKM]) ?(\d+)(?::(\d+)(?:\s*[–-]\s*(\d+))?)?")
+
+
+def _letters(t):
+    return re.sub(r"[^\u0621-\u063A\u0641-\u064A]", "", _TASHKIL.sub("", t or ""))
+
+
+def _wrap(text, width=1500):
+    """Break very long lines (Arabic paragraphs) so a file reader that truncates long lines sees them whole."""
+    out = []
+    for line in text.split("\n"):
+        while len(line) > width:
+            cut = line.rfind(" ", 0, width)
+            cut = cut if cut > width // 2 else width
+            out.append(line[:cut])
+            line = line[cut:].lstrip()
+        out.append(line)
+    return "\n".join(out)
+
+
+def read_ledgers():
+    """[(file name, header text, [(entry id, entry text)], {(book, vol): set(pages)} covered, feeds)]"""
+    out = []
+    for fpath in sorted(glob.glob(os.path.join(LEDGER_DIR, "*.md"))):
+        name = os.path.basename(fpath)
+        if not re.match(r"[SIBKM] \d", name):
+            continue
+        text = open(fpath, encoding="utf-8").read()
+        head, _, body = text.partition("\n### ")
+        body = "### " + body if body else ""
+        entries = []
+        for chunk in re.split(r"(?m)^(?=### )", body):
+            if chunk.startswith("### "):
+                entries.append((chunk.split()[1], chunk.rstrip()))
+        cover = defaultdict(set)
+        for eid, _ in entries:
+            m = re.match(r"([SIB])(\d+)\.(\d+)\.", eid) or re.match(r"([KM])(\d+)\.", eid)
+            if m:
+                cover[(m.group(1), int(m.group(2)))].add(int(m.group(3)) if m.group(1) in "SIB" else 0)
+        for line in head.split("\n"):
+            if line.startswith("- pages read:"):
+                for b, v, a, z in _SPAN.findall(line):
+                    if a:
+                        cover[(b, int(v))].update(range(int(a), int(z or a) + 1))
+                    else:
+                        cover[(b, int(v))].add(0)          # a ḥadīth number
+        m = re.match(r"([SIBKM]) (\d+)\.(\d+)", name)
+        if m:
+            cover[(m.group(1), int(m.group(2)))].add(int(m.group(3)))
+        fm = re.search(r"(?m)^- feeds:\s*(.*)$", head)
+        feeds = [f.strip() for f in re.split(r"[;,]", fm.group(1))] if fm else []
+        out.append((name, head.strip(), entries, cover, feeds))
+    return out
+
+
+def infobox_fields(ntype):
+    import ast
+    src = open(os.path.join(VAULT_DIR, "site_nav.py"), encoding="utf-8").read()
+    m = re.search(r"^FIELDS = (\{.*?^\})", src, re.S | re.M)
+    try:
+        fields = ast.literal_eval(m.group(1)) if m else {}
+    except Exception:
+        return "(could not read FIELDS from site_nav.py)"
+    rows = fields.get(ntype, [])
+    return "\n".join(f"- {' / '.join(keys)} → {label}" for keys, label in rows) or f"(no infobox fields for type {ntype!r})"
+
+
+def write_packet(name, notes, aliases, corpora):
+    note = notes[name]
+    fm, raw = note["fm"], note["raw"]
+    ntype = fm.get("type", "?")
+    ledgers = read_ledgers()
+    cites = []
+    for v in [fm.get("primary_source", "")] + raw.split("\n"):
+        cites += parse_citations(str(v))
+    # pages and reports the note relies on
+    want = defaultdict(set)
+    for c in cites:
+        if c.numbers:
+            for n in c.numbers:
+                want[(c.book, int(n))].add(0)
+        else:
+            for v, a, b in c.refs:
+                if b - a <= 60:
+                    want[(c.book, v)].update(range(a, b + 1))
+    primary = defaultdict(set)
+    for c in parse_citations(str(fm.get("primary_source", ""))):
+        for v, a, b in c.refs:
+            if b - a <= 400:
+                primary[(c.book, v)].update(range(a, b + 1))
+                want[(c.book, v)].update(range(a, b + 1))
+        for n in c.numbers:
+            primary[(c.book, int(n))].add(0)
+
+    own, related = [], []
+    for L in ledgers:
+        lname, head, entries, cover, feeds = L
+        if ntype == "person":       # a person's own ledger is its al-Iṣābah entry; chapters it appears in are "mentions"
+            is_own = any(cover.get(k, set()) & pp for k, pp in primary.items() if k[0] == "I") or (
+                name in feeds and all(k[0] == "I" for k in cover))
+        else:
+            is_own = name in feeds or any(cover.get(k, set()) & pp for k, pp in primary.items() if k[0] == "S")
+        (own if is_own else related).append(L)
+    covered = defaultdict(set)
+    for _, _, _, cover, _ in own:
+        for k, pp in cover.items():
+            covered[k] |= pp
+
+    keys = {_letters(fm.get("arabic", ""))} | {name.lower()}
+    keys |= {str(a).lower() for a in (fm.get("aliases") or []) if len(str(a)) > 5}
+    keys.discard("")
+    mentions = []
+    for lname, head, entries, cover, feeds in related:
+        for eid, etext in entries:
+            low, let = etext.lower(), _letters(etext)
+            if any((k in let) if re.match(r"[\u0621-\u064A]", k) else (k in low) for k in keys):
+                mentions.append((lname, etext))
+
+    sec = []
+    S = lambda title, body: sec.append((title, body.rstrip() + "\n"))
+
+    lines = [f"- **Note:** `{name}.md` — type `{ntype}`",
+             f"- **Own ledgers:** " + ("; ".join(f"`ledger/{l[0]}`" for l in own) if own else "none — build one (ledger skill) from the pages below"),
+             f"- **Other ledgers mentioning it:** {len(mentions)} entries (below)",
+             "- **Branch:** run `git branch --show-current` before committing; it must be `drafts`."]
+    if ntype == "person":
+        lines.append("- **Person note:** only its *al-Iṣābah* entry (and any Ṣaḥīḥayn report cited) is printed below. "
+                     "Other chapters are used only through existing ledgers; list the rest as \"not yet ledgered\".")
+    S("Summary", "\n".join(lines))
+
+    S("The note as it now stands (before a rewrite: unverified leads, not facts)", raw)
+
+    hub = notes.get("The Sīrah")
+    if hub:
+        hl = [l for l in hub["raw"].split("\n") if re.search(r"\[\[" + re.escape(name) + r"(\]\]|\|)", l)]
+        S("Its line(s) in the hub, `The Sīrah.md`", "\n".join(hl) or "(not linked from the hub)")
+
+    targets = []
+    for t in _WIKILINK.findall(raw):
+        t = t.strip()
+        if t and t not in targets and t != name:
+            targets.append(t)
+    rows = []
+    for t in targets:
+        hit = aliases.get(t)
+        rows.append(f"OK  [[{hit}]]" if hit == t else (f"OK  [[{hit}|{t}]]" if hit else f"--  {t}   (no note: write as plain text)"))
+    S("Link targets in the old note", "\n".join(rows) + "\n\nFor names not listed: `python3 audit.py --exists \"Name\" …` (one call for all of them).")
+
+    S(f"Infobox keys for type `{ntype}` (from `site_nav.py`)", infobox_fields(ntype))
+
+    qs = load_questions()
+    S("Open questions and rulings (`ledger/QUESTIONS.md`: this note, then General)",
+      "\n".join(qs.get(name, [])) + ("\n\n**General:**\n" + "\n".join(qs.get("General", [])) if qs.get("General") else "") or "(none)")
+
+    gl = os.path.join(LEDGER_DIR, "GLOSSARY.md")
+    if os.path.exists(gl):
+        S("Glossary (`ledger/GLOSSARY.md`)", open(gl, encoding="utf-8").read().split("\n", 1)[1])
+
+    for lname, head, entries, cover, feeds in own:
+        S(f"Own ledger: `ledger/{lname}` ({len(entries)} entries)", head + "\n\n" + "\n\n".join(e for _, e in entries))
+
+    if mentions:
+        S("Entries in other ledgers that mention it", "\n\n".join(f"*from `ledger/{l}`*\n{e}" for l, e in mentions[:80])
+          + (f"\n\n({len(mentions) - 80} more not shown)" if len(mentions) > 80 else ""))
+
+    # source pages not yet in a ledger
+    if not own:
+        README = os.path.join(LEDGER_DIR, "README.md")
+        if os.path.exists(README):
+            S("Ledger format (`ledger/README.md`)", open(README, encoding="utf-8").read().split("\n", 1)[1])
+        ex = os.path.join(LEDGER_DIR, "S 4.015 Ghazwat Buwāṭ.md")
+        if os.path.exists(ex):
+            S("A finished example ledger (`ledger/S 4.015 Ghazwat Buwāṭ.md`)", open(ex, encoding="utf-8").read())
+    pages, big = [], []
+    for (b, v), pp in sorted(want.items()):
+        if SOURCES[b]["kind"] == "hadith":
+            if covered.get((b, v)):
+                continue
+            pages.append((b, v, None))
+            continue
+        if ntype == "person" and b != "I":
+            continue
+        if ntype != "person" and (b, v) not in primary:
+            continue
+        if ntype != "person":
+            pp = pp & primary[(b, v)]
+        pp = sorted(p for p in pp if p not in covered.get((b, v), set()))
+        if not pp:
+            continue
+        lo, hi = pp[0], pp[-1]
+        if b == "S" and ntype != "person" and not own:
+            lo, hi = max(1, lo - 1), hi + 1        # chapter boundaries: the page before and after
+        if hi - lo + 1 > 25:
+            big.append((b, v, lo, hi))
+            continue
+        for p in range(lo, hi + 1):
+            pages.append((b, v, p))
+    if pages:
+        body = []
+        for b, v, p in pages:
+            corp = corpora[b]
+            if p is None:
+                keys2 = corp.hadith.get(str(v))
+                if not keys2:
+                    body.append(f"══════ {BOOK_LABEL[b]} no. {v}: not found ══════\n")
+                    continue
+                text = "\n".join((corp.raw(*map(int, k.split(":"))) or ("", ""))[0] for k in keys2)
+                rep_ = extract_report(b, v, text) or text
+                body.append(f"══════ {BOOK_LABEL[b]} no. {v} ══════\n" + _TASHKIL.sub("", rep_) + "\n")
+                continue
+            r = corp.raw(v, p)
+            body.append(f"══════ {BOOK_LABEL[b]} {v}:{p} ══════")
+            if r is None:
+                body.append("(page not present in the EPUB)\n")
+                continue
+            body.append("── matn ──\n" + _TASHKIL.sub("", r[0]))
+            if r[1]:
+                body.append("── taḥqīq (editors' apparatus) ──\n" + _TASHKIL.sub("", r[1]))
+            body.append("")
+        S(f"Source pages not yet ledgered ({len(pages)}; vocalisation stripped — use `--page … --tashkil` to copy a quotation)",
+          _wrap("\n".join(body)))
+    if big:
+        S("Long chapters — not printed here", "\n".join(
+            f"- {BOOK_LABEL[b]} {v}:{lo}–{hi} ({hi - lo + 1} pages). Build its ledger in parts at the chapter's own "
+            f"sections (ledger skill), writing each part's pages to a file first: "
+            f"`python3 audit.py --page {b} {v}:{lo}-{min(hi, lo + 14)} --out review/src.txt`, then the next range."
+            for b, v, lo, hi in big))
+    elif not pages and not own:
+        S("Source pages", "(none found from the note's citations — locate the chapter with `python3 audit.py --page …`)")
+
+    # assemble with a table of contents giving line numbers, so a reader can open one part with offset/limit
+    blocks, line = [], 1
+    toc_len = len(sec) + 5
+    starts = []
+    cur = toc_len + 1
+    for title, body in sec:
+        starts.append(cur)
+        cur += 2 + body.count("\n") + 1
+    out = [f"# Packet — {name}", "",
+           "Generated by `python3 audit.py --packet`. Read this instead of hunting for files. Sections, each opening "
+           "with a ━━━━ line (line numbers, for Read with offset/limit):", ""]
+    out += [f"- line {st}: {t}" for st, (t, _) in zip(starts, sec)]
+    assert len(out) == toc_len - 1, (len(out), toc_len)
+    out.append("")
+    for title, body in sec:
+        out += [f"━━━━━━━━ {title} ━━━━━━━━", "", body.rstrip("\n"), ""]
+    os.makedirs(REVIEW_DIR, exist_ok=True)
+    path = os.path.join(REVIEW_DIR, f"{name}.packet.md")
+    final = "\n".join(out) + "\n"
+    open(path, "w", encoding="utf-8").write(final)
+    n = final.count("\n")
+    print(f"wrote {os.path.relpath(path, VAULT_DIR)} ({n} lines; own ledgers {len(own)}, "
+          f"mentions {len(mentions)}, source pages {len(pages)})")
+    return 0
+
+
+def renumber_ledger(fname):
+    """Give every entry whose id is not yet final (a placeholder such as S4.15.t1, or a number already used
+    on that page) the next free number on its page, and carry the change into ledger/QUESTIONS.md. Ids that
+    are already well-formed and unique are never changed, so references to them stay valid."""
+    path = fname if os.path.exists(fname) else os.path.join(LEDGER_DIR, os.path.basename(fname))
+    if not os.path.exists(path):
+        sys.exit(f"No ledger {fname!r}")
+    text = open(path, encoding="utf-8").read()
+    lines, mapping = text.split("\n"), {}
+    heads = []
+    for i, line in enumerate(lines):
+        m = _LEDGER_HEAD.match(line)
+        if not m:
+            if line.startswith("### "):
+                print(f"  line {i + 1}: not an entry heading, left alone: {line[:70]}")
+            continue
+        b, a, pg, old, rest = m.groups()
+        heads.append((i, f"{b}{a}" + (f".{pg}" if pg else ""), old, rest))
+    used, seen = defaultdict(set), set()
+    for i, base, old, rest in heads:
+        if re.fullmatch(r"\d{2,3}", old) and (base, old) not in seen:
+            used[base].add(int(old))
+            seen.add((base, old))
+    seen = set()
+    for i, base, old, rest in heads:
+        if re.fullmatch(r"\d{2,3}", old) and (base, old) not in seen:
+            seen.add((base, old))
+            continue
+        n = 1
+        while n in used[base]:
+            n += 1
+        used[base].add(n)
+        new = f"{base}.{n:02d}"
+        oldid = f"{base}.{old}"
+        if re.fullmatch(r"\d{2,3}", old):
+            print(f"  {oldid} occurs more than once; the later one became {new} (check references to it by hand)")
+        else:
+            mapping[oldid] = new
+        lines[i] = f"### {new}{rest}"
+    if not mapping and "\n".join(lines) == text:
+        print("Nothing to renumber.")
+        return 0
+    def apply(t):
+        ph = {}
+        for k, (o, n) in enumerate(sorted(mapping.items(), key=lambda x: -len(x[0]))):
+            tok = f"\x00{k}\x00"
+            t = re.sub(r"(?<![\w.])" + re.escape(o) + r"(?![\w])", tok, t)
+            ph[tok] = n
+        for tok, n in ph.items():
+            t = t.replace(tok, n)
+        return t
+    head_end = next((i for i, l in enumerate(lines) if l.startswith("### ")), len(lines))
+    new_text = apply("\n".join(lines[:head_end])) + "\n" + "\n".join(
+        l if l.startswith("### ") else apply(l) for l in lines[head_end:])
+    open(path, "w", encoding="utf-8").write(new_text if head_end else new_text.lstrip("\n"))
+    q = os.path.join(LEDGER_DIR, "QUESTIONS.md")
+    if os.path.exists(q):
+        qt = open(q, encoding="utf-8").read()
+        nq = apply(qt)
+        if nq != qt:
+            open(q, "w", encoding="utf-8").write(nq)
+            print("  also updated ledger/QUESTIONS.md")
+    for o, n in mapping.items():
+        print(f"  {o} → {n}")
+    changed = sum(1 for x, y in zip(text.split("\n"), new_text.split("\n")) if x != y and x.startswith("### "))
+    print(f"Renumbered {changed} entr{'y' if changed == 1 else 'ies'} in {os.path.relpath(path, VAULT_DIR)}.")
+    return 0
+
+
 def print_pages(args):
     # Vocalisation marks are dropped unless --tashkil is given: they cost a reader-model about a quarter
     # of the Ṣaḥīḥayn's text and carry nothing a claim rests on. Use --tashkil to copy a «…» quotation.
@@ -1418,6 +1750,12 @@ def run(args):
         return 0
     if args.questions:
         return print_questions(load_notes()[0])
+    if args.renumber:
+        return renumber_ledger(args.renumber)
+    if args.packet:
+        notes_, aliases_ = load_notes()
+        return write_packet(resolve_note(notes_, args.packet), notes_, aliases_,
+                            make_corpora(load_or_build_indices(force=args.reindex)))
     if args.voice:
         for b, n in sorted(load_notes()[0].items()):
             if voice_findings(b, n["raw"]):
@@ -1604,6 +1942,8 @@ if __name__ == "__main__":
                     "or K|M ḥadīth numbers (prints the report itself)")
     ap.add_argument("--out", metavar="PATH", help="with --page, write the pages to PATH instead of printing them")
     ap.add_argument("--exists", nargs="+", metavar="NAME", help="say which names (titles or aliases) have a note, for linking")
+    ap.add_argument("--packet", metavar="NAME", help="write review/<NAME>.packet.md: everything a rewrite needs, in one file")
+    ap.add_argument("--renumber", metavar="LEDGER", help="renumber a ledger's entry ids (and their mentions in QUESTIONS.md) in one step")
     ap.add_argument("--voice", action="store_true", help="list rewritten notes whose prose narrates its sources (for the restyle-note skill)")
     ap.add_argument("--questions", action="store_true", help="list the notes with open questions in ledger/QUESTIONS.md")
     ap.add_argument("--ledger", action="store_true", help="check that every Arabic snippet in ledger/*.md is verbatim on its page")

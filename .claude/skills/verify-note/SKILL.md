@@ -15,10 +15,13 @@ verification and does not replace it.
 ## 1. Mechanical checks
 
 ```bash
+python3 audit.py --packet "<name>"   # the note, its ledgers, questions, glossary — Read this, not the files
 python3 audit.py --ledger
 python3 audit.py --note "<name>"
-grep -l "<name>" ledger/*.md         # its ledgers (the `feeds:` lines)
 ```
+
+The packet's "old note" section is the note as it now stands. Make many fixes in one Write of the file
+or one short script, not as a chain of single Edits.
 
 ## 2. Check the ledger entries the note uses
 
@@ -103,5 +106,5 @@ List every non-supported item with the Arabic that shows it. Supported claims ar
 If a finding is a kind of error the rewrite-note or ledger self-check lists do not name, say so on a last
 line, so the lists can be extended.
 
-Commit the note, ledgers and `ledger/QUESTIONS.md` following **Git workflow** in `CLAUDE.md` (branch `drafts`, never push). End
+Commit the note, ledgers and `ledger/QUESTIONS.md` following **Git** in `CLAUDE.md` (branch `drafts`, never push). End
 with the summary line and the **For you** items. A clean result is a valid result: say so plainly.

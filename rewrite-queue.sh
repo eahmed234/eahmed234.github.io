@@ -74,6 +74,10 @@ print("\n" + final + "\n")
 
 step() {   # step <skill> <note>
   local log="$LOGS/$2.$1.log" prompt="Follow .claude/skills/$1/SKILL.md for the note: $2"
+  # Build the packet now, so the session starts by reading one file instead of searching for things.
+  if python3 audit.py --packet "$2" > /dev/null 2>&1; then
+    prompt="$prompt — its packet is already at review/$2.packet.md (read it; no need to regenerate it first)."
+  fi
   if [ -n "$QUIET" ]; then
     claude -p "$prompt" --model "$MODEL" --permission-mode acceptEdits < /dev/null > "$log" 2>&1
   else

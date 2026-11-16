@@ -8,14 +8,17 @@ description: Read one source chapter or entry of the nabiwiki (Sīrah vault) cor
 Argument: a note name (`Ghazwat al-Suwayq`), or a source range (`S 4:174-175`, `I 7:99-100`, `K 3039`).
 
 `CLAUDE.md` holds the sourcing rules; `ledger/README.md` holds the ledger format; `ledger/GLOSSARY.md` holds
-standing renderings and rulings. Read `ledger/README.md`, `ledger/GLOSSARY.md` and one finished ledger (`ledger/S 4.174 Ghazwat al-Suwayq.md`) before you start. This skill is the procedure.
+standing renderings and rulings. When a note is named, start with `python3 audit.py --packet "<note>"`: it
+holds the README, the glossary, a finished example ledger and the source pages, so none of them needs
+opening separately. Otherwise read `ledger/README.md` and `ledger/GLOSSARY.md`. This skill is the procedure.
 
 A ledger is the only time the chapter is read. Everything a note may later say has to be in it, and nothing
 may be in it that the page does not say.
 
 ## 1. Find the source and its limits
 
-- `ls ledger/` first. If a ledger already covers these pages, stop and say so.
+- The packet says whether a ledger already covers these pages ("Own ledgers"); without a packet, `ls ledger/`.
+  If one does, stop and say so.
 - Given a note name, take its `primary_source` and citations as **leads only**.
 - **Events (*Subul al-Hudā*).** Write a generous range to a file and find the chapter:
   ```bash
@@ -34,7 +37,11 @@ may be in it that the page does not say.
   editor's notes (often opening «ش» or «قال القاضي…», «قال النووي…») follow the text; an entry taken from
   them is tier `taḥqīq`, and a note cites it as `[^musl1671b]: *Ṣaḥīḥ Muslim*, no. 1671, editor's note
   (taḥqīq)`.
-- Print with `--out` and read the file with the Read tool. Never print the same pages twice.
+- The packet prints chapters up to 25 pages. For a longer one, or without a packet, print with `--out` and
+  read the file with the Read tool. Never print the same pages twice.
+- **Write the ledger in one Write**, or one Write per part of a long chapter. Number the entries as you
+  go; if ids come out wrong, fix them all with `python3 audit.py --renumber "<ledger file>"`, never with
+  single edits.
 
 ## 2. Read and record
 
@@ -87,7 +94,7 @@ python3 audit.py --ledger        # every snippet verbatim on its page — must p
 ```
 
 Fill in the header (`pages read`, `taḥqīq`, `feeds`, `skipped`, `unsettled`). Commit the ledger file only,
-following **Git workflow** in `CLAUDE.md` (branch `drafts`, never push).
+following **Git** in `CLAUDE.md` (branch `drafts`, never push).
 
 ## 5. Report
 
