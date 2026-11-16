@@ -19,6 +19,8 @@ set -u -o pipefail
 cd "$(dirname "$0")"
 QUEUE="${1:-review/queue.txt}"
 MODEL="${MODEL:-sonnet}"
+REWRITE_MODEL="${REWRITE_MODEL:-$MODEL}"   # per-step models, e.g. REWRITE_MODEL=haiku VERIFY_MODEL=sonnet
+VERIFY_MODEL="${VERIFY_MODEL:-$MODEL}"
 EFFORT="${EFFORT:-}"                   # EFFORT=medium ./rewrite-queue.sh — passed to claude --effort if set
 QUIET="${QUIET:-}"
 LOGS=review/logs
@@ -79,12 +81,13 @@ print("\n" + final + "\n")
 # Every turn re-sends the whole session, so the fixed part matters: with only these four tools and no
 # skills listing or MCP servers, a session starts at ~9k tokens instead of ~35k (measured Nov 2026).
 # The skills still apply — the prompt names the SKILL.md file and the session reads it.
-CLAUDE_FLAGS=(--model "$MODEL" --permission-mode acceptEdits --strict-mcp-config
+CLAUDE_FLAGS=(--permission-mode acceptEdits --strict-mcp-config
               --tools "Bash,Read,Write,Edit" --disable-slash-commands)
 [ -z "$EFFORT" ] || CLAUDE_FLAGS+=(--effort "$EFFORT")
 
 step() {   # step <skill> <note>
-  local log="$LOGS/$2.$1.log" prompt="Follow .claude/skills/$1/SKILL.md for the note: $2"
+  local log="$LOGS/$2.$1.log" prompt="Follow .claude/skills/$1/SKILL.md for the note: $2" model="$MODEL"
+  case "$1" in rewrite-note) model="$REWRITE_MODEL" ;; verify-note) model="$VERIFY_MODEL" ;; esac
   # Build the packet now, so the session starts by reading one file instead of searching for things.
   if python3 audit.py --packet "$2" > /dev/null 2>&1; then
     prompt="$prompt — its packet is already at review/$2.packet.md (read it; no need to regenerate it first)."
@@ -97,9 +100,9 @@ step() {   # step <skill> <note>
   fi
   prompt="$prompt QUEUE MODE: this script is on the drafts branch and commits your files after you finish — do not run git at all (no status, diff, log, add or commit)."
   if [ -n "$QUIET" ]; then
-    claude -p "$prompt" "${CLAUDE_FLAGS[@]}" < /dev/null > "$log" 2>&1
+    claude -p "$prompt" --model "$model" "${CLAUDE_FLAGS[@]}" < /dev/null > "$log" 2>&1
   else
-    claude -p "$prompt" "${CLAUDE_FLAGS[@]}" \
+    claude -p "$prompt" --model "$model" "${CLAUDE_FLAGS[@]}" \
         --output-format stream-json --verbose < /dev/null 2> "$log.err" \
       | tee "$log.jsonl" | progress | tee "$log" | grep -E '^      ' 
     return "${PIPESTATUS[0]}"
@@ -150,7 +153,7 @@ while IFS= read -r line || [ -n "$line" ]; do
   n="$(trim "$line")"; case "$n" in ""|\#*) continue ;; esac
   total=$((total + 1)); grep -qxF -- "$n" "$DONE" || todo=$((todo + 1))
 done < "$QUEUE"
-echo "Queue: $QUEUE — $total notes, $((total - todo)) already done, $todo to do. Model: $MODEL."
+echo "Queue: $QUEUE — $total notes, $((total - todo)) already done, $todo to do. Models: rewrite $REWRITE_MODEL, verify $VERIFY_MODEL."
 if [ -n "$ONLY" ]; then echo "Each note: $ONLY only, then audit. (Done-list: $DONE)"
 else echo "Each note: rewrite (builds the ledger if missing) → verify (fresh session) → audit."; fi
 [ -n "$QUIET" ] || echo "Lines below are the session's actions as they happen; full reports go to $LOGS/."
