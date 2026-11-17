@@ -17,6 +17,7 @@ configuration:
     - public
     - GEMINI.md
     - CLAUDE.md
+    - AGENTS.md
     - README.md
     - sources
     - review

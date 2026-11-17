@@ -12,7 +12,9 @@ as **nabiwiki** (https://eahmed234.github.io/) by Quartz. Notes are `*.md`, **fl
 `The Sīrah.md` is the hub and **every note must be linked from it** (the audit fails on orphans). Unresolved
 wikilinks are intentional — never remove them. `ledger/` holds claim ledgers (one per source chapter or
 entry); `.claude/skills/` the procedures (`ledger`, `rewrite-note`, `verify-note`, `restyle-note`);
-`rewrite-queue.sh` runs them over a list; `review/` is scratch (git-ignored).
+`rewrite-queue.sh` runs them over a list (with Claude Code or, `AGENT=copilot`, GitHub Copilot CLI —
+see `docs/collaborating.md`; finished notes are listed in `docs/queue-done.txt`); `review/` is scratch
+(git-ignored).
 
 ## Git
 

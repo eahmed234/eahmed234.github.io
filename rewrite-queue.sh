@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# Rewrite and verify a list of notes with Claude Code, one fresh session per step.
+# Rewrite and verify a list of notes with Claude Code (or GitHub Copilot CLI), one fresh session per step.
+#
+#   AGENT=copilot MODEL=<copilot model name> ./rewrite-queue.sh   # run the steps with Copilot CLI instead
+#                                      # (see docs/collaborating.md; `copilot` then /model lists the names)
 #
 #   ./rewrite-queue.sh                 # reads review/queue.txt — one note name per line, # for comments
 #   MODEL=opus ./rewrite-queue.sh big.txt
@@ -12,9 +15,11 @@
 # commit (the half-written edits go to `git stash`, not lost), clears a stale git lock, and resumes at the
 # step that was interrupted — a rewrite that had already been committed is not done again.
 #
-# Finished notes are recorded in review/done.txt and skipped next time, so the script can be stopped
-# (Ctrl-C) and restarted, or re-run after a usage limit resets. It stops at the first failure.
-# Nothing is pushed: publish afterwards with  git push origin drafts:main
+# Finished notes are recorded in docs/queue-done.txt, which is tracked in git, so a note finished on one
+# machine is skipped on every other after a pull. It stops at the first failure.
+# Commits carry your own git name and email (git config user.name / user.email), or COMMIT_NAME and
+# COMMIT_EMAIL if set; only if neither is set does it reuse the last commit's author.
+# Nothing is pushed: push drafts yourself when the batch is done (git push origin drafts).
 set -u -o pipefail
 cd "$(dirname "$0")"
 QUEUE="${1:-review/queue.txt}"
@@ -23,15 +28,47 @@ REWRITE_MODEL="${REWRITE_MODEL:-$MODEL}"   # per-step models, e.g. REWRITE_MODEL
 VERIFY_MODEL="${VERIFY_MODEL:-$MODEL}"
 LEDGER_MODEL="${LEDGER_MODEL:-$REWRITE_MODEL}"  # the note's own ledger, built first in a session of its own if missing
 EFFORT="${EFFORT:-}"                   # EFFORT=medium ./rewrite-queue.sh — passed to claude --effort if set
+AGENT="${AGENT:-claude}"               # claude | copilot
+case "$AGENT" in
+  claude) command -v claude > /dev/null || { echo "Claude Code (claude) is not installed — stopping."; exit 1; } ;;
+  copilot)
+    command -v copilot > /dev/null || { echo "GitHub Copilot CLI (copilot) is not installed — see docs/collaborating.md."; exit 1; }
+    for m in "$LEDGER_MODEL" "$REWRITE_MODEL" "$VERIFY_MODEL"; do
+      case "$m" in sonnet|opus|haiku) echo "With AGENT=copilot, give Copilot's full model name, e.g. MODEL=claude-sonnet-4.5 (run copilot, then /model, to list them) — stopping."; exit 1 ;; esac
+    done ;;
+  *) echo "AGENT must be claude or copilot — stopping."; exit 1 ;;
+esac
 QUIET="${QUIET:-}"
 LOGS=review/logs
 ONLY="${ONLY:-}"                       # run just this skill per note, with its own done-list
-DONE=review/done.txt; [ -z "$ONLY" ] || DONE="review/done.$ONLY.txt"
+# The done-list is tracked in git (docs/), so every collaborator's machine knows what is finished.
+DONE=docs/queue-done.txt; [ -z "$ONLY" ] || DONE="docs/queue-done.$ONLY.txt"
 STATE=review/in-progress.txt           # "<step> TAB <HEAD when the step began> TAB <note>" while a step runs
-mkdir -p "$LOGS"; touch "$DONE" review/rewritten.txt
-# One run at a time: two runs on the same queue rewrite the same note at once and commit each other's work.
-exec 9> review/.queue.lock
-flock -n 9 || { echo "Another rewrite-queue.sh run is active — stopping."; exit 1; }
+mkdir -p "$LOGS" docs; touch "$DONE" review/rewritten.txt
+OLD_DONE=review/done.txt; [ -z "$ONLY" ] || OLD_DONE="review/done.$ONLY.txt"
+if [ -s "$OLD_DONE" ]; then             # carry over the old, untracked list once
+  sort -u "$OLD_DONE" "$DONE" -o "$DONE.tmp" && mv "$DONE.tmp" "$DONE" && mv "$OLD_DONE" "$OLD_DONE.migrated"
+  echo "Moved the finished-notes list into $DONE (tracked in git)."
+fi
+
+# Commit identity: COMMIT_NAME/COMMIT_EMAIL, else the user's own git config, else the last commit's author.
+GIT_NAME="${COMMIT_NAME:-$(git config user.name || true)}"
+GIT_EMAIL="${COMMIT_EMAIL:-$(git config user.email || true)}"
+[ -n "$GIT_NAME" ] || GIT_NAME="$(git log -1 --format=%an)"
+[ -n "$GIT_EMAIL" ] || GIT_EMAIL="$(git log -1 --format=%ae)"
+gitc() { git -c user.name="$GIT_NAME" -c user.email="$GIT_EMAIL" "$@"; }
+
+# One run at a time on this machine (mkdir is atomic everywhere; flock does not exist on macOS).
+LOCKDIR=review/.queue.lock.d
+if ! mkdir "$LOCKDIR" 2> /dev/null; then
+  if [ -f "$LOCKDIR/pid" ] && kill -0 "$(cat "$LOCKDIR/pid")" 2> /dev/null; then
+    echo "Another rewrite-queue.sh run is active (pid $(cat "$LOCKDIR/pid")) — stopping."; exit 1
+  fi
+  echo "Clearing a lock left by a run that is no longer active."
+  rm -rf "$LOCKDIR"; mkdir "$LOCKDIR" || { echo "Cannot take the run lock — stopping."; exit 1; }
+fi
+echo $$ > "$LOCKDIR/pid"
+trap 'rm -rf "$LOCKDIR"' EXIT
 
 [ "$(git branch --show-current)" = "drafts" ] || { echo "Not on the drafts branch — stopping."; exit 1; }
 [ -f "$QUEUE" ] || { echo "No queue file at $QUEUE"; exit 1; }
@@ -100,6 +137,16 @@ step() {   # step <skill> <note>
     prompt="$prompt The audit's current findings are in review/$2.audit.txt (read it instead of running the audit first)."
   fi
   prompt="$prompt QUEUE MODE: this script is on the drafts branch and commits your files after you finish — do not run git at all (no status, diff, log, add or commit)."
+  if [ "$AGENT" = copilot ]; then
+    # Copilot CLI: no event stream to show, so report the start and the end, and keep its answer in the log.
+    local t0; t0=$(date +%s)
+    echo "      running with Copilot ($model)…"
+    copilot -p "$prompt" --model "$model" --allow-all-tools --deny-tool 'shell(git)' -s < /dev/null > "$log" 2>&1
+    local rc=$?
+    echo "      $(( ($(date +%s) - t0) / 60 )) min, exit $rc — answer in $log"
+    [ "$rc" -eq 0 ] && tail -n 12 "$log" | sed 's/^/        /'
+    return "$rc"
+  fi
   if [ -n "$QUIET" ]; then
     claude -p "$prompt" --model "$model" "${CLAUDE_FLAGS[@]}" < /dev/null > "$log" 2>&1
   else
@@ -115,9 +162,8 @@ LIMIT="${LIMIT:-0}"     # LIMIT=10 ./rewrite-queue.sh list.txt  → stop after t
 commit_step() {   # commit_step <note> <what> — commit what the session changed: notes in the root, ledgers
   git add -A -- ledger && git add -u -- ':(glob)*.md' || return 1
   if git diff --cached --quiet; then echo "    ($2 changed nothing)"; return 0; fi
-  echo "    changed: $(git diff --cached --name-only | sed 's/\.md$//' | paste -sd ',' | sed 's/,/, /g')"
-  git -c user.name="$(git log -1 --format=%an)" -c user.email="$(git log -1 --format=%ae)" \
-    commit -q -m "vault backup: $2 $1" || return 1
+  echo "    changed: $(git diff --cached --name-only | sed 's/\.md$//' | paste -sd ',' - | sed 's/,/, /g')"
+  gitc commit -q -m "vault backup: $2 $1" || return 1
 }
 
 recover() {   # tidy up after a run that was interrupted or failed mid-step
@@ -154,7 +200,8 @@ while IFS= read -r line || [ -n "$line" ]; do
   n="$(trim "$line")"; case "$n" in ""|\#*) continue ;; esac
   total=$((total + 1)); grep -qxF -- "$n" "$DONE" || todo=$((todo + 1))
 done < "$QUEUE"
-echo "Queue: $QUEUE — $total notes, $((total - todo)) already done, $todo to do. Models: ledger $LEDGER_MODEL, rewrite $REWRITE_MODEL, verify $VERIFY_MODEL."
+echo "Queue: $QUEUE — $total notes, $((total - todo)) already done, $todo to do. Agent: $AGENT. Models: ledger $LEDGER_MODEL, rewrite $REWRITE_MODEL, verify $VERIFY_MODEL."
+echo "Commits as: $GIT_NAME <$GIT_EMAIL>"
 if [ -n "$ONLY" ]; then echo "Each note: $ONLY only, then audit. (Done-list: $DONE)"
 else echo "Each note: ledger (only if its own is missing) → rewrite → verify (fresh session each) → audit."; fi
 [ -n "$QUIET" ] || echo "Lines below are the session's actions as they happen; full reports go to $LOGS/."
@@ -204,6 +251,9 @@ while IFS= read -r line || [ -n "$line" ]; do
     || { echo "  ✗ audit fails after $note — stopping. Run: python3 audit.py --no-content"; exit 1; }
   flags=$(python3 audit.py --note "$note" | awk '/CONTENT TRIAGE/{f=1;next} f && $2 ~ /^[0-9]+$/ {s+=$2} END{print s+0}')
   echo "$note" >> "$DONE"; rm -f "$STATE"
+  # Record it in git with the note's last commit, so a collaborator who pulls skips it too.
+  git add -- "$DONE" && gitc commit -q -m "vault backup: done $note" \
+    || echo "    (could not commit $DONE — commit it by hand)"
 
   echo "  ✓ done. Commits: $(git log --oneline "$before..HEAD" | wc -l | tr -d ' ')   audit flags on the note: $flags"
   report="review/$note.verify.md"
@@ -218,4 +268,4 @@ done < "$QUEUE"
 
 mins=$(( ($(date +%s) - started) / 60 ))
 echo
-echo "Queue finished: $i notes in $mins min. Reports: review/<note>.verify.md. Nothing pushed."
+echo "Queue finished: $i notes in $mins min. Reports: review/<note>.verify.md. Nothing pushed — run: git push origin drafts"
