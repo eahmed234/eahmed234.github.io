@@ -18,6 +18,13 @@ that has any.
 - [ ] **Hijrī-year tags.** When a page gives only "N months from his hijrah" and no year, may a note carry a year tag (`2-ah`) as arithmetic, like the Gregorian exemption?
   now: existing tags kept, none added. →
 
+## Ghazwat Dhī Amr
+
+- [ ] **S4.176.09** «قال: قال لن يلاقوك…» — the speaker is not named; Jabbār (just brought in) or someone else?
+  now: the note gives the words to Jabbār, as the context suggests. →
+- [ ] **S4.176.06** «فأصابوا بالمدينة رجلا منهم بذي القصة» — «بالمدينة» does not fit Dhū al-Qiṣṣah; misprint?
+  now: not rendered; the man is placed at Dhū al-Qiṣṣah. →
+
 ## Dustūr al-Madīnah
 
 - [ ] **S3.384.07 — «فهؤلاء لم يثبت أحد منهم»** (Ibn Ḥajar, on the leaders listed). "Not one of them held firm" — in belief, or in what? Not spelled out.
