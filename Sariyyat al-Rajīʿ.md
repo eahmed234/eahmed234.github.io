@@ -12,173 +12,116 @@ tags:
   - sariyyah
   - asim-b-thabit
   - khubayb-b-adi
-  - 4-ah
   - martyrs
   - unverified
-date_hijri: Ṣafar 4 AH
-location: "al-Rajīʿ (a watering spring of Hudhayl in Baṭn Ghurān between ʿUsfān and Makkah)"
+date_hijri: Ṣafar, year 3 AH
+location: "al-Rajīʿ, a water of Hudhayl; al-Ẓahrān; al-Tanʿīm"
 commanders_muslim:
-  - "[[ʿĀṣim b. Thābit]] ﵁ (Commander, Ḥamiyy al-Dabr)"
-  - "[[Marthad b. Abī Marthad]] ﵁ (Alternate Commander)"
-commanders_enemy:
-  - "Chieftains of Banū Liḥyān from Hudhayl"
-  - "Envoys of ʿAḍal and al-Qārah"
-forces_muslim: 7 to 10 Companions (*Subul al-Hudā*, 6:39–40)
-forces_enemy: Approximately 100 archers (and up to 200 warriors) of Banū Liḥyān (*Subul al-Hudā*, 6:40)
-casualties_muslim: 10 martyrs (ʿĀṣim b. Thābit, Marthad b. Abī Marthad, Khālid b. al-Bukayr, Muʿattib b. ʿUbayd, ʿAbdullāh b. Ṭāriq, Zayd b. al-Dathinah, Khubayb b. ʿAdī, and their companions) (*Subul al-Hudā*, 6:39–45)
-casualties_enemy: Several struck by arrows
-outcome: Treacherous ambush of the Muslim teaching mission by Banū Liḥyān; heroic last stand on the knoll; protection of ʿĀṣim's body by swarms of hornets and flash flood; martyrdom of ʿAbdullāh b. Ṭāriq at Marr al-Ẓahrān; execution of Zayd b. al-Dathinah and Khubayb b. ʿAdī at al-Tanʿīm; revelation of Sūrat al-Baqarah (2:204–207)
-primary_source: "*Subul al-Hudā*, 6:39–48; *al-Iṣābah*, 2:103, 225–227 (no. 2227); *al-Iṣābah*, 3:27, 460–461 (no. 4365); *al-Iṣābah*, 6:56 (no. 7895)"
+  - "[[ʿĀṣim b. Thābit]] ﵁ (it is said: [[Marthad b. Abī Marthad al-Ghanawī|Marthad b. Abī Marthad]] ﵁)"
+adversaries: Banū Liḥyān of Hudhayl, with ʿAḍal and al-Qārah
+forces_muslim: Seven men (disputed)
+forces_enemy: Close to a hundred archers; in one report close to two hundred men
+casualties_muslim: "ʿĀṣim b. Thābit among seven killed by arrows; ʿAbdullāh b. Ṭāriq at al-Ẓahrān; Zayd b. al-Dathinah and Khubayb b. ʿAdī at al-Tanʿīm"
+outcome: The party was betrayed and killed or sold; Zayd and Khubayb were killed at al-Tanʿīm
+quranic_references: al-Baqarah 2:204–207 (disputed)
+primary_source: "*Subul al-Hudā*, 6:39–55; *Ṣaḥīḥ al-Bukhārī*, no. 4086"
 ---
 
 # Sariyyat al-Rajīʿ (سرية الرجيع)
-*The Tragedy of al-Rajīʿ — The Betrayal of the Reciters, The Miracle of the Hornets, and the Martyrdom of Khubayb at al-Tanʿīm*
+*The expedition in which ʿĀṣim b. Thābit and his companions were betrayed by Hudhayl, and Khubayb b. ʿAdī and Zayd b. al-Dathinah were killed at al-Tanʿīm*[^s6.41]
 
-> [!NOTE] Scholarly Provenance & Primary Sources
-> This master entry is derived strictly from *Subul al-Hudā war-Rashād*, Volume 6, *al-Bāb al-Khāmis ʿAshar fī Sariyyat al-Rajīʿ* (pp. 39–48), cross-referenced with *al-Iṣābah fī Tamyīz al-Ṣaḥābah* by al-Ḥāfiẓ Ibn Ḥajar al-ʿAsqalānī (Vol. 2, pp. 103, 225–227, no. 2227; Vol. 3, pp. 27, 460–461, no. 4365; Vol. 6, p. 56, no. 7895). Al-Ṣāliḥī synthesizes the transmissions of [[Ibn Isḥāq]], [[al-Wāqidī]], [[Ibn Saʿd]], Mūsā b. ʿUqbah, and *Ṣaḥīḥ al-Bukhārī*.
+The expedition of al-Rajīʿ took place in Ṣafar of the third year.[^s6.39] Companions sent by the Prophet ﷺ were betrayed on the road between ʿUsfān and Makkah by Banū Liḥyān of Hudhayl. [[ʿĀṣim b. Thābit]] ﵁ and others were killed, ʿAbdullāh b. Ṭāriq was killed at al-Ẓahrān, and [[Khubayb b. ʿAdī]] ﵁ and Zayd b. al-Dathinah ﵁ were sold in Makkah and killed at al-Tanʿīm.[^s6.41][^s6.42]
 
----
+## The request and the dispatch
 
-## 1. Strategic Context & The Treacherous Plea
+After the killing of Sufyān b. Khālid b. Nubayḥ al-Hudhalī, Banū Liḥyān of Hudhayl went to ʿAḍal and al-Qārah, two tribes, and offered them camels (*farāʾiḍ*) if they would go to the Messenger of Allāh ﷺ and ask him to send out a party of his companions to call them to Islam. Their plan was then to kill whom they wished and take the rest to Quraysh in Makkah to obtain a price for them; nothing was dearer to Quraysh than to have one of the companions of Muḥammad brought to them, to mutilate and kill him in retaliation for those of them killed at Badr.[^s6.40][^s6.50]
 
-In the month of Ṣafar of the year four AH (shortly following **[[Ghazwat Uḥud]]**), delegations from the tribes of **ʿAḍal** and **al-Qārah** (confederates of Khuzaymah) arrived in Medina (*Subul al-Hudā*, 6:39–40). Presenting themselves before the Messenger of Allāh ﷺ, they feigned interest in Islam, saying (*Subul al-Hudā*, 6:40):
+Seven men of ʿAḍal and al-Qārah came professing Islam and said: "O Messenger of Allāh, there is Islam spread among us, so send with us a party of your companions to have us recite the Qurʾān and to instruct us in Islam." The Messenger of Allāh ﷺ sent seven men with them.[^s6.40] Ibn Saʿd names seven: ʿĀṣim b. Thābit b. Abī al-Aqlaḥ, Marthad b. Abī Marthad, ʿAbdullāh b. Ṭāriq (confederate of Banū Ẓafar), Khubayb b. ʿAdī, Zayd b. al-Dathinah, Khālid b. al-Bukayr and Muʿattib b. ʿUbayd (it is said, b. ʿAwf).[^s6.39] Marthad and his father Kannāz b. al-Ḥuṣayn were both present at Badr; Khubayb was an Awsī Anṣārī present at Badr; Zayd, an Anṣārī of Banū Bayāḍah, was present at Badr and Uḥud; Khālid b. al-Bukayr, of Banū Layth and a confederate of Banū ʿAdī b. Kaʿb, was among the early forerunners and was present at Badr.[^s6.39t]
 
-> «يَا رَسُولَ اللَّهِ، إِنَّ فِينَا إِسْلَامًا فَاشِيًا، فَابْعَثْ مَعَنَا نَفَرًا مِنْ أَصْحَابِكَ يُقْرِئُونَنَا الْقُرْآنَ وَيُفَقِّهُونَنَا فِي الْإِسْلَامِ»
-> *"O Messenger of Allāh! Indeed Islam has spread among us, so dispatch with us a party of your companions to teach us the Qurʾān and instruct us in the religion."* (*Subul al-Hudā*, 6:40).
+## The ambush
 
-In reality, the treacherous bedouin clan of **Banū Liḥyān** (a branch of **[[Hudhayl]]**) had conspired with ʿAḍal and al-Qārah following the killing of their chieftain Sufyān b. Khālid b. Nubayḥ al-Hudhalī (*Subul al-Hudā*, 6:40). Banū Liḥyān offered bounties to lure Muslim teachers out of Medina so they could either slaughter them or sell them as captives to **[[Quraysh]]** in Makkah, where the polytheists craved vengeance for their aristocratic kinsmen slain at **[[Ghazwat Badr al-Kubrā]]** (*Subul al-Hudā*, 6:40).
+They went out with the people until they were at al-Hadah between ʿUsfān and Makkah, where the men of ʿAḍal and al-Qārah betrayed them and called for help against them; close to a hundred archers came.[^s6.40] In a report in the Ṣaḥīḥ it is close to two hundred men, the other hundred being not archers.[^s6.40] The Companions, it is reported, had alighted at al-Rajīʿ near dawn and eaten ʿajwah dates, and a date-stone fell on the ground; they used to travel by night and lie hidden by day. A woman of Hudhayl pasturing sheep saw the stones, found their smallness unfamiliar, said "This is the dates of Yathrib," and cried out to her people. They followed the tracks to a stopping-place where they found date-stones of dates taken as provision from Madīnah, and came after the Companions and found them settled on the mountain.[^s6.40][^bukh4086]
 
----
+When ʿĀṣim and his companions sensed them they took refuge on a *fadfad*, a hillock overlooking the ground, in a valley called Ghurān, the dwelling-place of Banū Liḥyān. The people surrounded them and said: "You have the covenant and the pledge that if you come down to us we will not kill a man of you; by Allāh, we do not want to kill you, we only want to obtain from you something from the people of Makkah."[^s6.40][^s6.51][^bukh4086] ʿĀṣim said: "As for me, I will not come down under the protection of an unbeliever. O Allāh, I am protecting Your religion for You today, so protect my flesh. O Allāh, inform Your Messenger of us."[^s6.40] Allāh answered ʿĀṣim and informed the Messenger of Allāh ﷺ of the news of ʿĀṣim and his companions on the day they were struck.[^s6.40] They fought them and shot them until they killed ʿĀṣim among seven men with arrows, and Khubayb, Zayd and ʿAbdullāh b. Ṭāriq remained.[^s6.40][^bukh4086]
 
-## 2. Roster of the Detachment
+## ʿĀṣim and the hornets
 
-The Messenger of Allāh ﷺ selected an elite detachment of seven to ten expert reciters and battle-tested veterans (*Subul al-Hudā*, 6:39–40):
-1. **[[ʿĀṣim b. Thābit]]** ﵁ (Supreme Commander, as established in *Ṣaḥīḥ al-Bukhārī*)
-2. **[[Marthad b. Abī Marthad]] al-Ghanawī** ﵁ (Named commander in alternate transmissions)
-3. **[[Khubayb b. ʿAdī]]** ﵁ (Of Banū ʿAmr b. ʿAwf of the Aws)
-4. **Zayd b. al-Dathinah** ﵁ (Of Banū Bayāḍah of the Khazraj)
-5. **ʿAbdullāh b. Ṭāriq** ﵁ (Confederate of Banū Ẓafar)
-6. **Khālid b. al-Bukayr** ﵁ (Of Banū Layth, confederate of Banū ʿAdī)
-7. **Muʿattib b. ʿUbayd** ﵁
+When ʿĀṣim was killed, Hudhayl wanted to take his head to sell it to Sulāfah bint Saʿd. She had vowed, when her two sons Musāfiʿ and al-Julās, sons of Ṭalḥah b. Abī Ṭalḥah al-ʿAbdarī, were killed — ʿĀṣim had killed them on the day of Uḥud — that if she gained power over his head she would drink wine in his skull; she set a hundred she-camels for whoever brought it. She became Muslim after that.[^s6.41] Allāh sent upon him something like a canopy of *dabr* (hornets and bees), flying in their faces and stinging them, and it protected him so that they could get nothing from him. They said: "Leave him until evening, so that it goes away from him and we can take him." Allāh sent the valley, and the flood carried him off.[^s6.41][^s6.51][^bukh4086] ʿĀṣim ﵁ had given Allāh a covenant that he would not touch a polytheist and no polytheist would touch him; Allāh fulfilled his oath. When the news reached him, ʿUmar b. al-Khaṭṭāb ﵁ used to say: "Allāh protects the believing servant after his death as He protects him in his life."[^s6.41]
 
-The detachment traveled by night and concealed themselves by day (*Subul al-Hudā*, 6:40).
+Quraysh also sent to ʿĀṣim for some part of his body that they would recognise, for he had killed one of their great men on the day of Badr.[^bukh4086][^s6.41]
 
----
+## The three and the death of ʿAbdullāh b. Ṭāriq
 
-## 3. The Date-Stones Discovery & The Ambush
+Khubayb, Zayd and ʿAbdullāh went up the mountain and the enemy could not get at them until they gave them the covenant and the pledge; they came down, and when the enemy had gained power over them they loosed their bowstrings and tied them with them. ʿAbdullāh b. Ṭāriq said: "This is the first betrayal. By Allāh, I will not accompany you; I have in these slain men an example." They dragged him and tried to make him accompany them; he did not, and they killed him.[^s6.41][^bukh4086] When they were at al-Ẓahrān on the way to Makkah, he pulled his hand out of the rope, took his sword, and the people held back from him and pelted him with stones until they killed him; they buried him at al-Ẓahrān.[^s6.41]
 
-The company halted at the watering spring of **al-Rajīʿ** in **Baṭn Ghurān** (a valley between ʿUsfān and Makkah in the territory of Hudhayl) at the break of dawn (*Subul al-Hudā*, 6:40). There they consumed some **ʿajwah** dates from their Medina rations (*Subul al-Hudā*, 6:40).
+The men of Hudhayl went off with Zayd and Khubayb and sold them in Makkah.[^s6.41][^bukh4086] They entered with them in a sacred month, in Dhū al-Qaʿdah, and held them until the sacred months were over.[^s6.41]
 
-Shortly after, a shepherdess of Hudhayl grazed her sheep near the site and spotted the discarded date-stones (*nawā al-tamr*). Recognizing their distinctive miniature size, she exclaimed: *«هَذَا تَمْرُ يَثْرِبَ!»* (*"These are the dates of Yathrib!"*) and raised the alarm across her clan (*Subul al-Hudā*, 6:40).
+## The killing of Zayd b. al-Dathinah
 
-Tracking their footprints, approximately **one hundred archers** (and a total force of nearly two hundred men) of Banū Liḥyān pursued the Companions and surrounded them (*Subul al-Hudā*, 6:40).
+Ṣafwān b. Umayyah bought Zayd to kill him in retaliation for his father Umayyah b. Khalaf; Ṣafwān became Muslim after that.[^s6.42] When the sacred months were over, Ṣafwān sent him with his slave Nisṭās to al-Tanʿīm, outside the Ḥaram, to kill him, and a group of Quraysh gathered, among them Abū Sufyān b. Ḥarb. Abū Sufyān said: "I adjure you by Allāh, O Zayd, would you love that Muḥammad were with us now in your place, that we strike his neck, and that you were with your family?" He said: "By Allāh, I would not love that Muḥammad now, in his place where he is, be pricked by a thorn that hurts him, while I sit among my family." Abū Sufyān said: "I have not seen any of the people love anyone as the companions of Muḥammad love Muḥammad." Then Nisṭās killed him.[^s6.42]
 
----
+## Khubayb in Makkah
 
-## 4. The Last Stand & The Miracle of Ḥamiyy al-Dabr
+Banū al-Ḥārith b. ʿĀmir b. Nawfal bought Khubayb, who had killed al-Ḥārith on the day of Badr.[^bukh4086][^s6.42] He stayed with them as a captive in the house of a woman called Māwiyah, a freedwoman of Ḥujayr b. Abī Ihāb, who became Muslim after that.[^s6.42] One of the daughters of al-Ḥārith said: "I never saw a captive better than Khubayb; I saw him eating from a bunch of grapes when there was no fruit in Makkah that day, and he was bound in iron; it was nothing but provision Allāh provided." Māwiyah likewise said she looked in on him through the crack of the door and saw in his hand a bunch of grapes like a man's head.[^bukh4086][^s6.43] Muḥammad b. ʿUmar adds that he used to pray at night with the Qurʾān and the women would hear him, weep and feel tenderness towards him.[^s6.43]
 
-Sensing the encirclement, ʿĀṣim b. Thābit and his companions took refuge atop an elevated rocky mound (*fadfad* / *qardad*) (*Subul al-Hudā*, 6:40). The polytheists surrounded the hill and called out (*Subul al-Hudā*, 6:40):
-> *"You have our solemn covenant and pledge: if you descend to us, we will not kill a single one of you! We only intend to obtain a price for you from the people of Makkah!"*
+When they agreed on killing him he borrowed a razor from one of the daughters of al-Ḥārith to shave with, and she lent it to him. A son of hers crept to him and he put him on his thigh with the razor in his hand; she was alarmed, and he said: "Are you afraid I will kill him? I would not do that, if Allāh wills."[^bukh4086] In Māwiyah's account, Khubayb took the razor from the boy who brought it and said: "In our religion we do not hold treachery lawful."[^s6.43]
 
-The commander **[[ʿĀṣim b. Thābit]]** ﵁ refused to submit, crying out (*Subul al-Hudā*, 6:40):
-> «أَمَّا أَنَا فَلَا أَنْزِلُ فِي ذِمَّةِ كَافِرٍ! اللَّهُمَّ إِنِّي أَحْمِي لَكَ الْيَوْمَ دِينَكَ فَاحْمِ لَحْمِي! اللَّهُمَّ أَخْبِرْ عَنَّا رَسُولَكَ!»
-> *"As for myself, by Allāh, I shall never descend under the protection of an unbeliever! O Allāh, I am defending Your religion this day, so protect my flesh! O Allāh, convey news of us to Your Messenger!"* (*Subul al-Hudā*, 6:40).
+## The killing of Khubayb
 
-Allāh answered his prayer, and the Messenger of Allāh ﷺ in Medina was miraculously informed through revelation that very day of their trial (*Subul al-Hudā*, 6:40).
+They brought him out in his irons to al-Tanʿīm, and the women, boys, slaves and a group of the people of Makkah went out with him; no one stayed behind, either bereaved of a kinsman and wanting to look upon his revenge, or opposed to Islam and its people. They ordered a long piece of wood and dug for it.[^s6.43] They took him out of the Ḥaram, and he said: "Let me pray two rakʿahs"; then he turned to them and said: "Were it not that you would think what is in me is dismay at death, I would have added." He was the first to establish the two rakʿahs at the time of killing.[^bukh4086][^s6.44] Ibn ʿUqbah says he prayed them at the place of the mosque of al-Tanʿīm.[^s6.44]
 
-The Companions emptied their quivers and fought until **ʿĀṣim b. Thābit**, **[[Marthad b. Abī Marthad]]**, **Khālid b. al-Bukayr**, and **Muʿattib b. ʿUbayd** were martyred by flights of enemy arrows (*Subul al-Hudā*, 6:40).
+Khubayb said: "O Allāh, count them one by one, kill them scattered, and do not leave any of them."[^s6.44] Muʿāwiyah b. Abī Sufyān later said that Abū Sufyān threw him to the ground out of fear of Khubayb's supplication, for they used to say that if a man is supplicated against and lies down on his side, it passes from him; Ḥuwayṭib b. ʿAbd al-ʿUzzā, who became Muslim after that, said he put his finger in his ear and ran away so as not to hear it.[^s6.44]
 
-### The Swarm of Hornets & The Flash Flood
-During **[[Ghazwat Uḥud]]**, ʿĀṣim had slain Musāfiʿ and al-Jallās, the two sons of Sulāfah bint Saʿd. Sulāfah had sworn a pagan vow to drink wine from ʿĀṣim's skull and offered a bounty of one hundred camels for his head (*Subul al-Hudā*, 6:41). When the men of Hudhayl moved to sever ʿĀṣim's head to claim the bounty, Allāh dispatched a dense swarm of hornets or wasps (*al-dabr*) like a protective canopy (*ẓullah*) that hovered over his body, stinging the faces and eyes of any pagan who approached (*Subul al-Hudā*, 6:41).
+They put him on the wood, turned his face towards Madīnah and bound him fast. They said: "Go back from Islam and we will let you go." He said: "No, by Allāh, I would not love to have gone back from Islam even if I had all that is on the earth." They asked whether he would love Muḥammad in his place while he sat in his house, and he said he would not love that Muḥammad be pricked by a thorn. He said: "O Allāh, I see only the face of an enemy; there is no one here to convey my greeting of peace to Your Messenger, so convey it to him from me."[^s6.44] Muḥammad b. ʿUmar relates from Usāmah b. Zayd ﵄ that the Messenger of Allāh ﷺ, among his companions, was taken by the stupor that came with revelation, and said: "And upon him be peace and the mercy of Allāh and His blessings. This is Jibrīl, conveying to me the greeting of peace from Khubayb."[^s6.44][^s6.54]
 
-The polytheists resolved: *"Leave him until evening; when darkness falls, the hornets will disperse and we shall take his head."* But when night fell, Allāh sent a sudden, torrential flash flood down the dry desert valley that swept ʿĀṣim's pristine body away to an unsearchable resting place (*Subul al-Hudā*, 6:41). ʿĀṣim had sworn a lifetime covenant never to touch a polytheist and never to allow a polytheist to touch him; Allāh preserved his covenant after his death (*Subul al-Hudā*, 6:41). Hearing of this, **[[ʿUmar b. al-Khaṭṭāb]]** ﵁ declared:
-> «يَحْفَظُ اللَّهُ تَبَارَكَ وَتَعَالَى الْعَبْدَ الْمُؤْمِنَ بَعْدَ وَفَاتِهِ كَمَا يَحْفَظُهُ فِي حَيَاتِهِ»
-> *"Allāh preserves the believing servant after his demise just as He preserves him during his life!"* (*Subul al-Hudā*, 6:41).
+The polytheists then called forty boys whose fathers had been killed at Badr, gave each a spear and said, "This is the one who killed your fathers," and they stabbed him lightly; he writhed on the wood and turned over so that his face was towards the Kaʿbah, and he said: "Praise be to Allāh, who has put my face towards His qiblah, which He chose for Himself." Then they killed him.[^s6.44] ʿUqbah b. al-Ḥārith stood to him and killed him.[^bukh4086] In Ibn Isḥāq's report, with a sound chain, ʿUqbah said that he was too weak for it, but Abū Maysarah al-ʿAbdarī put the spear in his hand, took his hand with the spear, and he stabbed Khubayb until he killed him.[^s6.45]
 
----
+Khubayb is reported to have said, as given in al-Bukhārī: "I do not mind, when I am killed a Muslim, on which side my death in Allāh's cause falls; and that is for the sake of the Deity, and if He wills He will bless the limbs of a torn body."[^s6.45][^bukh4086] Other reports say that ʿAmr b. Umayyah came to the wood and untied him and Khubayb fell to the ground, and that when he looked back he saw no trace of him;[^s6.45] and, from al-Ḍaḥḥāk, that the Messenger of Allāh ﷺ sent al-Miqdād and al-Zubayr, who found forty intoxicated men around him and took him down; al-Zubayr carried him on his horse, fresh and unchanged, and when the polytheists caught up he threw him down and the earth swallowed him, so he was called "the swallowed of the earth."[^s6.45]
 
-## 5. The Martyrdom of ʿAbdullāh b. Ṭāriq at al-Ẓahrān
+## The hypocrites and the verses
 
-Three companions remained alive atop the knoll: **[[Khubayb b. ʿAdī]]**, **Zayd b. al-Dathinah**, and **ʿAbdullāh b. Ṭāriq** (*Subul al-Hudā*, 6:41). The polytheists renewed their oath of safe passage, and the three descended. But no sooner had the polytheists seized them than they unstrung their bowstrings and bound their arms (*Subul al-Hudā*, 6:41).
+According to Ibn Isḥāq from Ibn ʿAbbās ﵄, when the party of Marthad and ʿĀṣim was struck at al-Rajīʿ, some men of the hypocrites said: "Alas for these killed ones who perished like this: they neither stayed with their families nor fulfilled the message of their master." Concerning that Allāh revealed «وَمِنَ النَّاسِ مَنْ يُعْجِبُكَ قَوْلُهُ فِي الْحَيَاةِ الدُّنْيَا» (al-Baqarah 2:204) and the verses that follow it (2:205–206).[^s6.46] As for 2:207, it is said that it was revealed concerning Ṣuhayb ﵁.[^s6.46]
 
-Realizing the treachery, **ʿAbdullāh b. Ṭāriq** resisted fiercely, declaring:
-> «هَذَا أَوَّلُ الْغَدْرِ! وَاللَّهِ لَا أَصْحَبُكُمْ، إِنَّ لِي بِهَؤُلَاءِ الْقَتْلَى أُسْوَةً!»
-> *"This is the very first act of betrayal! By Allāh, I shall not accompany you; in those slain companions I have an example!"* (*Subul al-Hudā*, 6:41).
+## Disputes
 
-They dragged him forcefully along the road until they reached **Marr al-Ẓahrān**; when he refused every inducement to move forward, he wrested his hands from the bonds, drew his sword, and fought until they stoned him to death with rocks (*Subul al-Hudā*, 6:41). He was buried at al-Ẓahrān (*Subul al-Hudā*, 6:41).
+**Cause and number.** There was disagreement about the cause of the expedition and the number of its men.[^s6.39] Abū Hurayrah, ʿUrwah and Ibn ʿUqbah say that the Messenger of Allāh ﷺ sent ten spies to Makkah to bring him news of Quraysh; Ibn Saʿd is certain they were ten and names seven; Muḥammad b. ʿUmar says it is said they were ten; Ibn Isḥāq says six, the seven named less Muʿattib. The apparent position is that the other three were followers and so were not named.[^s6.39] The wording of Muḥammad b. ʿUmar is better in its sequence.[^s6.39]
 
----
+**Commander.** The Messenger of Allāh ﷺ made Marthad b. Abī Marthad commander; it is said, ʿĀṣim. Al-Ṣāliḥī holds the latter sound, since al-Bukhārī relates it from Abū Hurayrah.[^s6.40][^bukh4086] Ibn Isḥāq says Marthad was martyred in Ṣafar of year three in the expedition of al-Rajīʿ.[^s6.39t]
 
-## 6. Captivity and Sale in Makkah
+**Archers.** The two counts, a hundred and two hundred, are reconciled by the other hundred not being archers.[^s6.40]
 
-The men of Hudhayl escorted **[[Khubayb b. ʿAdī]]** and **Zayd b. al-Dathinah** into Makkah during the sacred month of Dhū al-Qaʿdah and sold them (*Subul al-Hudā*, 6:41):
-- **Khubayb** was bought by ʿUqbah b. al-Ḥārith b. ʿĀmir (or by Ḥujayr b. Abī Ihāb on behalf of the sons of al-Ḥārith b. ʿĀmir, whom Khubayb had slain at Badr) (*Subul al-Hudā*, 6:41).
-- **Zayd b. al-Dathinah** was bought by Ṣafwān b. Umayyah to execute him in retribution for his father, Umayyah b. Khalaf, slain at Badr (*Subul al-Hudā*, 6:42).
+**How the three came down.** In the Ṣaḥīḥ the three came down after receiving the covenant and were then bound; in Ibn Isḥāq's account they softened, desired life and gave their hands, and were taken captive. The two are not reconciled.[^s6.41][^bukh4086]
 
-Both were imprisoned in irons until the sacred months elapsed (*Subul al-Hudā*, 6:41–42).
+**The sale.** Muḥammad b. ʿUmar says the first was sold for a *mithqāl* of gold, it is said for fifty *farīḍah*s, and the second for fifty *farīḍah*s, and it is said that people of Quraysh shared in buying him; Ibn Hishām says they were sold in exchange for two captives of Hudhayl.[^s6.41] Zayd was held with some people of Banū Jumaḥ; it is said, with Nisṭās.[^s6.42]
 
-### The Miracle of the Heavenly Grapes
-During his imprisonment in the house of Māwiyah (a client-woman who subsequently embraced Islam), Khubayb was observed eating from a large bunch of fresh grapes as large as a human head, while bound in heavy iron fetters, at a time when there was not a single fruit upon the earth in Makkah (*Subul al-Hudā*, 6:43; *al-Iṣābah*, 2:226). Māwiyah testified:
-> *"I saw him eating from a bunch of grapes... and it was nothing other than provision that Allāh bestowed upon Khubayb!"* (*Subul al-Hudā*, 6:43).
-At night, Khubayb recited the Qurʾān in tahajjud with such heart-rending tenderness that the women of the household wept (*Subul al-Hudā*, 6:43).
+**Who bought Khubayb.** Ibn ʿUqbah, in a report introduced by «زعموا», names among those sharing in the purchase Abū Ihāb b. ʿAzīz, ʿIkrimah b. Abī Jahl, al-Akhnas b. Sharīq, ʿUbaydah b. Ḥakīm, Umayyah b. Abī ʿUtbah, Ṣafwān b. Umayyah and Banū al-Ḥaḍramī.[^s6.42] Ibn Isḥāq says Ḥujayr b. Abī Ihāb al-Tamīmī, confederate of Banū Nawfal, bought him; Ibn Hishām says it was ʿUqbah b. al-Ḥārith, to kill him for his father.[^s6.42]
 
----
+**His killer.** The Ṣaḥīḥ names ʿUqbah b. al-Ḥārith; another wording of Abū Hurayrah's hadith has Abū Surūʿah, whom a group of genealogists identify as the brother of ʿUqbah b. al-Ḥārith. Abū ʿUmar says in *al-Istīʿāb* that Abū Ṣubayrah al-ʿAbdarī killed him with ʿUqbah, and the correct name is Abū Maysarah.[^bukh4086][^s6.44][^s6.45]
 
-## 7. Execution at al-Tanʿīm
+**Khubayb at Badr.** Abū Hurayrah's hadith says Khubayb killed al-Ḥārith on the day of Badr, and al-Bukhārī relied on it in counting him among the Badr fighters; Ibn Ḥajar calls that well founded. Al-Dimyāṭī objects that the people of the *maghāzī* say that the killer of al-Ḥārith was Khubayb b. Isāf, a Khazrajī, other than Khubayb b. ʿAdī, an Awsī. Ibn Ḥajar replies that this would reject a sound hadith, and offers the possibilities that they killed Khubayb b. ʿAdī for the killing by Khubayb b. Isāf, according to their custom in the Jāhiliyyah, or that Khubayb b. ʿAdī shared in it.[^s6.46]
 
-When the sacred months ended, the Quraysh led the two captives beyond the sacred precinct (*al-Ḥaram*) to **al-Tanʿīm** to crucify them before a large assembly of men, women, and children (*Subul al-Hudā*, 6:42–44).
+**First to pray two rakʿahs.** Abū Hurayrah says in the Ṣaḥīḥ that Khubayb was the first to establish the two rakʿahs at killing, and countless people were certain of that. *Al-Ishārah* gives, as it is said, Zayd b. Ḥārithah (in two copies, Usāmah), and a report to that effect is not connected in its chain and does not stand against the Ṣaḥīḥ.[^s6.46][^s6.47]
 
-### Zayd b. al-Dathinah & Abū Sufyān's Inquiry
-As Zayd was brought forward to be struck down by Nisṭās, the slave of Ṣafwān b. Umayyah, **[[Abū Sufyān b. Ḥarb]]** stepped forward and asked (*Subul al-Hudā*, 6:42):
-> *"I adjure you by Allāh, O Zayd: would you not love that Muḥammad were here in your place to have his head struck off, while you were safe among your family?"*
+**The verses.** Ibn Isḥāq says 2:204–206 were revealed concerning this expedition; others say concerning al-Akhnas b. Sharīq.[^s6.46]
 
-Zayd answered with absolute devotion (*Subul al-Hudā*, 6:42):
-> «وَاللَّهِ مَا أُحِبُّ أَنَّ مُحَمَّدًا الْآنَ فِي مَكَانِهِ الَّذِي هُوَ فِيهِ تُصِيبُهُ شَوْكَةٌ تُؤْذِيهِ، وَأَنِّي جَالِسٌ فِي أَهْلِي!»
-> *"By Allāh, I would not love that Muḥammad right now in his place be pricked by a single thorn that hurts him, while I sit safe among my family!"* (*Subul al-Hudā*, 6:42).
+**The poem.** Ibn Isḥāq's version reads «لعمرك ما آسى إذا مت مسلما»; al-Bukhārī's, «فلست أبالي حين أقتل مسلما», and the Ṣaḥīḥ has «شق», where *Subul al-Hudā* has «جنب».[^s6.45][^bukh4086]
 
-Stunned by this unyielding love, Abū Sufyān exclaimed (*Subul al-Hudā*, 6:42):
-> «مَا رَأَيْتُ مِنَ النَّاسِ أَحَدًا يُحِبُّ أَحَدًا كَحُبِّ أَصْحَابِ مُحَمَّدٍ مُحَمَّدًا!»
-> *"I have never seen anyone among mankind love anyone as the companions of Muḥammad love Muḥammad!"* (*Subul al-Hudā*, 6:42).
-Zayd was then martyred.
+## References
 
-### Khubayb's Two Rakʿahs & Sunnah of Execution
-Khubayb asked his captors: *"Permit me to pray two rakʿahs."* They agreed. He completed two concise, perfect cycles of prayer, and turning to them said (*Subul al-Hudā*, 6:44):
-> «وَاللَّهِ لَوْلَا أَنْ تَظُنُّوا أَنَّ مَا بِي جَزَعٌ مِنَ الْمَوْتِ لَاسْتَكْثَرْتُ مِنَ الصَّلَاةِ!»
-> *"By Allāh, were it not that you would think I lengthened them out of fear of death, I would have prayed much more!"* (*Subul al-Hudā*, 6:44).
+- *Subul al-Hudā war-Rashād*, vol. 6 (chapter 15, 6:39–55).
+- *Ṣaḥīḥ al-Bukhārī*, no. 4086.
 
-Abū Hurayrah ﵁ noted in *Ṣaḥīḥ al-Bukhārī*: *«فَكَانَ خُبَيْبٌ أَوَّلَ مَنْ سَنَّ هَاتَيْنِ الرَّكْعَتَيْنِ عِنْدَ الْقَتْلِ»* (*"Khubayb was the very first person in Islam to establish the sunnah of praying two rakʿahs prior to execution"* (*Subul al-Hudā*, 6:44).
-
-### The Invocations & Immortal Poetry
-Khubayb then supplicated against the persecutors: *«اللَّهُمَّ أَحْصِهِمْ عَدَدًا، وَاقْتُلْهُمْ بَدَدًا، وَلَا تُغَادِرْ مِنْهُمْ أَحَدًا»* (*"O Allāh, reckon their numbers, destroy them in succession, and spare not a single one of them!"* (*Subul al-Hudā*, 6:44). Such terror fell upon Quraysh that Abū Sufyān threw his young son Muʿāwiyah to the ground fearing the supplication would strike them (*Subul al-Hudā*, 6:44).
-
-Raised upon the crossbeam, Khubayb chanted (*Subul al-Hudā*, 6:45):
-> وَلَسْتُ أُبَالِي حِينَ أُقْتَلُ مُسْلِمًا ... عَلَى أَيِّ جَنْبٍ كَانَ فِي اللَّهِ مَصْرَعِي
-> وَذَلِكَ فِي ذَاتِ الْإِلَهِ وَإِنْ يَشَأْ ... يُبَارِكْ عَلَى أَوْصَالِ شِلْوٍ مُمَزَّعِ
-> *"I care not, so long as I am slain as a Muslim, upon which side my death for Allāh shall fall;*
-> *For that is for the sake of the Divine, and if He wills, He will shower blessings upon the severed joints of torn limbs!"* (*Subul al-Hudā*, 6:45).
-
-ʿUqbah b. al-Ḥārith and Abū Maysarah al-ʿAbdarī pierced him with spears until he attained martyrdom (*Subul al-Hudā*, 6:45).
-
----
-
-## 8. Qurʾānic Revelation & Divine Vindications
-
-When news of the massacre reached Medina, the hypocrites (*al-Munāfiqūn*) mocked the fallen martyrs, saying: *"Pity these slaughtered men who perished this way! Neither did they stay safely with their families, nor did they fulfill the mission of their master!"* (*Subul al-Hudā*, 6:46).
-
-In condemnation of the hypocrites and in exaltation of the martyrs of al-Rajīʿ, Allāh revealed (*Subul al-Hudā*, 6:46):
-
-> ﴿وَمِنَ النَّاسِ مَنْ يُعْجِبُكَ قَوْلُهُ فِي الْحَيَاةِ الدُّنْيَا وَيُشْهِدُ اللَّهَ عَلَىٰ مَا فِي قَلْبِهِ وَهُوَ أَلَدُّ الْخِصَامِ * وَإِذَا تَوَلَّىٰ سَعَىٰ فِي الْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ الْحَرْثَ وَالنَّسْلَ وَاللَّهُ لَا يُحِبُّ الْفَسَادَ﴾
-> *(And among mankind is he whose speech pleases you in worldly life, and he calls Allāh to witness as to what is in his heart, yet he is the fiercest of disputants. And when he turns away, he strives throughout the land to cause corruption therein and destroy crops and livestock. And Allāh does not love corruption — al-Baqarah, 2:204–205).*
-
-And regarding the steadfastness of Khubayb and his companions who traded their lives for the pleasure of Allāh, Allāh revealed:
-> ﴿وَمِنَ النَّاسِ مَنْ يَشْرِي نَفْسَهُ ابْتِغَاءَ مَرْضَاتِ اللَّهِ وَاللَّهُ رَءُوفٌ بِالْعِبَادِ﴾
-> *(And among mankind is he who sells his soul seeking the pleasure of Allāh; and Allāh is Most Kind to His servants — al-Baqarah, 2:207).*
-
----
-
-## 9. References
-1. *[[Subul al-Hudā war-Rashād]]*, vol. 6, pp. 39–48 (*al-Bāb al-Khāmis ʿAshar fī Sariyyat al-Rajīʿ*).
-2. *[[al-Iṣābah fī Tamyīz al-Ṣaḥābah]]*, vol. 3, pp. 460–461, no. 4365 (*ʿĀṣim b. Thābit*).
-3. *[[al-Iṣābah fī Tamyīz al-Ṣaḥābah]]*, vol. 2, pp. 225–227, no. 2227 (*Khubayb b. ʿAdī*).
-4. *[[al-Iṣābah fī Tamyīz al-Ṣaḥābah]]*, vol. 6, p. 56, no. 7895 (*Marthad b. Abī Marthad*).
-5. *[[al-Iṣābah fī Tamyīz al-Ṣaḥābah]]*, vol. 3, p. 27 (*Zayd b. al-Dathinah*).
+[^s6.39]: *Subul al-Hudā*, 6:39; the date is given as Ṣafar «سنة ثلاث».
+[^s6.39t]: *Subul al-Hudā*, 6:39 nn. (taḥqīq); Ibn Isḥāq on Marthad's martyrdom.
+[^s6.40]: *Subul al-Hudā*, 6:40, from Ibn Isḥāq, Abū Hurayrah, ʿUrwah, Ibn ʿUqbah, Abū Maʿshar and Ibrāhīm b. Saʿd (as related by Abū Dāwūd al-Ṭayālisī).
+[^s6.41]: *Subul al-Hudā*, 6:41.
+[^s6.42]: *Subul al-Hudā*, 6:42, from Ibn Isḥāq, Ibn Saʿd and Ibn ʿUqbah.
+[^s6.43]: *Subul al-Hudā*, 6:43, from al-Bukhārī, Ibn Isḥāq and Muḥammad b. ʿUmar.
+[^s6.44]: *Subul al-Hudā*, 6:44–45.
+[^s6.45]: *Subul al-Hudā*, 6:45, from Ibn Isḥāq, Muḥammad b. ʿUmar, al-Bukhārī, Imām Aḥmad (from ʿAmr b. Umayyah) and Abū Yūsuf (from al-Ḍaḥḥāk).
+[^s6.46]: *Subul al-Hudā*, 6:46.
+[^s6.47]: *Subul al-Hudā*, 6:46–47.
+[^s6.50]: *Subul al-Hudā*, 6:50.
+[^s6.51]: *Subul al-Hudā*, 6:51.
+[^s6.54]: *Subul al-Hudā*, 6:54.
+[^bukh4086]: *Ṣaḥīḥ al-Bukhārī*, no. 4086.
