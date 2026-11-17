@@ -223,3 +223,17 @@ that has any.
 - [ ] **S4.172.39 / S4.172.41 — Ibn Saʿd's Ghaṭafān expedition on the 12th and (apparently) the 18th of Rabīʿ al-Awwal.**
   now: not used in the note. →
 - See General (month-counts and the `2-ah` tag).
+
+## Sariyyat al-Rajīʿ
+- [ ] **S6.40.01 — whose words are S6.40.01–12?** The page opens «قال نقلا عن شيوخه:» with no named speaker; where the quotation ends and the author resumes is not fixed.
+  now: stated as the narrative, without naming a transmitter.  →
+- [ ] **S6.45.02 — «وصوابه أبو ميسرة كما عند ابن إسحاق».** Is the correction Abū ʿUmar's, al-Ṣāliḥī's or Ibn Ḥajar's?
+  now: "the correct name is given as Abū Maysarah", no author named.  →
+- [ ] **S6.42.15 — «كان ابن أخته لا ابن أخيه عقبة بن الحارث…».** Elliptical: whose sister's son (Ḥujayr's?), and is ʿUqbah the buyer or the one for whom he was bought?
+  now: Ibn Hishām's words given as printed.  →
+- [ ] **S6.43.14 vs S6.53.07.** The Ḥāfiẓ says the boy who crept to Khubayb is other than the one who brought the iron; the gharīb says the one who crept is Abū Ḥusayn, who (S6.43.06) brought the iron.
+  now: both stated, the Ḥāfiẓ's reconciliation attributed to Ibn Ḥajar; the gharīb not used.  →
+- [ ] **S6.45.10 — «وروى الإمام أحمد بن عمرو بن أمية».** Misprint for «أحمد عن عمرو بن أمية»?
+  now: "Imām Aḥmad (from ʿAmr b. Umayyah)".  →
+- [ ] **S6.41.12–15 vs S6.41.16–17.** How the three came down, and where ʿAbdullāh b. Ṭāriq was killed (Ṣaḥīḥ: after refusing; Ibn Isḥāq: at al-Ẓahrān); the author does not reconcile.
+  now: both told, as two accounts.  →
