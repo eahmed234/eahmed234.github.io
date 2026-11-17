@@ -18,6 +18,15 @@ that has any.
 - [ ] **Hijrī-year tags.** When a page gives only "N months from his hijrah" and no year, may a note carry a year tag (`2-ah`) as arithmetic, like the Gregorian exemption?
   now: existing tags kept, none added. →
 
+## Maʾsāt Biʾr Maʿūnah
+
+- [ ] **Location of Biʾr Maʿūnah** (S6.66.01 vs M677.03 editor's note). *Subul*: «موضع في بلاد هذيل بين مكة وعسفان»; Muslim's editor: «في أرض بني سليم، فيما بين مكة والمدينة». Two books differ.
+  now: the note gives both, as a dispute. →
+- [ ] **Qunūt before or after the bowing** (M677.07 «قبل الركوع» vs M677.04–06 «بعد الركوع»), both from Anas in Muslim.
+  now: the note reports both. →
+- [ ] **S6.58.19–20, S6.59.07–08** — who the subject is of «فاتبعوا أثره حتى وجدوا القوم», and who «الآخر» is in the dialogue; the page does not say.
+  now: the note names no speaker and omits the track-following clause. →
+
 ## Ghazwat Dhī Amr
 
 - [ ] **S4.176.09** «قال: قال لن يلاقوك…» — the speaker is not named; Jabbār (just brought in) or someone else?

@@ -19,7 +19,7 @@ commanders_muslim:
   - "[[al-Mundhir b. ʿAmr]] al-Sāʿidī ﵁"
 commanders_enemy:
   - "ʿĀmir b. al-Ṭufayl"
-strength_muslim: "Seventy men of the Anṣār, the Qurrāʾ (Ibn ʿUqbah: forty)"
+strength_muslim: "Seventy men of the Anṣār, the Qurrāʾ (Ibn ʿUqbah and Ibn Isḥāq: forty)"
 casualties_muslim: "All killed, except ʿAmr b. Umayyah al-Ḍamrī and Kaʿb b. Zayd, according to the authorities on the *maghāzī*"
 primary_source: "[[Subul al-Hudā war-Rashād]] (6:57–67)"
 ---
@@ -35,7 +35,7 @@ The expedition of al-Mundhir b. ʿAmr to Biʾr Maʿūnah, also called the expedi
 
 Abū Barāʾ said that he saw the Prophet's ﷺ affair as good and noble, that his people were behind him, and that if the Prophet ﷺ sent a group of his Companions with him he hoped they would follow it. The Messenger of Allāh ﷺ said, "I fear for them the people of Najd." Abū Barāʾ answered, "Do not fear; I am a *jār* to them" — they would be in his protection, covenant and neighbour-protection — "should anyone of the people of Najd molest them." He went out to the side of Najd and told them that he had given protection to the Companions of Muḥammad ﷺ and they were not to molest them.[^s6.57][^s6.67]
 
-Anas reports that Riʿl, Dhakwān, ʿUṣayyah and Banū Liḥyān also came, claimed to have become Muslim and asked for reinforcement against their enemy;[^s6.57] and that people came saying, "Send with us men who will teach us the Qurʾān and the sunnah."[^musl677] The Ṣaḥīḥ report of Anas has the Prophet ﷺ send the seventy to people of the polytheists between whom and him there was a covenant.[^s6.57]
+Anas reports that Riʿl, Dhakwān, ʿUṣayyah and Banū Liḥyān also came, claimed to have become Muslim and asked for reinforcement against their enemy;[^s6.57] and that people came saying, "Send with us men who will teach us the Qurʾān and the sunnah."[^musl677] In al-Ismāʿīlī's wording of Anas's report, the Prophet ﷺ sent the seventy to people of the polytheists between whom and him there was a covenant, and a polytheist people other than those killed them.[^s6.57]
 
 ## The Qurrāʾ
 
@@ -47,11 +47,11 @@ The Messenger of Allāh ﷺ sent them, sent a letter with them, and appointed al
 
 ## The killing of Ḥarām b. Milḥān
 
-They sent Ḥarām b. Milḥān with the Prophet's ﷺ letter to ʿĀmir b. al-Ṭufayl among men of Banū ʿĀmir.[^s6.58] Ḥarām, a maternal uncle of Anas b. Mālik,[^s6.62] said to the two who went with him — one of them a lame man, Kaʿb b. Zayd according to Ibn Hishām — to stay near him: if they gave him safety they should come, and if they killed him they should rejoin their companions.[^s6.58][^bukh4091] He asked, "Will you give me safety so that I convey the message of the Messenger of Allāh ﷺ?" and began to speak to them; they motioned to a man, who came from behind and stabbed him through. He said, "Allāh is greatest! I have won, by the Lord of the Kaʿbah," and sprinkled the blood on his face. The two others were killed, except the lame man, who was on a mountain.[^s6.58][^bukh4091]
+They sent Ḥarām b. Milḥān with the Prophet's ﷺ letter to ʿĀmir b. al-Ṭufayl among men of Banū ʿĀmir.[^s6.58] Ḥarām, a maternal uncle of Anas b. Mālik,[^s6.62] said to the two who went with him — one of them a lame man, Kaʿb b. Zayd according to Ibn Hishām — to stay near him: if they gave him safety they should come, and if they killed him they should rejoin their companions.[^s6.58][^bukh4091] He asked, "Will you give me safety so that I convey the message of the Messenger of Allāh ﷺ?" and began to speak to them; they motioned to a man, who came from behind and stabbed him through. He said, "Allāh is greatest! I have won, by the Lord of the Kaʿbah," and sprinkled the blood on his face. They were all killed except the lame man, who was on the top of a mountain.[^s6.58][^bukh4091]
 
 ## The surrounding of the camp
 
-ʿĀmir b. al-Ṭufayl called Banū ʿĀmir for help against the Muslims. They refused: "We will not break the protection of Abū Barāʾ, who has made a pact and protection for them." When they refused to march out with him, he called for help to tribes of Banū Sulaym — ʿUṣayyah, Riʿl, Dhakwān and Zuʿb — who marched out with him and made him their head. They followed the track until they found the Muslims and surrounded them in their camp; the Muslims took their swords and fought until all were killed.[^s6.58] In the Ṣaḥīḥ report of Anas, they were killed at Biʾr Maʿūnah, and betrayed.[^s6.58][^s6.59] Only Kaʿb b. Zayd of Banū Dīnār b. al-Najjār was left with a breath of life in him; he was carried off from among the slain and lived until he was killed as a martyr at al-Khandaq.[^s6.59]
+ʿĀmir b. al-Ṭufayl called Banū ʿĀmir for help against the Muslims. They refused: "We will not break the protection of Abū Barāʾ, who has made a pact and protection for them." When they refused to march out with him, he called for help to tribes of Banū Sulaym — ʿUṣayyah, Riʿl, Dhakwān and Zuʿb — who marched out with him and made him their head. They surrounded the Muslims in their camp; the Muslims took their swords and fought until all were killed.[^s6.58] In the Ṣaḥīḥ report of Anas, they were killed at Biʾr Maʿūnah, and betrayed.[^s6.58][^s6.59] Only Kaʿb b. Zayd of Banū Dīnār b. al-Najjār was left with a breath of life in him; he was carried off from among the slain and lived until he was killed as a martyr at al-Khandaq.[^s6.59]
 
 Al-Mundhir b. ʿAmr remained. They said to him, "If you wish, we will give you safety," and he answered, "I will not give with my hand, and will not accept safety from you, until I come to the place where Ḥarām was killed." They gave him safety until he reached Ḥarām's place of falling, then declared their protection quit of him, and he fought them until he was killed. This is the Prophet's ﷺ saying of him, "He hastened on to die."[^s6.59]
 
@@ -71,9 +71,9 @@ Jabbār related that when he stabbed ʿĀmir b. Fuhayrah the latter said, "I hav
 
 ## The revelation and the Prophet's ﷺ grief
 
-Jibrīl informed the Messenger of Allāh ﷺ, who stood, praised Allāh and said: "Your brothers have met the polytheists, who cut them off, and none of them remained. And they said: Our Lord, convey to our people that we are pleased and He is pleased with us; and I am their messenger to you that they are pleased and He is pleased with them."[^s6.60] The Qurrāʾ had said, "O Allāh, convey from us to our Prophet that we have met You, and we are pleased with You and You are pleased with us."[^musl677] Allāh sent down a Qurʾān about those killed at Biʾr Maʿūnah, which they recited until it was abrogated: "Convey to our people that we have met our Lord, and He is pleased with us, and we are pleased with Him."[^musl677][^bukh4091]
+Jibrīl informed the Messenger of Allāh ﷺ, who stood, praised Allāh and said: "Your brothers have met the polytheists, who cut them off, and none of them remained. And they said: Our Lord, convey to our people that we are pleased and He is pleased with us; and I am their messenger to you that they are pleased and He is pleased with them."[^s6.60] The Qurrāʾ had said, "O Allāh, convey from us to our Prophet that we have met You, and we are pleased with You and You are pleased with us."[^musl677] Allāh sent down a Qurʾān about those killed at Biʾr Maʿūnah, which was recited until it was abrogated: "Convey to our people that we have met our Lord, and He is pleased with us, and we are pleased with Him."[^musl677][^bukh4091]
 
-Anas said that he did not see the Messenger of Allāh ﷺ grieve over an expedition as he grieved over the seventy struck on the day of Biʾr Maʿūnah, and that every time the Prophet ﷺ prayed the morning prayer he raised his hand and made supplication against them.[^musl677][^s6.61] He made supplication for thirty mornings against Riʿl, Dhakwān, Banū Liḥyān and ʿUṣayyah, who disobeyed Allāh and His Messenger.[^bukh4091][^musl677] Muslim's wording has him cursing Riʿl and Dhakwān and saying, "ʿUṣayyah disobeyed Allāh and His Messenger"; the supplication was in the dawn prayer, after the bowing.[^musl677] After that, Abū Ṭalḥah said to Anas, "Would you like to see the killer of Ḥarām?" and, when Anas answered angrily, "Gently, for he has become Muslim."[^s6.61]
+Anas said that he did not see the Messenger of Allāh ﷺ grieve over an expedition as he grieved over the seventy struck on the day of Biʾr Maʿūnah, and that every time the Prophet ﷺ prayed the morning prayer he raised his hand and made supplication against them.[^musl677][^s6.61] He made supplication for thirty mornings against Riʿl, Dhakwān, Banū Liḥyān and ʿUṣayyah, who disobeyed Allāh and His Messenger.[^bukh4091][^musl677] Muslim's wording has him cursing Riʿl and Dhakwān and saying, "ʿUṣayyah disobeyed Allāh and His Messenger"; the supplication was in the dawn prayer, after the bowing.[^musl677] After that, Abū Ṭalḥah said to Anas, "Would you like to see the killer of Ḥarām?" and, when Anas answered, "What of him? May Allāh do to him and do," said, "Gently, for he has become Muslim."[^s6.61]
 
 ## The return of ʿAmr b. Umayyah
 
@@ -87,11 +87,11 @@ Those martyred at Biʾr Maʿūnah are listed as: ʿĀmir b. Fuhayrah, freedman o
 
 ## Disputes
 
-**The number.** In the Ṣaḥīḥ the Qurrāʾ were seventy; Ibn ʿUqbah says forty, and al-Ḥāfiẓ says that whoever said thirty was mistaken and that what is in the Ṣaḥīḥ is sound. It is possible to reconcile them by the forty having been leaders and the rest followers.[^s6.58][^s6.65]
+**The number.** In the Ṣaḥīḥ the Qurrāʾ were seventy; Ibn ʿUqbah and Ibn Isḥāq say forty, and al-Ḥāfiẓ says that whoever said thirty was mistaken and that what is in the Ṣaḥīḥ is sound. It is possible to reconcile them by the forty having been leaders and the rest followers.[^s6.58][^s6.65]
 
 **Who was with the animals.** Abū ʿUmar names al-Ḥārith b. al-Ṣimmah; Ibn Isḥāq, followed by Ibn Hishām, names al-Mundhir b. Muḥammad b. ʿUqbah.[^s6.58][^s6.59] Ibn ʿĀʾidh says that al-Mundhir b. Muḥammad was martyred at Banū Qurayẓah.[^s6.61]
 
-**The killer of ʿĀmir b. Fuhayrah.** Abū ʿUmar mentions in *al-Istīʿāb*, in the entry of ʿĀmir b. Fuhayrah, that ʿĀmir b. al-Ṭufayl killed him, while in the entry of Jabbār he mentions Jabbār as the killer.[^s6.60] Al-Bayhaqī says it is possible that he was raised, then set down, then missing afterwards, so as to agree with al-Bukhārī's report from ʿUrwah ("then he was set down") and the report from ʿĀʾishah, which omits it; the Shaykh says the routes for his being covered in the sky have become strong and numerous.[^s6.60]
+**The killer of ʿĀmir b. Fuhayrah.** Abū ʿUmar mentions in *al-Istīʿāb*, in the entry of ʿĀmir b. Fuhayrah, that ʿĀmir b. al-Ṭufayl killed him, while in the entry of Jabbār he mentions Jabbār as the killer.[^s6.60] Al-Bayhaqī says it is possible that he was raised, then set down, then missing afterwards, so as to agree with al-Bukhārī's report from ʿUrwah ("then he was set down"); his report from ʿĀʾishah omits it. The Shaykh says the routes for his being covered in the sky have become strong and numerous.[^s6.60]
 
 **The gift.** Al-Khaṭṭābī says the ḥadīth "We do not accept the *zubd* of the polytheists" seems abrogated, since the Prophet ﷺ accepted the gift of more than one polytheist. It is also said that he returned the gift to anger Abū Barāʾ so that this would move him to Islam, or so as to cut off the cause of inclination in the heart. Al-Suhaylī says he said *zubd* and not "gift" because he disliked only being soft with them and flattering them when they were at war with him.[^s6.66]
 
@@ -101,9 +101,13 @@ Those martyred at Biʾr Maʿūnah are listed as: ʿĀmir b. Fuhayrah, freedman o
 
 **The abrogated verse.** Anas's "then it was abrogated after" is established in the Ṣaḥīḥ. Al-Suhaylī says that the report was not abrogated, only the ruling: the rulings of the Qurʾān — recitation in prayer, that none touch it but one pure, its being written between the two covers, and its learning being a communal obligation — were lifted from it, though it may remain preserved and its report believed.[^s6.65]
 
+**The place.** Biʾr Maʿūnah is in the lands of Hudhayl between Makkah and ʿUsfān;[^s6.66] the editor of Muslim says it is in the land of Banū Sulaym, between Makkah and Madīnah.[^musl677b]
+
+**The qunūt.** In one report of Anas in Muslim, asked whether the qunūt was before or after the bowing, he answered "Before the bowing", and when told that people claim it was after the bowing said that the Prophet ﷺ performed it only for a month, supplicating against those who had killed the Qurrāʾ; other reports have it after the bowing.[^musl677]
+
 **The supplication.** The Ṣaḥīḥ says thirty mornings against Riʿl, Liḥyān and ʿUṣayyah; another report says forty mornings, and another a month.[^bukh4091][^musl677][^s6.61] Al-Dimyāṭī, followed by *al-ʿUyūn*, says this gives the impression that Banū Liḥyān were among those who struck the Qurrāʾ, which is not so: Riʿl, Dhakwān, ʿUṣayyah and those of Sulaym with them did so, while Banū Liḥyān struck the expedition of al-Rajīʿ. The news of both came to the Prophet ﷺ at one time, so he made one supplication against those who struck the Companions in the two places.[^s6.65] Muḥammad b. ʿUmar says the news of Biʾr Maʿūnah and of the people of [[Sariyyat al-Rajīʿ|al-Rajīʿ]] came in one night.[^s6.65]
 
-**Individual martyrs.** Ibn Isḥāq and Ibn ʿUqbah call Anas, brother of Ubayy b. Muʿādh, Aws, and Muḥammad b. ʿUmar says this Anas died in the caliphate of ʿUthmān. Abū Shaykh is the son of Ḥassān b. Thābit's brother according to Ibn Isḥāq; Ibn Hishām says his name is Ubayy b. Thābit, making him Ḥassān's brother. Muḥammad b. ʿUmar counts Muʿādh b. Māʿiṣ, Masʿūd b. Saʿd among them; another says Muʿādh was wounded at Badr and died in Madīnah, and Ibn al-Qaddāḥ says Masʿūd died at Khaybar. It is said that ʿĀʾidh died in al-Yamāmah and that Khālid b. Thābit was martyred at Muʾtah. Muḥammad b. ʿUmar alone mentions Sufyān and Mālik, sons of Thābit. The authorities on the *maghāzī* agree that all were killed except ʿAmr b. Umayyah and Kaʿb b. Zayd, who was wounded at Biʾr Maʿūnah and died at al-Khandaq.[^s6.61][^s6.62][^s6.63]
+**Individual martyrs.** Ibn Isḥāq and Ibn ʿUqbah call Anas, brother of Ubayy b. Muʿādh, Aws, and Muḥammad b. ʿUmar says this Anas died in the caliphate of ʿUthmān. Abū Shaykh is the son of Ḥassān b. Thābit's brother according to Ibn Isḥāq; Ibn Hishām says his name is Ubayy b. Thābit, making him Ḥassān's brother. Muḥammad b. ʿUmar counts Muʿādh b. Māʿiṣ, Masʿūd b. Saʿd among them; another says Muʿādh was wounded at Badr and died in Madīnah, and Ibn al-Qaddāḥ says Masʿūd died at Khaybar. It is said that ʿĀʾidh died in al-Yamāmah and that Khālid b. Thābit was martyred at Muʾtah. Muḥammad b. ʿUmar alone mentions Sufyān and Mālik, sons of Thābit. *Al-ʿUyūn* thinks Suhayl b. ʿĀmir is Sahl b. ʿĀmir; it is related in *al-Iṣābah* from ʿUrwah that Suhayl was Sahl's paternal uncle or his brother, so that what Abū ʿUmar said is sound.[^s6.63] The authorities on the *maghāzī* agree that all were killed except ʿAmr b. Umayyah and Kaʿb b. Zayd, who was wounded at Biʾr Maʿūnah and died at al-Khandaq.[^s6.61][^s6.62][^s6.63]
 
 ## References
 
@@ -124,3 +128,4 @@ Those martyred at Biʾr Maʿūnah are listed as: ʿĀmir b. Fuhayrah, freedman o
 [^s6.67]: *Subul al-Hudā*, 6:67.
 [^bukh4091]: *Ṣaḥīḥ al-Bukhārī*, no. 4091.
 [^musl677]: *Ṣaḥīḥ Muslim*, no. 677.
+[^musl677b]: *Ṣaḥīḥ Muslim*, no. 677, editor's note (taḥqīq).
