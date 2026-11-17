@@ -8,72 +8,49 @@ tags:
   - 3-ah
   - caravan
   - unverified
-date_hijri: Early Jumādā al-Ākhirah 3 AH
-location: "al-Qaradah (a watering place in Najd)"
+date_hijri: Beginning of Jumādā al-Ākhirah, 3 AH
+location: "al-Qaradah, a water of Najd"
 commanders_muslim:
   - "[[Zayd b. Ḥārithah]] ﵁"
-commanders_enemy:
-  - "[[Abū Sufyān b. Ḥarb]]"
-  - "Ṣafwān b. Umayyah"
-primary_source: "[[Subul al-Hudā war-Rashād]] (vol. 6, pp. 32–33); [[al-Iṣābah fī Tamyīz al-Ṣaḥābah]] (vol. 5, pp. 272–273, entry no. 6980)"
+forces_muslim: One hundred riders
+booty: "The Qurayshī caravan; the fifth was valued at twenty thousand dirhams"
+primary_source: "[[Subul al-Hudā war-Rashād]] (6:32–33); [[al-Iṣābah fī Tamyīz al-Ṣaḥābah]] (5:272–273, no. 6980)"
 ---
 
 # Sariyyat al-Qaradah (سرية القردة)
-*The First Expedition of Zayd b. Ḥārithah: The Interception of the Najd Caravan, Collapse of Quraysh's Alternative Iraqi Trade Route, and the Conversion of Furāt b. Ḥayyān (Jumādā al-Ākhirah 3 AH)*
+*The first expedition on which Zayd b. Ḥārithah went out as commander: the seizure of a Qurayshī caravan on the road of Iraq*
 
-## 1. Strategic Context: The Economic Blockade
-Following their catastrophic defeat at **[[Ghazwat Badr al-Kubrā]]** (Ramaḍān 2 AH), the pagan aristocracy of Quraysh in Makkah faced an existential economic crisis:
-- The customary coastal caravan route (*Ṭarīq al-Sāḥil*) parallel to the Red Sea toward the Levant (*al-Shām*) was under total surveillance and interception by the Muslim garrison in Medina.
-- As the summer trading season approached, **Ṣafwān b. Umayyah** gathered the chieftains of Quraysh, lamenting: *“Muḥammad and his companions have cut off our trade route; we know not what to do with his companions, for they do not depart from the coast... If we remain in Makkah, we shall consume our capital and have no subsistence!”* (*Subul al-Hudā*, 6:32).
-- al-Aswad b. ʿAbd al-Muṭṭalib suggested abandoning the coastal highway entirely and taking the arduous eastern inland route through the plateau of Najd toward Iraq, then swinging northwest into Syria.
+The expedition of Zayd b. Ḥārithah ﵁ to al-Qaradah took place at the beginning of Jumādā al-Ākhirah in the third year, and was the first expedition on which Zayd went out as commander.[^s6.32] It intercepted a Qurayshī caravan carrying silver that was taking the road of Iraq, and among its captives was the caravan's guide, [[Furāt b. Ḥayyān]], who then became Muslim.[^s6.32]
 
-### The Makkan Caravan & The Guide Furāt b. Ḥayyān
-To execute this perilous navigation across unfamiliar deserts, Quraysh hired **[[Furāt b. Ḥayyān]] al-ʿIjlī**, renowned as one of the most skilled desert navigators in Arabia (*ahdā al-nās bi-al-ṭarīq*) (*al-Iṣābah*, 5:273; *Subul al-Hudā*, 6:32).
+## Background
 
-Quraysh dispatched their supreme commercial treasure:
-- Commanded by **[[Abū Sufyān b. Ḥarb]]**, **Ṣafwān b. Umayyah**, ʿAbdullāh b. Abī Rabīʿah, and Ḥuwayṭib b. ʿAbd al-ʿUzzā (*Subul al-Hudā*, 6:32).
-- Carrying vast stores of refined silver bars (*nuqar fiḍḍah*), silver vessels weighing thirty thousand dirhams, and three hundred mithqāls of pure gold (*Subul al-Hudā*, 6:32).
+After the battle of [[Ghazwat Badr al-Kubrā|Badr]], Quraysh feared the road they used to take to al-Shām and took the road of Iraq instead. Merchants of Quraysh went out, among them [[Abū Sufyān b. Ḥarb]], with much silver, which was the greater part of their trade.[^s6.32] [[Ṣafwān b. Umayyah]] went out with much wealth, silver ingots and silver vessels weighing thirty thousand dirhams. Abū Zamʿah sent with him three hundred mithqāls of gold and silver ingots, and men of Quraysh sent goods with him. ʿAbd Allāh b. Abī Rabīʿah and Ḥuwayṭib b. ʿAbd al-ʿUzzā went out with him, among men of Quraysh.[^s6.32]
 
----
+They hired Furāt b. Ḥayyān, who took them by the road of Dhāt ʿIrq.[^s6.32] He is described as of Banū ʿIjl and an ally of [[Banū Sahm]].[^s6.32][^i5.272]
 
-## 2. Prophetic Intelligence & Deployment
-Intelligence of the secret departure and route traveled via Dhāt ʿIrq reached the Messenger of Allāh ﷺ in Medina through Nuʿaym b. Masʿūd (via a social gathering in Medina involving Salīṭ b. al-Nuʿmān) (*Subul al-Hudā*, 6:32).
+## The expedition
 
-The Messenger of Allāh ﷺ immediately mobilized a swift cavalry detachment:
-- **Commander**: **[[Zayd b. Ḥārithah]]** ﵁, marking the very first time Zayd was appointed supreme commander of an expedition (*awwal sariyyah kharaja fīhā Zayd amīran*) (*Subul al-Hudā*, 6:32).
-- **Troop Strength**: One hundred mounted warriors (*miʾat rākib*) (*Subul al-Hudā*, 6:32).
+News of the caravan reached the Messenger of Allāh ﷺ, and he sent Zayd b. Ḥārithah with a hundred riders. They intercepted the caravan at al-Qaradah, a water of Najd, and seized it. The notables of the party escaped, and two or three men were taken captive.[^s6.32] The riders came to the Messenger of Allāh ﷺ with the caravan; he took the fifth, which reached the value of twenty thousand dirhams, and divided the remainder among the people of the expedition.[^s6.32]
 
----
+## Furāt b. Ḥayyān
 
-## 3. The Interception at al-Qaradah
-Zayd b. Ḥārithah marched rapidly across the desert, executing an intercept at **al-Qaradah**—a desert watering place located in the plateau of Najd (*Subul al-Hudā*, 6:32).
+Furāt was among the captives. He had been taken captive on the day of Badr and had escaped on foot, and the people were more enraged at him than at anything. What was between him and Abū Bakr ﵁ was good, and Abū Bakr told him to become Muslim. He was brought to the Messenger of Allāh ﷺ, became Muslim, and the Messenger of Allāh ﷺ let him go.[^s6.32] He had been a spy for Abū Sufyān in his wars; after he became Muslim his Islam was good.[^i5.273]
 
-Catching the Makkan caravan completely by surprise as they rested around the well:
-- The polytheist leaders and guards panicked and fled into the wastes, leaving behind their entire baggage train intact (*Subul al-Hudā*, 6:32).
-- The Muslims captured the entire caravan: all merchandise, silver bars, silver vessels, and transport animals (*Subul al-Hudā*, 6:32).
-- Two or three captives were taken, among them the guide **[[Furāt b. Ḥayyān]]** (*Subul al-Hudā*, 6:32).
+The Prophet ﷺ said: "Among you are men whom we entrust to their faith; among them is Furāt b. Ḥayyān."[^i5.273] In another report, Furāt was brought to the Prophet ﷺ on the day of [[Ghazwat al-Khandaq|al-Khandaq]] as a spy for the polytheists, and the Prophet ﷺ ordered him killed; Furāt said, "I am a Muslim," and the Prophet ﷺ said that among them were those whom he wins over to Islam and entrusts to their faith, among them Furāt b. Ḥayyān.[^i5.273]
 
----
+## Disputes
 
-## 4. Division of Spoils & The Conversion of Furāt b. Ḥayyān
-Zayd b. Ḥārithah returned victoriously to Medina without suffering a single casualty:
-- The Messenger of Allāh ﷺ set aside the state fifth (*al-Khums*), which was valued at twenty thousand dirhams (*Subul al-Hudā*, 6:32).
-- The remaining four-fifths were divided equally among the one hundred participants of the expedition, providing each warrior with substantial wealth (*Subul al-Hudā*, 6:32).
+**Furāt's tribe.** Ibn Isḥāq says he was of Banū Bakr b. Wāʾil; Muḥammad b. ʿUmar, Ibn Saʿd and Ibn Hishām say he was of Banū ʿIjl, and Ibn Hishām adds that he was an ally of Banū Sahm.[^s6.32]
 
-### The Conversion of Furāt b. Ḥayyān
-Furāt had previously been captured at Badr and had escaped on foot; the Muslims held intense resentment toward his persistent espionage for Abū Sufyān (*Subul al-Hudā*, 6:32). 
+**Order of the expeditions.** Ibn Isḥāq mentions this expedition before the expedition of Kaʿb b. al-Ashraf; Muḥammad b. ʿUmar, Ibn Saʿd and al-Quṭb mention it after it.[^s6.32]
 
-However, **[[Abū Bakr al-Ṣiddīq]]** ﵁ interceded, asking him: *“Has the time not come for you to see the truth?”* Furāt realized the miraculous reach of the Prophet ﷺ and declared his Islam before the Messenger of Allāh ﷺ (*Subul al-Hudā*, 6:32; *al-Iṣābah*, 5:273). The Prophet ﷺ accepted his pledge, spared his life, and later praised him:
-> «إِنَّ مِنْكُمْ رِجَالًا نَكِلُهُمْ إِلَى إِيمَانِهِمْ، مِنْهُمْ فُرَاتُ بْنُ حَيَّانَ!»
-> *"Indeed, among you are men whom we entrust to their faith, among whom is Furāt b. Ḥayyān!"* (*al-Iṣābah*, 5:273).
+**The name.** The name is vocalised al-Qaradah, like *sajdah*, with qāf; it is also said with fāʾ.[^s6.32]
 
----
+## References
 
-## 5. Strategic Significance
-The capture of the caravan at al-Qaradah demonstrated that Quraysh possessed no safe commercial outlet anywhere across the Arabian peninsula. The loss of their eastern trade corridor shattered Makkan financial confidence and directly provoked their total military mobilization for **[[Ghazwat Uḥud]]** four months later in Shawwāl 3 AH (*Subul al-Hudā*, 6:32).
+- *Subul al-Hudā war-Rashād*, al-Ṣāliḥī.
+- *al-Iṣābah fī Tamyīz al-Ṣaḥābah*, Ibn Ḥajar.
 
----
-
-## 6. References
-1. *[[Subul al-Hudā war-Rashād]]*, vol. 6, pp. 32–33 (*Sariyyat Zayd b. Ḥārithah ilā al-Qaradah*).
-2. *[[al-Iṣābah fī Tamyīz al-Ṣaḥābah]]*, vol. 5, pp. 272–273, entry no. 6980 (*Furāt b. Ḥayyān*).
+[^s6.32]: *Subul al-Hudā*, 6:32.
+[^i5.272]: *al-Iṣābah*, no. 6980 (5:272).
+[^i5.273]: *al-Iṣābah*, no. 6980 (5:273); the first report is also narrated by Abū Dāwūd and by al-Bukhārī in *al-Tārīkh*; the report of the day of al-Khandaq is from Ibn ʿUqdah, from ʿAlī.
