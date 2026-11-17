@@ -18,7 +18,7 @@ primary_source: "[[Subul al-Hudā war-Rashād]] (6:32–33); [[al-Iṣābah fī 
 ---
 
 # Sariyyat al-Qaradah (سرية القردة)
-*The first expedition on which Zayd b. Ḥārithah went out as commander: the seizure of a Qurayshī caravan on the road of Iraq*
+*The first expedition on which Zayd b. Ḥārithah went out as commander: the seizure of a Qurayshī caravan on the road of Iraq*[^s6.32]
 
 The expedition of Zayd b. Ḥārithah ﵁ to al-Qaradah took place at the beginning of Jumādā al-Ākhirah in the third year, and was the first expedition on which Zayd went out as commander.[^s6.32] It intercepted a Qurayshī caravan carrying silver that was taking the road of Iraq, and among its captives was the caravan's guide, [[Furāt b. Ḥayyān]], who then became Muslim.[^s6.32]
 
@@ -36,7 +36,7 @@ News of the caravan reached the Messenger of Allāh ﷺ, and he sent Zayd b. Ḥ
 
 Furāt was among the captives. He had been taken captive on the day of Badr and had escaped on foot, and the people were more enraged at him than at anything. What was between him and Abū Bakr ﵁ was good, and Abū Bakr told him to become Muslim. He was brought to the Messenger of Allāh ﷺ, became Muslim, and the Messenger of Allāh ﷺ let him go.[^s6.32] He had been a spy for Abū Sufyān in his wars; after he became Muslim his Islam was good.[^i5.273]
 
-The Prophet ﷺ said: "Among you are men whom we entrust to their faith; among them is Furāt b. Ḥayyān."[^i5.273] In another report, Furāt was brought to the Prophet ﷺ on the day of [[Ghazwat al-Khandaq|al-Khandaq]] as a spy for the polytheists, and the Prophet ﷺ ordered him killed; Furāt said, "I am a Muslim," and the Prophet ﷺ said that among them were those whom he wins over to Islam and entrusts to their faith, among them Furāt b. Ḥayyān.[^i5.273]
+The Prophet ﷺ said: "Among you are men whom we entrust to their faith; among them is Furāt b. Ḥayyān."[^i5.273] In another report, Furāt was brought to the Prophet ﷺ on the day of [[Ghazwat al-Khandaq|al-Khandaq]] as a spy for the polytheists, and the Prophet ﷺ ordered him killed; Furāt said, "I am a Muslim," and the Prophet ﷺ said: "Among you are those whom I win over to Islam and entrust to his faith; among them is Furāt b. Ḥayyān."[^i5.273]
 
 ## Disputes
 
