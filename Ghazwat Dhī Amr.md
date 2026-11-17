@@ -14,73 +14,45 @@ tags:
   - najd
   - 3-ah
   - unverified
-date_hijri: Ṣafar / Rabīʿ al-Awwal 3 AH (September 624 CE)
-location: "Dhū Amr (Najd)"
+location: Dhū Amr
 commanders_muslim:
-  - "[[Muḥammad b. ʻAbdullah|Muḥammad]] ﷺ"
+  - "[[Muḥammad b. ʻAbdullah|Muḥammad b. ʿAbdullāh]] ﷺ"
 commanders_enemy:
-  - "[[Duʿthūr b. al-Ḥārith]] (embraced Islam)"
+  - "[[Duʿthūr b. al-Ḥārith]]"
 deputy_in_medina: "[[ʿUthmān b. ʿAffān]] ﵁"
-strength_muslim: "450 warriors with several horses (*Subul al-Hudā*, 4:176)"
-strength_enemy: "Tribal confederacy of Banū Thaʿlabah and Banū Muḥārib of Ghaṭafān"
-casualties_muslim: 0
-casualties_enemy: "0 (peaceful resolution and conversion of enemy general)"
+strength_muslim: "450, with a number of horses"
+outcome: "The Prophet ﷺ returned to Madinah and met no fighting."
 quranic_reference: "[[Sūrat al-Māʾidah]] 5:11"
-primary_source: "[[Subul al-Hudā war-Rashād]] (vol. 4, pp. 176–178)"
+primary_source: "[[Subul al-Hudā war-Rashād]] (4:176–177)"
 ---
 
 # Ghazwat Dhī Amr (غزوة ذي أمر)
-*The Expedition of Ghaṭafān into Najd — The Preemptive Desert Strike, The Miracle of Duʿthūr, and the Descent of Sūrat al-Māʾidah 5:11*
+*The expedition of Ghaṭafān to Najd, at which Duʿthūr b. al-Ḥārith drew his sword on the Prophet ﷺ*
 
-## 1. Strategic Context & Provocation
-In Ṣafar 3 AH, only months following the momentous victory at **[[Ghazwat Badr al-Kubrā]]**, intelligence reached Medina that a formidable tribal coalition of Banū Thaʿlabah b. Saʿd b. Dhubyān and Banū Muḥārib b. Khaṣafah of **[[Ghaṭafān]]** had assembled at the watering station of **Dhū Amr** in Najd (*Subul al-Hudā*, 4:176). They were marshaled by their supreme commander, **[[Duʿthūr b. al-Ḥārith]]**, with the explicit objective of raiding the exposed outlying pasturage and settlements of Medina (*Subul al-Hudā*, 4:176).
+**Ghazwat Dhī Amr** is the expedition of the Prophet ﷺ to Dhū Amr in Najd, against a gathering of [[Ghaṭafān]]. It is also called the expedition of Ghaṭafān to Najd.[^s4.176] In the order of Ibn Isḥāq it comes after [[Ghazwat al-Suwayq]] and [[Ghazwat Banī Sulaym]] (at al-Kudr) and before the expedition of al-Furuʿ.[^s4.172] The year is not recorded.
 
-To forestall this impending desert aggression and demonstrate that the nascent Islamic state possessed the reach to project power into the Arabian interior, the Messenger of Allāh ﷺ ordered immediate mobilization (*Subul al-Hudā*, 4:176). He appointed **[[ʿUthmān b. ʿAffān]]** ﵁ as his deputy governor over Medina (*Subul al-Hudā*, 4:176).
+## Cause and departure
+It reached the Messenger of Allāh ﷺ that a gathering of Banū Thaʿlabah b. Saʿīd b. Dhubyān b. Baghīḍ b. Rayth b. Ghaṭafān and of Banū Muḥārib b. Khaṣafah b. Qays had assembled at Dhū Amr, intending to strike at the outskirts of his territory. A man of theirs called [[Duʿthūr b. al-Ḥārith]] b. Muḥārib had gathered them.[^s4.176] The Prophet ﷺ called the Muslims out and set out with four hundred and fifty men, who had a number of horses with them, leaving [[ʿUthmān b. ʿAffān]] ﵁ as deputy over Madinah.[^s4.176]
 
-The Prophet ﷺ marched into Najd leading an expeditionary force of four hundred and fifty (450) Muslim warriors accompanied by cavalry mounts (*Subul al-Hudā*, 4:176).
+## Jabbār and the march
+The Muslims came upon a man of Banū Thaʿlabah called Jabbār at Dhū al-Qiṣṣah, a valley twenty-four miles from Madinah.[^s4.176][^s4.177] Asked where he was going, he said he wanted Yathrib, to look about for himself. He was brought to the Prophet ﷺ and told him of the enemy: they would not meet the Muslims, and if they heard of the march they would flee to the mountain tops; he would travel with them. The Prophet ﷺ called him to Islam and he became Muslim, and the Prophet ﷺ attached him to [[Bilāl b. Rabāḥ]] ﵁.[^s4.176] Jabbār took a road and brought the army down upon the enemy, who had heard of the march and fled to the mountain tops. The Prophet ﷺ reached a water called Dhū Amr and encamped there.[^s4.176]
 
-## 2. The Advance & Interception at Dhū al-Qiṣṣah
-En route across the desert, the Muslim vanguard intercepted a bedouin scout named **Jabbār** of Banū Thaʿlabah at **Dhū al-Qiṣṣah** (twenty-four miles from Medina) (*Subul al-Hudā*, 4:176–177). Brought before the Messenger of Allāh ﷺ, Jabbār confessed that he had been sent to reconnoiter Medina. He revealed:
-> *"They will never stand to meet you! If they hear of your march, they will scatter into the summits of the mountains. I shall ride with you and guide you to their encampments."* (*Subul al-Hudā*, 4:176).
+## Duʿthūr
+Heavy rain fell on the Prophet ﷺ and his Companions and soaked their clothes. The Prophet ﷺ alighted beneath a tree, spread out his clothes to dry and lay down, in sight of the polytheists, while the Muslims were busy with their affairs. The polytheists sent Duʿthūr b. al-Ḥārith, their chief and the bravest of them, with a sword slung on him. He came wrapped over the sword until he stood at the Prophet's ﷺ head with the sword drawn, and said, "O Muḥammad, who will protect you from me today?" The Prophet ﷺ said, "Allāh." Jibrīl ﵊ pushed Duʿthūr in the chest and the sword fell from his hand. The Prophet ﷺ took it and said, "Who will protect you from me?" Duʿthūr answered, "No one," and bore witness that there is no god but Allāh and that Muḥammad is the Messenger of Allāh, swearing never again to raise a gathering against him. The Prophet ﷺ gave him his sword.[^s4.176]
 
-The Prophet ﷺ presented Islam to Jabbār, who embraced the faith with sincere devotion (*Subul al-Hudā*, 4:176). The Prophet ﷺ entrusted him to **[[Bilāl b. Rabāḥ]]** ﵁ for religious instruction. Guided by Jabbār along swift desert defiles, the Muslim army rapidly converged upon Dhū Amr (*Subul al-Hudā*, 4:176). Hearing of the rapid approach of the Muslims, the confederate tribes panicking and fled their encampments, taking refuge upon the rugged summits of the surrounding peaks (*Subul al-Hudā*, 4:176).
+Duʿthūr went back to his people, who asked what was the matter with him. He said that he had looked at a tall man who pushed him in the chest so that he fell on his back, that he knew him to be an angel, and that he bore witness that Muḥammad is the Messenger of Allāh. He began calling his people to Islam.[^s4.176] On this occasion Allāh sent down: "O you who believe, remember the favour of Allāh upon you when a people resolved to stretch out their hands against you, and He withheld their hands from you" ([[Sūrat al-Māʾidah]] 5:11).[^s4.176]
 
-## 3. The Rainstorm & The Confrontation with Duʿthūr
-The Muslim army established camp at the waters of Dhū Amr (*Subul al-Hudā*, 4:176). Soon after, a sudden torrential desert rainstorm descended upon the valley, completely saturating the clothing of the Prophet ﷺ and his Companions (*Subul al-Hudā*, 4:176).
+## Return
+The Prophet ﷺ returned to Madinah and met no fighting.[^s4.176] His absence was fifteen nights.[^s4.176]
 
-As the rain abated, the Prophet ﷺ retired under an acacia tree, took off his soaked outer garments, spread them across a bough to dry in the breeze, and lay down beneath the tree to rest in full sight of the surrounding hilltops, while the Companions were dispersed attending to their camp chores (*Subul al-Hudā*, 4:176).
+## Disputes
+**Length of the stay.** Against the fifteen nights, Abū ʿUmar said that the Prophet ﷺ stayed in Najd the whole of Ṣafar.[^s4.176]
 
-Observing the Prophet's ﷺ isolation, the bedouin warriors on the hilltops urged their supreme commander: *“Muhammad is completely alone; you will never find an opportunity more vulnerable than this hour!”* (*Subul al-Hudā*, 4:176; *al-Iṣābah*, 2:324).
+**Whether it is the same story as Dhāt al-Riqāʿ.** al-Bayhaqī said that a story resembling that of Duʿthūr will come in [[Ghazwat Dhāt al-Riqāʿ]], and that perhaps they are two stories.[^s4.177] It is said in *al-Bidāyah* that, if this one is preserved, it is certainly a different one: the man in that story was also named Ghawrath [b. al-Ḥārith] and did not become Muslim but stayed on his religion, though he made a covenant with the Prophet ﷺ not to fight him.[^s4.177]
 
-Duʿthūr b. al-Ḥārith took a razor-sharp sword, concealed it under his robes, slipped down the rocky hillside, and strode silently up to the resting Prophet ﷺ (*Subul al-Hudā*, 4:176). Suddenly drawing the blade and pointing it directly at the Prophet's ﷺ throat, Duʿthūr shouted with triumph:
-> «يَا مُحَمَّدُ، مَنْ يَمْنَعُكَ مِنِّي الْيَوْمَ؟»
-> *"O Muhammad! Who will protect you from me today?"*
+## References
+- *[[Subul al-Hudā war-Rashād]]*, al-Ṣāliḥī (Beirut 1414/1993).
 
-With majestic certitude and unshakeable tawḥīd, the Messenger of Allāh ﷺ looked into his eyes and replied:
-> «اللَّهُ!»
-> *"Allāh!"*
-
-At that exact instant, the Archangel **Jibrīl** ﵊ delivered a powerful blow into Duʿthūr's chest (*dafaʿa Jibrīlu fī ṣadrih*) (*Subul al-Hudā*, 4:176; *al-Iṣābah*, 2:324). Duʿthūr collapsed backward upon the ground, and his sword clattered from his hand. The Prophet ﷺ picked up the fallen blade, pointed it at Duʿthūr, and said:
-> «مَنْ يَمْنَعُكَ مِنِّي؟»
-> *"Who will protect you from me?"*
-
-Duʿthūr replied in utter awe: *“No one! (Lā aḥad).”* He immediately proclaimed his Islam, saying:
-> «وَأَنَا أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ، وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَاللَّهِ لَا أُكَثِّرُ عَلَيْكَ جَمْعًا أَبَدًا!»
-> *"And I bear witness that there is no god but Allāh and that Muhammad is the Messenger of Allāh! And by Allāh, I shall never muster a force against you ever again!"* (*Subul al-Hudā*, 4:176).
-
-The Prophet ﷺ handed the sword back to Duʿthūr and granted him safe passage. Duʿthūr returned to his people on the mountain heights and declared: *“I saw a tall man strike my chest so that I fell on my back; I knew he was an angel, and I bore witness that Muhammad is the Messenger of Allāh!”* (*Subul al-Hudā*, 4:176). He spent the remainder of his days calling his tribe to Islam.
-
-## 4. Qurʾānic Occasion of Revelation (*Asbāb al-Nuzūl*)
-Following this miraculous preservation, Allāh revealed commemorating His divine shield over the Messenger ﷺ (*Subul al-Hudā*, 4:176):
-> ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا نِعْمَتَ اللَّهِ عَلَيْكُمْ إِذْ هَمَّ قَوْمٌ أَن يَبْسُطُوا إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ وَاتَّقُوا اللَّهَ وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ﴾
-> *"O you who have believed, remember the favor of Allāh upon you when a people intended to stretch forth their hands against you, but He withheld their hands from you. And fear Allāh, and upon Allāh let the believers rely."* (Sūrat al-Māʾidah 5:11).
-
-## 5. Strategic Significance & Return
-- **Shattering the Northern Bedouin Threat**: By mobilizing 450 warriors deep into Najdi territory, the Prophet ﷺ proved that the desert was no longer an inviolable sanctuary for raiders targeting Medina.
-- **Conversion of Chieftains**: The conversion of Duʿthūr b. al-Ḥārith transformed Ghaṭafān's most formidable tactical leader into a vocal advocate for Islam, pacifying a volatile front without a single drop of blood.
-- **Duration**: The Prophet ﷺ encamped in Najd throughout the remainder of Ṣafar—his expedition lasting fifteen (15) nights (or the entire month of Ṣafar according to Abū ʿUmar)—before returning victorious to Medina (*Subul al-Hudā*, 4:176).
-
-## 6. References
-1. *[[Subul al-Hudā war-Rashād]]*, vol. 4, pp. 176–178 (al-Bāb al-ʿĀshir fī Ghazwat Ghaṭafān ilā Najd: Dhū Amr).
-2. *[[al-Iṣābah fī Tamyīz al-Ṣaḥābah]]*, vol. 2, p. 324 (entry no. 2401: Duʿthūr b. al-Ḥārith).
-3. *Sūrat al-Māʾidah*, verse 11 (Asbāb al-Nuzūl).
+[^s4.176]: *Subul al-Hudā*, 4:176.
+[^s4.177]: *Subul al-Hudā*, 4:177.
+[^s4.172]: *Subul al-Hudā*, 4:172, from Ibn Isḥāq.
