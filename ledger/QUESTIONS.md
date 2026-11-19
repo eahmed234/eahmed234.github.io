@@ -246,3 +246,10 @@ that has any.
   now: "Imām Aḥmad (from ʿAmr b. Umayyah)".  →
 - [ ] **S6.41.12–15 vs S6.41.16–17.** How the three came down, and where ʿAbdullāh b. Ṭāriq was killed (Ṣaḥīḥ: after refusing; Ibn Isḥāq: at al-Ẓahrān); the author does not reconcile.
   now: both told, as two accounts.  →
+
+## Ghazwat Badr al-Mawʿid
+
+- [ ] **Where Ṣafwān's speech ends** (S4.338.17–19). «وأخذوا في الكيد والنفقة … ولم يقبل من أحد منهم أقل من أوقية لغزو الخندق» — still Ṣafwān's words, or the author's narrative?
+  now: written as narrative of what Quraysh did, not as Ṣafwān's speech. →
+- [ ] **Maʿbad's count** (S4.338.15 «وأنهم ألفان» vs S4.337.19 «ألف وخمسمائة»). Misprint or a different count?
+  now: both given, the two thousand as Maʿbad's report. →
