@@ -67,7 +67,7 @@ After the season had ended, Maʿbad b. Abī Maʿbad al-Khuzāʿī went quickly t
 
 **Numbers.** The Muslims are given as fifteen hundred at the departure;[^s4.337] Maʿbad's report to Makkah put them at two thousand.[^s4.338]
 
-**Revelation.** It is related from Mujāhid and a group that a verse discussed under Ḥamrāʾ al-Asad was revealed concerning the Prophet's ﷺ going out to Badr al-Mawʿid.[^s4.313]
+**Revelation.** They differed about the occasion of revelation of the verse explained in the account of [[Ghazwat Ḥamrāʾ al-Asad|Ḥamrāʾ al-Asad]]: from Mujāhid and a group, that it was revealed concerning the Prophet's ﷺ going out to Badr al-Mawʿid; others held that it was revealed when he went out to Ḥamrāʾ al-Asad, which al-Bukhārī's arrangement implies and Ibn Jarīr preferred.[^s4.313]
 
 ## References
 
