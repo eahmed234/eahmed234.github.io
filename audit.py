@@ -1430,6 +1430,46 @@ def infobox_fields(ntype):
     return "\n".join(f"- {' / '.join(keys)} → {label}" for keys, label in rows) or f"(no infobox fields for type {ntype!r})"
 
 
+_DISPUTE_KINDS = ("khilāf", "verdict")
+# «الأول:», «الثاني:» … start a new numbered remark (tanbīh), so one disagreement never runs past one.
+_TANBIH_OPEN = re.compile(r"^>\s*ال(?:[أا]ول|ثاني|ثانى|ثالث|رابع|خامس|سادس|سابع|ثامن|تاسع|عاشر|حادي|حادى)(?:\s+عشر)?\s*:", re.M)
+
+
+def _entry_kind(etext):
+    m = _LEDGER_ID.match(etext.split("\n", 1)[0])
+    return m.group(6) if m else None
+
+
+def ledger_mentions(ledgers, keys):
+    """Entries in these ledgers that name the note, as (ledger, entry, named), in ledger order.
+    When a named entry is part of a disagreement, the disputed entries right next to it come too (named False),
+    even though they do not name the note, so a rewrite does not see only one side."""
+    out = []
+    for lname, head, entries, cover, feeds in ledgers:
+        take = {}
+        for i, (eid, etext) in enumerate(entries):
+            low, let = etext.lower(), _letters(etext)
+            if not any((k in let) if re.match(r"[\u0621-\u064A]", k) else (k in low) for k in keys):
+                continue
+            take[i] = True
+            if _entry_kind(etext) not in _DISPUTE_KINDS:
+                continue
+            j = i
+            while j > 0 and not _TANBIH_OPEN.search(entries[j][1]) and _entry_kind(entries[j - 1][1]) in _DISPUTE_KINDS:
+                j -= 1
+            # A verdict on something further back would mislead on its own, so the added run never starts with one.
+            while j < i and _entry_kind(entries[j][1]) == "verdict" and not _TANBIH_OPEN.search(entries[j][1]):
+                j += 1
+            k = i
+            while (k + 1 < len(entries) and _entry_kind(entries[k + 1][1]) in _DISPUTE_KINDS
+                   and not _TANBIH_OPEN.search(entries[k + 1][1])):
+                k += 1
+            for x in range(j, k + 1):
+                take.setdefault(x, False)
+        out += [(lname, entries[i][1], take[i]) for i in sorted(take)]
+    return out
+
+
 def write_packet(name, notes, aliases, corpora):
     note = notes[name]
     fm, raw = note["fm"], note["raw"]
@@ -1474,19 +1514,17 @@ def write_packet(name, notes, aliases, corpora):
     keys = {_letters(fm.get("arabic", ""))} | {name.lower()}
     keys |= {str(a).lower() for a in (fm.get("aliases") or []) if len(str(a)) > 5}
     keys.discard("")
-    mentions = []
-    for lname, head, entries, cover, feeds in related:
-        for eid, etext in entries:
-            low, let = etext.lower(), _letters(etext)
-            if any((k in let) if re.match(r"[\u0621-\u064A]", k) else (k in low) for k in keys):
-                mentions.append((lname, etext))
+    mentions = ledger_mentions(related, keys)
+    named = sum(1 for _, _, n in mentions if n)
 
     sec = []
     S = lambda title, body: sec.append((title, body.rstrip() + "\n"))
 
     lines = [f"- **Note:** `{name}.md` — type `{ntype}`",
              f"- **Own ledgers:** " + ("; ".join(f"`ledger/{l[0]}`" for l in own) if own else "none — build one (ledger skill) from the pages below"),
-             f"- **Other ledgers mentioning it:** {len(mentions)} entries (below)",
+             f"- **Other ledgers mentioning it:** {named} entries"
+             + (f", plus {len(mentions) - named} neighbouring disputed entries" if len(mentions) > named else "")
+             + " (below)",
              "- **Branch:** run `git branch --show-current` before committing; it must be `drafts`."]
     if ntype == "person":
         lines.append("- **Person note:** only its *al-Iṣābah* entry (and any Ṣaḥīḥayn report cited) is printed below. "
@@ -1525,8 +1563,17 @@ def write_packet(name, notes, aliases, corpora):
         S(f"Own ledger: `ledger/{lname}` ({len(entries)} entries)", head + "\n\n" + "\n\n".join(e for _, e in entries))
 
     if mentions:
-        S("Entries in other ledgers that mention it", "\n\n".join(f"*from `ledger/{l}`*\n{e}" for l, e in mentions[:80])
-          + (f"\n\n({len(mentions) - 80} more not shown)" if len(mentions) > 80 else ""))
+        # Show the first 80 entries that name the note, with the other sides that go with them.
+        cut, seen = len(mentions), 0
+        for i, (_, _, n) in enumerate(mentions):
+            seen += n
+            if seen > 80:
+                cut = i
+                break
+        S("Entries in other ledgers that mention it", "\n\n".join(
+            f"*from `ledger/{l}`*" + ("" if n else " — a neighbouring disputed entry (another side, or a verdict on it); it does not name this note")
+            + f"\n{e}" for l, e, n in mentions[:cut])
+          + (f"\n\n({named - 80} more naming it not shown)" if named > 80 else ""))
 
     # source pages not yet in a ledger
     if not own:
