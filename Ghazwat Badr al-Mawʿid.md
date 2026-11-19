@@ -12,88 +12,69 @@ tags:
   - event
   - ghazwah
   - badr
-  - quranic_event
   - 4-ah
   - unverified
-date_hijri: Shaʿbān / Dhū al-Qaʿdah 4 AH (April 626 CE)
-location: "Badr al-Ṣafrāʾ"
+date_hijri: "Shaʿbān 4 AH (Ibn Isḥāq); beginning of Dhū al-Qaʿdah 4 AH (al-Wāqidī)"
+location: "[[Badr]]"
 commanders_muslim:
   - "[[Muḥammad b. ʻAbdullah|Muḥammad]] ﷺ"
 commanders_enemy:
-  - "[[Abū Sufyān b. Ḥarb]] (retreated at Majannah)"
+  - "[[Abū Sufyān b. Ḥarb]]"
 standard_bearer: "[[ʿAlī b. Abī Ṭālib]] ﵁"
-deputy_in_medina: "[[ʿAbdullāh b. Rawāḥah]] ﵁ (or [[ʿAbdullāh b. ʿAbdillāh b. Ubayy]] ﵁)"
-strength_muslim: "1,500 warriors and 10 horses (*Subul al-Hudā*, 4:337)"
-strength_enemy: "2,000 polytheists and 50 horses (turned back without engagement) (*Subul al-Hudā*, 4:338)"
-casualties_muslim: 0
-casualties_enemy: "0 (enemy fled; mockingly named Jaysh al-Sawīq)"
-quranic_reference: "[[Sūrat Āl ʿImrān]] 3:173–175"
-duration: "8 days at Badr market (*Subul al-Hudā*, 4:338)"
-primary_source: "[[Subul al-Hudā war-Rashād]] (vol. 4, pp. 337–342)"
+deputy_in_medina: "[[ʿAbdullāh b. ʿAbdillāh b. Ubayy]] (Ibn Isḥāq); [[ʿAbdullāh b. Rawāḥah]] (Muḥammad b. ʿUmar)"
+strength_muslim: "1,500, with horses"
+strength_enemy: "2,000 with 50 horses"
+duration: "8 days at Badr"
+primary_source: "[[Subul al-Hudā war-Rashād]] (4:337–341)"
 ---
 
 # Ghazwat Badr al-Mawʿid (غزوة بدر الموعد)
-*The Second Badr & The Rendezvous of Honor — The Defeat of Psychological Warfare and the Fulfillment of Sūrat Āl ʿImrān 3:173–175*
+*The expedition to the appointment at Badr*
 
-## 1. Strategic Context & The Challenge of Uḥud
-At the conclusion of **[[Ghazwat Uḥud]]** in Shawwāl 3 AH, the polytheist commander **[[Abū Sufyān b. Ḥarb]]** called out across the valley before retreating to Makkah:
-> «مَوْعِدُ مَا بَيْنَنَا وَبَيْنَكُمْ بَدْرُ الصَّفْرَاءِ، رَأْسَ الْحَوْلِ، نَلْتَقِي فِيهَا فَنَقْتَتِلُ!»
-> *"Our appointment between us and you is Badr al-Ṣafrāʾ at the turn of the year; we shall meet there and fight to the end!"* (*Subul al-Hudā*, 4:337).
+Ghazwat Badr al-Mawʿid is the expedition the Prophet ﷺ made to [[Badr]] to keep the appointment [[Abū Sufyān b. Ḥarb]] had named on the day of [[Ghazwat Uḥud|Uḥud]]. The Muslims waited at Badr for eight days while the market stood; Abū Sufyān went out with Quraysh as far as Majannah and turned back.[^s4.337][^s4.338]
 
-The Messenger of Allāh ﷺ instructed **[[ʿUmar b. al-Khaṭṭāb]]** ﵁ to shout back:
-> «قُلْ: نَعَمْ إِنْ شَاءَ اللَّهُ!»
-> *"Say: Yes, if Allāh wills!"* (*Subul al-Hudā*, 4:337).
+## The appointment
 
-Badr was an annual pan-Arab commercial fair held for the first eight days of Dhū al-Qaʿdah, attracting merchants and tribes from across Arabia (*Subul al-Hudā*, 4:337). The challenge was a public commitment of military prestige and sovereignty before all Arab tribes.
+When Abū Sufyān wanted to depart on the day of Uḥud, he called out: "The appointment between us and you is Badr al-Ṣafrāʾ, at the head of the year; we shall meet there and fight." The Messenger of Allāh ﷺ told [[ʿUmar b. al-Khaṭṭāb]] ﵁ to say: "Yes, if Allāh wills." The people parted on that, and Quraysh returned and told those they had left behind of the appointment.[^s4.337] Badr al-Ṣafrāʾ was a gathering place for the Arabs and a market that stood from the new moon of Dhū al-Qaʿdah until eight nights of it had passed, after which the people dispersed to their lands.[^s4.337]
 
-## 2. Qurashī Psychological Warfare & Divine Fortitude
-As the appointed season approached in Shaʿbān 4 AH, severe drought gripped the Ḥijāz. Reluctant to march into combat against the Muslims under such conditions, Abū Sufyān sought to intimidate the Muslims into defaulting on the rendezvous, thereby saving face without fighting (*Subul al-Hudā*, 4:337).
+## Quraysh and Nuʿaym b. Masʿūd
 
-He hired **[[Nuʿaym b. Masʿūd]]** al-Ashjaʿī (prior to his conversion), promising him twenty prime camels deposited in the custody of Suhayl b. ʿAmr if he succeeded in discouraging the Muslims (*Subul al-Hudā*, 4:337). Nuʿaym rode swiftly to Medina and spread alarming rumors throughout the quarters, exaggerating the overwhelming size, equipment, and fury of the Makkan army until fear gripped some of the citizens (*Subul al-Hudā*, 4:337). The hypocrites and hostile elements gloated, predicting the total annihilation of the Muslims (*Subul al-Hudā*, 4:337).
+As the appointment drew near, Abū Sufyān disliked going out to the Messenger of Allāh ﷺ and preferred that he not meet him at the appointment. He gave out that he wished to fight the Messenger of Allāh ﷺ with a dense host, so that word of his gathering hosts would reach the people of Madinah and the Muslims would fear it.[^s4.337] [[Nuʿaym b. Masʿūd]] al-Ashjaʿī, who became Muslim afterwards, came to Makkah and informed Abū Sufyān and Quraysh of the Muslims' preparations to fight them. It was a year of drought, and Abū Sufyān told him he disliked going out to meet the Muslims, making the drought his excuse. He assigned Nuʿaym twenty camels (*farīḍah*), to be placed in the hand of [[Suhayl b. ʿAmr]], on condition that he dissuade the Muslims from marching to the appointment, and he mounted him on a camel.[^s4.337][^s4.339]
 
-Hearing the rumors, **[[Abū Bakr al-Ṣiddīq]]** ﵁ and **[[ʿUmar b. al-Khaṭṭāb]]** ﵁ approached the Messenger of Allāh ﷺ and declared: *“O Messenger of Allāh! Allāh will manifest His religion and honor His Prophet. We gave these people a solemn appointment and we cannot break it lest they deem it cowardice! March to the rendezvous, for by Allāh, in it lies ultimate good!”* (*Subul al-Hudā*, 4:337).
+Nuʿaym came to Madinah and spread alarm about the multitude of Abū Sufyān's hosts until the Muslims were terrified and no intention to go out remained in them. The hypocrites and the Jews rejoiced and said: "Muḥammad will not escape from this host." This reached the Messenger of Allāh ﷺ, and he feared that no one would go out with him.[^s4.337]
 
-Rejoicing at their conviction, the Messenger of Allāh ﷺ declared with resolute prophetic determination:
-> «وَالَّذِي نَفْسِي بِيَدِهِ لَأَخْرُجَنَّ وَإِنْ لَمْ يَخْرُجْ مَعِي أَحَدٌ!»
-> *“By the One in Whose Hand is my soul, I shall march out even if not a single man marches with me!”* (*Subul al-Hudā*, 4:337).
-His absolute faith dispelled the psychological intimidation cast by the adversary, and the entire Muslim community rallied behind him (*Subul al-Hudā*, 4:337).
+[[Abū Bakr al-Ṣiddīq|Abū Bakr]] and ʿUmar ﵄ came to him and said: "O Messenger of Allāh, Allāh Most High will make His religion manifest and give glory to His Prophet; we have made the people an appointment and we do not like to fail to keep it, lest they see this as cowardice; so march to their appointment, for by Allāh there is good in that." The Messenger of Allāh ﷺ was pleased and said: "By Him in Whose hand is my soul, I will go out even if no one goes out with me." Allāh Most High gave the Muslims victory and removed from them what Satan had terrified them with.[^s4.337]
 
-## 3. The Prophetic Mobilization & March
-The Messenger of Allāh ﷺ mobilized a force of one thousand five hundred (1,500) Muslim warriors (*Subul al-Hudā*, 4:337). The force included ten cavalry warhorses: mounted by the Prophet ﷺ, **[[Abū Bakr al-Ṣiddīq]]**, **[[ʿUmar b. al-Khaṭṭāb]]**, **[[Abū Qatādah al-Anṣārī]]**, **[[Saʿīd b. Zayd]]**, **[[al-Miqdād b. Amr|al-Miqdād b. ʿAmr]]**, **[[al-Ḥubāb b. al-Mundhir]]**, **[[al-Zubayr b. al-ʿAwwām]]**, and **[[ʿAbbād b. Bishr]]** ﵃ (*Subul al-Hudā*, 4:337).
+## The march to Badr
 
-The Prophet ﷺ handed the supreme white standard to **[[ʿAlī b. Abī Ṭālib]]** ﵁ (*Subul al-Hudā*, 4:338). He appointed **[[ʿAbdullāh b. Rawāḥah]]** ﵁ (or **[[ʿAbdullāh b. ʿAbdillāh b. Ubayy]]** ﵁) as deputy governor over Medina (*Subul al-Hudā*, 4:337).
+The Messenger of Allāh ﷺ went out with fifteen hundred men, among whom were nine horses: those of the Prophet ﷺ, Abū Bakr, ʿUmar, [[Abū Qatādah al-Anṣārī|Abū Qatādah]], [[Saʿīd b. Zayd]], [[al-Miqdād b. ʿAmr|al-Miqdād b. al-Aswad]], [[al-Ḥubāb b. al-Mundhir]], [[al-Zubayr b. al-ʿAwwām]] and [[ʿAbbād b. Bishr]]. [[ʿAlī b. Abī Ṭālib]] ﵁ carried the banner. The deputy over Madinah is reported differently (see below).[^s4.337][^s4.338]
 
-The Muslim army carried substantial commercial merchandise to trade at the annual fair of Badr (*Subul al-Hudā*, 4:338). They arrived at the wells of Badr on the crescent eve of Dhū al-Qaʿdah and encamped in martial order across the market grounds (*Subul al-Hudā*, 4:338).
+The Muslims took trade goods with them to Badr and made a great profit; [[ʿUthmān b. ʿAffān]] ﵁ said: "I made a dinar of profit for each dinar." They reached Badr on the night of the new moon of Dhū al-Qaʿdah; the market stood on the morning of the new moon, and they stayed eight days while it stood. The Messenger of Allāh ﷺ stayed at Badr waiting for Abū Sufyān for his appointment.[^s4.338]
 
-## 4. The Abortive March of Quraysh (*Jaysh al-Sawīq*)
-In Makkah, Abū Sufyān felt compelled to make a show of force. He led two thousand (2,000) Qurashī warriors and fifty (50) horsemen out of Makkah (*Subul al-Hudā*, 4:338). 
+Makhshī b. ʿAmr al-Ḍamrī, who had made a truce with him on behalf of Banū Ḍamrah at the expedition of Waddān, came to him. The Companions were the majority of the people of the season, and Makhshī said: "O Muḥammad, we had been told that none of you remained; I know of you only as the people of the season." The Messenger of Allāh ﷺ said: "And if you wish, besides that, we will revoke what there is between us and you." He answered: "No, by Allāh, we have no need of that; rather, we hold back our hands from you and hold fast to your alliance." Then the Messenger of Allāh ﷺ returned to Madinah.[^s4.338]
 
-However, upon reaching **Majannah** in the vicinity of Marr al-Ẓahrān (only one stage from Makkah), Abū Sufyān's nerve collapsed (*Subul al-Hudā*, 4:338). Fearing an encounter with the resolute Muslim army, he halted and addressed his army:
-> *"O men of Quraysh! Nothing suits your warfare except a year of lush abundance, wherein you pasture on greenery and drink milk. This year is a year of severe drought! I am turning back, so turn back with me!"* (*Subul al-Hudā*, 4:338).
+## Abū Sufyān's turning back
 
-The polytheist army turned back in disgrace. When they entered Makkah, the populace ridiculed their cowardice, dubbing them **Jaysh al-Sawīq** (The Porridge Army), mocking: *“You only marched out to sip barley porridge (suwayq) and then scurry home!”* (*Subul al-Hudā*, 4:338).
+Abū Sufyān told Quraysh that Nuʿaym b. Masʿūd had been sent to dissuade the Companions of Muḥammad from going out and was striving at it, but that they should go out, march a night or two and return. If Muḥammad had not gone out, word would reach him that they had gone out and returned because he did not, and this would count in their favour; if he had gone out, they would give out that it was a year of drought and that nothing suited them but a year of herbage. They approved, and he went out with Quraysh, two thousand with fifty horses, until they reached Majannah, a market near Makkah, on the side of al-Ẓahrān. There he said: "Return; nothing suits us but a year of fertility and abundant growth, in which we pasture on the trees and drink milk, and this year of yours is a year of drought; I am returning, so return."[^s4.338][^s4.340] The people of Makkah named that army "the army of the *sawīq*" and say: "They went out to drink *sawīq*."[^s4.338]
 
-## 5. The Eight Days at Badr Market & Commercial Triumph
-Meanwhile, the Muslim army maintained their position at Badr for eight (8) full days, awaiting the enemy (*Subul al-Hudā*, 4:338). 
+After the season had ended, Maʿbad b. Abī Maʿbad al-Khuzāʿī went quickly to Makkah and reported the multitude of the Muslims, that they were the people of that season, that they were two thousand, and what the Messenger of Allāh ﷺ had said to al-Ḍamrī. [[Ṣafwān b. Umayyah]] said to Abū Sufyān: "By Allāh, I forbade you that day to make an appointment with the people; they have become emboldened against us and see that we have broken our promise to them, and what held us back was weakness before them." They set about scheming and spending against the Messenger of Allāh ﷺ, drew in the Arabs around them, collected funds and imposed a levy on the people of Makkah: none was left without having to bring money, and nothing less than an *ūqiyyah* was accepted from any of them for the expedition of the Trench ([[Ghazwat al-Khandaq]]).[^s4.338][^s4.340]
 
-During this week, the annual commercial fair opened. The Muslims traded their merchandise with the tribes gathered from across Arabia, reaping immense profits (*Subul al-Hudā*, 4:338). **[[ʿUthmān b. ʿAffān]]** ﵁ testified: *“I doubled my investment, gaining a dinar for every dinar!”* (*Subul al-Hudā*, 4:338).
+## Disputed points
 
-Makhshī b. ʿAmr al-Ḍamrī—the chieftain of Banū Ḍamrah who had contracted a treaty with the Prophet ﷺ at **[[Ghazwat al-Abwāʾ]]**—visited the Muslim camp and marveled at their overwhelming numbers and composure (*Subul al-Hudā*, 4:338). The Prophet ﷺ offered: *“If you wish, we can nullify the treaty between us and fight,”* to which Makhshī replied in haste: *“No, by Allāh, we have no desire for war! Rather, we hold fast to our covenant with you!”* (*Subul al-Hudā*, 4:338).
+**The deputy.** Ibn Isḥāq says the Prophet ﷺ left ʿAbdullāh b. ʿAbdillāh b. Ubayy b. Salūl over Madinah; Muḥammad b. ʿUmar says ʿAbdullāh b. Rawāḥah.[^s4.337]
 
-Having waited out the fair without the polytheists daring to appear, the Prophet ﷺ marched back to Medina in undisputed triumph, having secured both moral and economic victory (*Subul al-Hudā*, 4:338).
+**The date.** Al-Wāqidī says the Messenger of Allāh ﷺ went out at the beginning of Dhū al-Qaʿdah of the year four. Ibn Kathīr, quoted in *Subul al-Hudā*, holds that Ibn Isḥāq's view is correct, that it was in Shaʿbān of that year. Mūsā b. ʿUqbah agrees on Shaʿbān but says year three; Ibn Kathīr calls this an error, since the appointment was made at Uḥud, and Uḥud was in Shawwāl of year three.[^s4.339]
 
-## 6. Qurʾānic Revelation in Sūrat Āl ʿImrān
-Allāh commemorated the steadfastness of the believers and their triumph at Badr al-Mawʿid in the immortal verses of **[[Sūrat Āl ʿImrān]]** (*Subul al-Hudā*, 4:337–338):
-> ﴿الَّذِينَ قَالَ لَهُمُ النَّاسُ إِنَّ النَّاسَ قَدْ جَمَعُوا لَكُمْ فَاخْشَوْهُمْ فَزَادَهُمْ إِيمَانًا وَقَالُوا حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ ۝ فَانقَلَبُوا بِنِعْمَةٍ مِّنَ اللَّهِ وَفَضْلٍ لَّمْ يَمْسَسْهُمْ سُوءٌ وَاتَّبَعُوا رِضْوَانَ اللَّهِ وَاللَّهُ ذُو فَضْلٍ عَظِيمٍ ۝ إِنَّمَا ذَٰلِكُمُ الشَّيْطَانُ يُخَوِّفُ أَوْلِيَاءَهُ فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ﴾
-> *"Those to whom the people said: 'Indeed, the people have gathered against you, so fear them!' But it only increased them in faith, and they said: 'Sufficient for us is Allāh, and He is the best Disposer of affairs!'*
-> *So they returned with grace and bounty from Allāh, untouched by harm. And they pursued the good pleasure of Allāh, and Allāh is the Possessor of great bounty.*
-> *That is only Satan who frightens you of his supporters. So fear them not, but fear Me, if you are true believers!"* (Qurʾān 3:173–175).
+**Numbers.** The Muslims are given as fifteen hundred at the departure;[^s4.337] Maʿbad's report to Makkah put them at two thousand.[^s4.338]
 
-## 7. Strategic Impact
-- **Total Restoration of Medinan Deterrence**: Badr al-Mawʿid completely erased the temporary strategic ambiguity caused by Uḥud, proving to all of Arabia that the Prophet ﷺ held undisputed dominance over the trade corridors.
-- **Qurashī Despair Leading to the Trench**: Having publicly defaulted on their own challenge, Quraysh recognized that they could never overcome the Muslims in a duel of strength alone, driving them to orchestrate the massive pan-Arab coalition of **[[Ghazwat al-Khandaq]]** (5 AH) the following year (*Subul al-Hudā*, 4:338).
+**Revelation.** It is related from Mujāhid and a group that a verse discussed under Ḥamrāʾ al-Asad was revealed concerning the Prophet's ﷺ going out to Badr al-Mawʿid.[^s4.313]
 
-## 8. References
-1. *[[Subul al-Hudā war-Rashād]]*, vol. 4, pp. 337–342 (al-Bāb al-Sādis ʿAshar fī Ghazwat Badr al-Mawʿid).
-2. *[[Sūrat Āl ʿImrān]]*, verses 173–175.
-3. *Ṣaḥīḥ al-Bukhārī*, Kitāb al-Maghāzī, Bāb Ghazwat Badr al-Ṣughrā.
+## References
+
+- *Subul al-Hudā war-Rashād*, al-Ṣāliḥī (Beirut 1414/1993).
+
+[^s4.337]: *Subul al-Hudā*, 4:337.
+[^s4.338]: *Subul al-Hudā*, 4:338.
+[^s4.339]: *Subul al-Hudā*, 4:339.
+[^s4.340]: *Subul al-Hudā*, 4:340.
+[^s4.313]: *Subul al-Hudā*, 4:313.
