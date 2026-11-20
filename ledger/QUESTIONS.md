@@ -7,7 +7,9 @@ that has any.
 
 - One `## <note name>` section per note (the file name without `.md`); `## General` for questions that
   recur across notes.
-- An open question is `- [ ]`. When you rule, change it to `- [x]` and write the ruling after `→`. A ruling
+- An open question is `- [ ]`. When you rule, change it to `- [x]` and write the ruling after `→` — by
+  hand, or with `python3 review_questions.py`, a local page that shows each question with its ledger entries
+  and source page and writes the ruling here for you. A ruling
   that will recur (a name, a phrase, a tagging rule) is also recorded in `ledger/GLOSSARY.md`.
 - Until a question is answered, the note follows the cautious reading stated under "now:".
 

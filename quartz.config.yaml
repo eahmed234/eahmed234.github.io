@@ -30,6 +30,7 @@ configuration:
     - site_nav.py
     - site_search.py
     - site_search.json
+    - review_questions.py
     - build.sh
     - patch-quartz.mjs
     - custom.scss

@@ -13,6 +13,8 @@ Adds three things to the generated HTML in public/, without touching the notes:
    event; kunyah, clan, death… for a person), with the note's role tags as links to their tag pages.
    It replaces Quartz's raw "Properties" table.
 3. Before / after cards on every event in the hub's chronological index, in hub order.
+   Every note's page also ends with an "Edit this page" link to the note in GitHub's web editor, on the
+   drafts branch (EDIT_URL), so a fix made there does not deploy until drafts is pushed to main.
 4. The page header, rebuilt to the design in docs/design: breadcrumb (hub › section), title with its
    Arabic name beside it, the epithet line and the notice, in that order. The note's own `# Title (Arabic)`
    heading and epithet line are moved up into it. The infobox is placed after the lead paragraph.
@@ -22,6 +24,7 @@ Usage: python3 site_nav.py [public_dir]      (default: public)
 
 import html
 import json
+import urllib.parse
 import os
 import re
 import sys
@@ -34,6 +37,7 @@ HUB = "The Sīrah"
 HOME = "Start Here"          # the short start page; build.sh copies it to index.html
 CHRONO_HEADING = "Chronological Master Index"
 MARK = "data-sirah-nav"
+EDIT_URL = "https://github.com/eahmed234/eahmed234.github.io/edit/drafts/"   # + the note's file name
 
 # ── infobox fields: (frontmatter keys, label) in display order, per note type ───────────────────────
 FIELDS = {
@@ -358,7 +362,7 @@ def main(public):
     sections, chrono = parse_hub(linker)
     file_of_slug = {v: k for k, v in linker.slug_of_file.items()}
     chrono_slugs = [linker.slug(t) for t in chrono]
-    stats = {"sidebar": 0, "infobox": 0, "sequence": 0}
+    stats = {"sidebar": 0, "infobox": 0, "sequence": 0, "edit": 0}
     for root, _, files in os.walk(public):
         for name in files:
             if not name.endswith(".html"):
@@ -398,10 +402,16 @@ def main(public):
                     seq = sequence_html(chrono, chrono_slugs.index(slug), linker, depth)
                     page = page.replace("</article>", seq + "</article>", 1)
                     stats["sequence"] += 1
+            if note and "</article>" in page:
+                # 4. edit link: the note in GitHub's web editor, on drafts
+                link = (f'<p class="nw-edit" {MARK}><a href="{EDIT_URL}{urllib.parse.quote(src)}" '
+                        f'rel="noopener" target="_blank">Edit this page on GitHub</a></p>')
+                page = page.replace("</article>", link + "</article>", 1)
+                stats["edit"] += 1
             with open(path, "w", encoding="utf-8") as f:
                 f.write(page)
     print(f"Navigation: sidebar on {stats['sidebar']} pages, infobox on {stats['infobox']}, "
-          f"chronology links on {stats['sequence']}.")
+          f"chronology links on {stats['sequence']}, edit links on {stats['edit']}.")
     if not stats["sidebar"]:
         print("Warning: no sidebar was added — has the Quartz markup changed?")
 

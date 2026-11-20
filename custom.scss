@@ -321,3 +321,13 @@ body[data-slug="start-here"] {
   }
   article ul > li:hover { border-color: var(--secondary); }
 }
+
+/* "Edit this page on GitHub" at the end of every note (site_nav.py) */
+.nw-edit {
+  margin-top: 2.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--lightgray);
+  font-size: 0.85rem;
+}
+.nw-edit a { color: var(--gray); }
+.nw-edit a:hover { color: var(--secondary); }

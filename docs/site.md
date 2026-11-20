@@ -26,6 +26,14 @@ in the built HTML.
 Anything that must not be published goes in `ignorePatterns` in `quartz.config.yaml` (`sources`,
 `review`, `audit.py`, the agent docs, …).
 
+## Editing from the site
+
+Every note's page ends with **Edit this page on GitHub** (`site_nav.py`, `EDIT_URL`): the note's file in
+GitHub's web editor, **on the `drafts` branch**, so a fix made in the browser is committed to `drafts` and
+does not deploy until `drafts` is pushed to `main`. Pull before working locally afterwards (obsidian-git's
+pull-before-push does this). The audit still runs on the next build, so a broken citation made in the web
+editor fails the deploy rather than reaching the site.
+
 ## Search and names
 
 A reader types "Abu Bakr", "Omar" or "Battle of Uhud", not IJMES. Three pieces make that work, none of
