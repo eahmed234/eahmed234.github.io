@@ -132,6 +132,8 @@ article h2 a[role="anchor"], article h3 a[role="anchor"] { color: var(--gray); }
 .flex-component > div { max-width: none; }
 .flex-component > div:first-child { flex: 1 1 auto; }
 .darkmode { min-width: 44px; min-height: 44px; border: 1px solid var(--lightgray); border-radius: 8px; background: var(--light); }
+/* Quartz places the 20px icon absolutely for its own 20px button; centre it in the 44px one */
+.darkmode svg { top: calc(50% - 10px); left: calc(50% - 10px); }
 .search-container .search-space { background: var(--light); border: 1px solid var(--lightgray); border-radius: 8px; }
 .search-bar { font-family: var(--sans); background: var(--light); color: var(--dark); border-bottom: 1px solid var(--lightgray); }
 .search-layout .result-card, .search-layout a.result-card { background: var(--light); color: var(--darkgray); border-color: var(--lightgray); font-family: var(--sans); }
