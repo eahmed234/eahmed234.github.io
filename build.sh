@@ -49,6 +49,11 @@ fi
 echo "Building static site..."
 npm run quartz -- build -d .. -o ../public
 
+# 5b. Self-hosted fonts (fonts/, from the kilf-honorifics repo): KILF Honorifics and KILF Naskh, used by
+#     custom.scss as fallbacks after Source Serif 4 / Inter for honorific ligatures and inline Arabic.
+mkdir -p ../public/static/fonts
+cp ../fonts/*.woff2 ../fonts/OFL.txt ../public/static/fonts/
+
 # 6. Mark every page whose note is still tagged `unverified` (see site_notice.py)
 python3 ../site_notice.py ../public
 

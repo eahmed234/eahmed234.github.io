@@ -31,6 +31,7 @@ configuration:
     - site_search.py
     - site_search.json
     - review_questions.py
+    - fonts
     - build.sh
     - patch-quartz.mjs
     - custom.scss

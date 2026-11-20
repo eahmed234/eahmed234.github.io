@@ -69,7 +69,12 @@ add the name to `ambiguous`, or to `primary` if one bearer is plainly the one me
 
 The look is specified in `docs/design/README.md`, with reference HTML beside it. Colours and fonts are Quartz
 theme keys in `quartz.config.yaml` (Source Serif 4 for text; Inter, which Quartz only loads in its "code" slot,
-for the interface; Noto Naskh Arabic is added by Quartz). Everything else is `custom.scss`; the only hex colours in it
+for the interface; Noto Naskh Arabic is added by Quartz). Honorific ligatures (ﷺ ﵁ …) and Arabic words inside
+English text come from two self-hosted fallbacks in `fonts/`, **KILF Honorifics** and **KILF Naskh** (from the
+`kilf-honorifics` repo, OFL; WOFF2, ~60 KB together): `build.sh` copies them to `/static/fonts`, and `custom.scss`
+declares them with a `unicode-range` and lists them after Source Serif 4 and Inter, so they draw only what those
+lack. Arabic blocks (`dir="rtl"`, `lang="ar"`) keep Noto Naskh Arabic. To update them, rebuild in that repo and
+convert its `dist/*.ttf` to WOFF2 (fontTools, `flavor = "woff2"`) into `fonts/`. Everything else is `custom.scss`; the only hex colours in it
 are the two variable blocks at the top (light, `:root[saved-theme="dark"]`). The `content-meta`, `tag-list` and
 `reader-mode` plugins are disabled. `custom.scss` dissolves Quartz's left sidebar into the page grid (title and
 search become the header row, the Contents nav the left column); on a phone a menu button (added by `site_nav.py`)

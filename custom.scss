@@ -1,5 +1,22 @@
 @use "./variables.scss" as *;
 
+/* KILF Honorifics (ﷺ ﵁ ﵂ … sized and centred for a Latin line) and KILF Naskh (Noto Naskh Arabic with
+   Latin line metrics, so an Arabic word does not make its line taller). Self-hosted from fonts/ (build.sh
+   copies them to /static/fonts); source and licence: the kilf-honorifics repo, OFL 1.1. Each is limited
+   to its own characters, so it only ever stands in where Source Serif 4 / Inter have no glyph. */
+@font-face {
+  font-family: "KILF Honorifics";
+  src: url("/static/fonts/KILFHonorifics-Regular.woff2") format("woff2");
+  font-display: swap;
+  unicode-range: U+FD40-FD4F, U+FDF2, U+FDFA-FDFF;
+}
+@font-face {
+  font-family: "KILF Naskh";
+  src: url("/static/fonts/KILFNaskh-Regular.woff2") format("woff2");
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FD3F, U+FDF0-FDF1, U+FDF3-FDF9, U+FE70-FEFF;
+}
+
 /* nabiwiki visual design — see docs/design/README.md (the reference HTML files are beside it).
    Colours come from the Quartz theme keys in quartz.config.yaml (light / lightgray / gray / darkgray / dark /
    secondary / tertiary / highlight). The few roles Quartz has no key for are the variables below, and these
@@ -9,8 +26,8 @@
   --notice-bg: #fff8e6;
   --notice-border: #ecd9a6;
   --notice-text: #6b4a00;
-  --serif: "Source Serif 4", "Noto Naskh Arabic", Georgia, serif;
-  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;   // Inter is loaded in the "code" typography slot
+  --serif: "Source Serif 4", "KILF Honorifics", "KILF Naskh", "Noto Naskh Arabic", Georgia, serif;
+  --sans: "Inter", "KILF Honorifics", "KILF Naskh", system-ui, -apple-system, "Segoe UI", sans-serif;   // Inter is loaded in the "code" typography slot
   --bodyFont: var(--serif);
   --headerFont: var(--serif);
   --titleFont: var(--serif);
